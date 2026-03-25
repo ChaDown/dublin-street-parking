@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dublin Street Parking — Free &amp; Pay-and-Display Parking Map</title>
+  <meta name="description" content="Find free and pay-and-display street parking in Dublin. Interactive map showing parking rules, hours and permit zones across Dublin City, Fingal, SDCC and Dún Laoghaire-Rathdown.">
+  <meta name="keywords" content="dublin street parking, free parking dublin, pay and display dublin, dublin parking map, dublin parking zones, permit parking dublin, where to park dublin, fingal parking, dlr parking, sdcc parking">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://dublinstreetparking.ie/">
+
+  <!-- Open Graph -->
+  <meta property="og:type"         content="website">
+  <meta property="og:site_name"    content="Dublin Street Parking">
+  <meta property="og:title"        content="Dublin Street Parking — Find Free Parking on Any Street">
+  <meta property="og:description"  content="Check street parking rules before you drive. Free parking spots, pay-and-display hours and permit zones mapped live across all four Dublin councils.">
+  <meta property="og:url"          content="https://dublinstreetparking.ie/">
+  <meta property="og:image"        content="https://dublinstreetparking.ie/og-image.svg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale"       content="en_IE">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Dublin Street Parking — Find Free Parking on Any Street">
+  <meta name="twitter:description" content="Check street parking rules before you drive. Free parking spots, pay-and-display hours and permit zones mapped live across all four Dublin councils.">
+  <meta name="twitter:image"       content="https://dublinstreetparking.ie/og-image.svg">
+
+  <!-- PWA / Apple -->
+  <meta name="theme-color" content="#27AE60">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable"           content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style"  content="default">
+  <meta name="apple-mobile-web-app-title"             content="Dublin Parking">
+
+  <!-- Favicon: green P circle -->
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABo0lEQVR4nO1XO47CMBB9u1rRBUG3OQMXSBHaVKFA4gA5QypukJKKmgvQ7V4AsS1d0qSkCRUoVUI1Wxk5xhNsPmK1u0+yZMmemad5Y3sM/HW8XGNUhD5xa+7nl5VP481tQW8h8/qo4KZ2rQxlB+8fa+xGw9Ocg7xHzAE+GyyBIvRJddIWmCMikzGujyL0iYioCH0S88ViQQC0o9/v02QyoTzPSYXsQycJWwMm6RY4HA5YLpfwPA/b7baxJuzljLQSUHVXkSQJiOg0jscj0jRFEATY7/eYzWZnNrIfNQsNAmLRRutOp4PBYID5fA4A2Gw27F7hVyahlWA3GlqRAIC6rgEAjuOwwXUyvFlF0aCqKmRZhjiOAQCe513nSFSrqFgVbadADNd1qSxLrb16KoQMRjfhJfR6PYzHY6xWK3S7XStbawmSJMF0OrU1Y3GXDPwT+B0E5JeKu7dvhe55Nj4FURQhiqK7k9JKwF2bt4C73hsERFoeLYEs91kGHlELba0ZewouNRK2wbnX9ek94c/tijkitrjUCRvdhLbfLRu7p/8Nn45vwbJD+kCsQ/IAAAAASUVORK5CYII=">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#E74C3C">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Dublin Street Parking",
+    "url": "https://dublinstreetparking.ie/",
+    "description": "Interactive map of street parking rules across Dublin — find free parking, pay-and-display hours and permit zones for Dublin City, Fingal, South Dublin and Dún Laoghaire-Rathdown.",
+    "keywords": "dublin street parking, free parking dublin, pay and display dublin, dublin parking map",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Web",
+    "browserRequirements": "Requires JavaScript",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "areaServed": { "@type": "City", "name": "Dublin", "addressCountry": "IE" }
+  }
+  </script>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="sr-only">Dublin Street Parking — Interactive Parking Map</h1>
+
+  <!-- Loading overlay -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Loading parking data…</p>
+  </div>
+
+  <!-- Error banner -->
+  <div id="error-banner" class="hidden">
+    Could not load parking data. Please refresh.
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- UI overlay (search + datetime + filters) -->
+  <div id="ui-overlay">
+    <div id="ui-row">
+      <div id="search-wrapper">
+        <input id="search-input" type="text" placeholder="Search Dublin…" autocomplete="off" aria-label="Search for a location in Dublin">
+        <button id="search-clear" class="hidden" aria-label="Clear search">×</button>
+        <button id="search-btn" aria-label="Search">
+          <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l4.9 4.9-1.42 1.41-4.9-4.9zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+        </button>
+        <ul id="search-dropdown" class="hidden" role="listbox" aria-label="Search suggestions"></ul>
+      </div>
+      <div id="datetime-wrapper">
+        <input id="date-input" type="date" aria-label="Date">
+        <span class="dt-sep">·</span>
+        <input id="time-input" type="time" aria-label="Time">
+      </div>
+      <button id="filter-toggle" aria-label="Toggle filters" aria-expanded="false">
+        <svg viewBox="0 0 14 14" width="14" height="14" fill="currentColor">
+          <rect x="0" y="1.5" width="14" height="1.5" rx="0.75"/>
+          <rect x="2" y="6" width="10" height="1.5" rx="0.75"/>
+          <rect x="4" y="10.5" width="6" height="1.5" rx="0.75"/>
+        </svg>
+      </button>
+    </div>
+    <div id="filter-bar">
+      <label><input type="checkbox" id="chk-cars" checked> Cars</label>
+      <label><input type="checkbox" id="chk-accessible"> Accessible</label>
+      <label><input type="checkbox" id="chk-ev"> EV</label>
+      <label><input type="checkbox" id="chk-freeonly"> Free Only</label>
+    </div>
+  </div>
+
+  <!-- Street detail panel (always in DOM; slides in/out via CSS transform) -->
+  <div id="street-panel" role="dialog" aria-label="Street parking details" aria-hidden="true">
+    <div id="panel-header">
+      <h2 id="panel-street-name"></h2>
+      <button id="panel-close" aria-label="Close panel">×</button>
+    </div>
+    <div id="panel-status-banner"></div>
+    <div id="panel-sign-wrap">
+      <div id="panel-sign"></div>
+    </div>
+    <dl id="panel-details"></dl>
+    <div id="panel-extension" class="hidden"></div>
+    <div id="panel-actions">
+      <button id="btn-navigate" aria-label="Get directions to this street">
+        ↗ Navigate
+      </button>
+      <button id="btn-update" aria-label="Suggest a correction for this street">
+        ✏ Suggest Update
+      </button>
+    </div>
+    <!-- Update form (hidden by default) -->
+    <div id="update-form" class="hidden">
+      <h3>Suggest a correction</h3>
+      <input type="text" id="upd-street" readonly aria-label="Street name">
+      <textarea id="upd-message" placeholder="What has changed? (e.g. hours now 8am–8pm Mon–Sat)" aria-label="Description of change"></textarea>
+      <input type="email" id="upd-email" placeholder="Your email (optional)" aria-label="Your email address">
+      <button id="upd-submit">Send Update</button>
+      <p id="upd-success" class="hidden">Thanks! Your update will be reviewed.</p>
+    </div>
+  </div>
+
+  <!-- Navigation picker modal -->
+  <div id="nav-picker" class="hidden" role="dialog" aria-label="Choose navigation app">
+    <button id="nav-google" aria-label="Open in Google Maps">
+      <span class="nav-icon">🗺</span> Google Maps
+    </button>
+    <button id="nav-waze" aria-label="Open in Waze">
+      <span class="nav-icon">🚗</span> Waze
+    </button>
+    <button id="nav-apple" class="ios-only hidden" aria-label="Open in Apple Maps">
+      <span class="nav-icon">🍎</span> Apple Maps
+    </button>
+  </div>
+  <div id="nav-overlay" class="hidden"></div>
+
+  <!-- Legend -->
+  <div id="legend">
+    <span class="legend-dot yellow"></span> Paid Parking
+    <span class="legend-dot green"></span> Free
+    <span class="legend-dot blue"></span> Accessible
+    <span class="legend-ev">⚡</span> EV Charging
+  </div>
+
+
+  <script src="app.js" defer></script>
+</body>
+</html>

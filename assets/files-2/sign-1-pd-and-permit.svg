@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 303" width="200" height="303" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="200" height="303" rx="6" ry="6" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Red ring, white fill, black P -->
+  <circle cx="100" cy="72" r="55" fill="white" stroke="#CC0000" stroke-width="14"/>
+  <text x="100" y="97" text-anchor="middle" font-size="64" font-weight="600" fill="black" font-family="Arial, sans-serif">P</text>
+  <!-- Info panel -->
+  <line x1="0" y1="138" x2="200" y2="138" stroke="black" stroke-width="2"/>
+  <text x="100" y="157" text-anchor="middle" font-size="9" fill="#222" font-style="italic">Íoc &amp; Taispeáin agus</text>
+  <text x="100" y="169" text-anchor="middle" font-size="9" fill="#222" font-style="italic">Ceadúnais Páirceála</text>
+  <line x1="16" y1="175" x2="184" y2="175" stroke="black" stroke-width="0.8"/>
+  <text x="100" y="191" text-anchor="middle" font-size="13" font-weight="bold" fill="black">PAY &amp; DISPLAY</text>
+  <text x="100" y="206" text-anchor="middle" font-size="13" font-weight="bold" fill="black">AND PERMIT</text>
+  <text x="100" y="221" text-anchor="middle" font-size="13" font-weight="bold" fill="black">PARKING</text>
+  <line x1="16" y1="227" x2="184" y2="227" stroke="black" stroke-width="0.8"/>
+  <text x="100" y="241" text-anchor="middle" font-size="9.5" fill="#222" font-style="italic">Luain - Aoine</text>
+  <text x="100" y="254" text-anchor="middle" font-size="12" font-weight="bold" fill="black">MON – FRI</text>
+  <text x="100" y="270" text-anchor="middle" font-size="15" font-weight="bold" fill="black">08:00 – 18:00</text>
+  <!-- Zone colour strip - no border, rounded bottom corners -->
+  <rect x="0" y="279" width="200" height="24" rx="6" ry="6" fill="#85B42B"/>
+  <rect x="0" y="279" width="200" height="6" fill="#85B42B"/>
+</svg>

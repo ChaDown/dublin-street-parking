@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#27AE60"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- P marker circle -->
+  <circle cx="220" cy="315" r="140" fill="white"/>
+  <text x="220" y="375" font-size="160" font-weight="bold" text-anchor="middle" fill="#27AE60" font-family="Arial, sans-serif">P</text>
+
+  <!-- App name -->
+  <text x="420" y="270" font-size="72" font-weight="bold" fill="white" font-family="Arial, sans-serif">Dublin Street</text>
+  <text x="420" y="355" font-size="72" font-weight="bold" fill="white" font-family="Arial, sans-serif">Parking</text>
+
+  <!-- Tagline -->
+  <text x="420" y="430" font-size="34" fill="rgba(255,255,255,0.85)" font-family="Arial, sans-serif">Free &amp; pay-and-display · All four councils</text>
+</svg>

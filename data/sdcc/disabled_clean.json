@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "location": "Ninth Lock Road",
+    "description": "Clondalkin Civic Offices",
+    "side": null,
+    "lat": 53.323914,
+    "lng": -6.395088
+  },
+  {
+    "id": 2,
+    "location": "Tower Road",
+    "description": "Clondalkin Village",
+    "side": null,
+    "lat": 53.320736,
+    "lng": -6.394906
+  },
+  {
+    "id": 3,
+    "location": "Dispensary Lane",
+    "description": "Lucan Village",
+    "side": null,
+    "lat": 53.356914,
+    "lng": -6.449594
+  },
+  {
+    "id": 4,
+    "location": "Main Street",
+    "description": "Lucan Village",
+    "side": null,
+    "lat": 53.358573,
+    "lng": -6.44855
+  },
+  {
+    "id": 5,
+    "location": "Liffey Valley Yellow Car Park",
+    "description": "Liffey Valley Shopping Centre",
+    "side": null,
+    "lat": 53.352889,
+    "lng": -6.392823
+  },
+  {
+    "id": 6,
+    "location": "Liffey Valley",
+    "description": "Liffey Valley Shopping Center Purple Car Park",
+    "side": null,
+    "lat": 53.35481,
+    "lng": -6.388934
+  },
+  {
+    "id": 7,
+    "location": "Taylors Lane",
+    "description": "Hermitage Golf Course",
+    "side": null,
+    "lat": 53.281491,
+    "lng": -6.284019
+  },
+  {
+    "id": 8,
+    "location": "Naas Road",
+    "description": "Corkagh Park",
+    "side": null,
+    "lat": 53.305457,
+    "lng": -6.412811
+  },
+  {
+    "id": 9,
+    "location": "Adamstown Castle",
+    "description": "Adamstown",
+    "side": null,
+    "lat": 53.336096,
+    "lng": -6.460547
+  },
+  {
+    "id": 10,
+    "location": "Main Street Newcastle",
+    "description": "Newcastle Shopping Centre",
+    "side": null,
+    "lat": 53.299914,
+    "lng": -6.499128
+  },
+  {
+    "id": 11,
+    "location": "Belgard Square East",
+    "description": "The Square",
+    "side": null,
+    "lat": 53.287044,
+    "lng": -6.370176
+  },
+  {
+    "id": 12,
+    "location": "Tymon Park",
+    "description": "National Basketball Arena",
+    "side": null,
+    "lat": 53.291968,
+    "lng": -6.334039
+  },
+  {
+    "id": 13,
+    "location": "Tymon North",
+    "description": "Tymon Park",
+    "side": null,
+    "lat": 53.299402,
+    "lng": -6.343757
+  },
+  {
+    "id": 14,
+    "location": "Tymon North",
+    "description": "Col\u00e1iste de H\u00edde",
+    "side": null,
+    "lat": 53.300818,
+    "lng": -6.347998
+  },
+  {
+    "id": 15,
+    "location": "Belgard Road",
+    "description": "Tallaght Institiute Of Technology",
+    "side": null,
+    "lat": 53.291399,
+    "lng": -6.366723
+  },
+  {
+    "id": 16,
+    "location": "Brookfield",
+    "description": "Brookfield Enterprise Center",
+    "side": null,
+    "lat": 53.288039,
+    "lng": -6.403723
+  },
+  {
+    "id": 17,
+    "location": "Palmerston",
+    "description": "Waterstown Park",
+    "side": null,
+    "lat": 53.358394,
+    "lng": -6.370119
+  },
+  {
+    "id": 18,
+    "location": "Orchardstown Villas",
+    "description": "Ballyroan Library",
+    "side": null,
+    "lat": 53.290456,
+    "lng": -6.299308
+  },
+  {
+    "id": 19,
+    "location": "N81",
+    "description": "Tallaght Stadium",
+    "side": null,
+    "lat": 53.282496,
+    "lng": -6.374275
+  },
+  {
+    "id": 20,
+    "location": "Fortunestown Way",
+    "description": "Tallaght Leisure Centre",
+    "side": null,
+    "lat": 53.283179,
+    "lng": -6.392486
+  },
+  {
+    "id": 21,
+    "location": "Old Nangor Road",
+    "description": "Clondalkin Leisure Centre",
+    "side": null,
+    "lat": 53.322239,
+    "lng": -6.399675
+  },
+  {
+    "id": 22,
+    "location": "Ballymount",
+    "description": "Crematorium Temple",
+    "side": null,
+    "lat": 53.310631,
+    "lng": -6.375334
+  },
+  {
+    "id": 23,
+    "location": "Liffey Valley Retail Park",
+    "description": "B&Q Liffey Valley",
+    "side": null,
+    "lat": 53.348853,
+    "lng": -6.388305
+  },
+  {
+    "id": 24,
+    "location": "Main Street Rathcoole",
+    "description": "Tesco Rathcoole",
+    "side": null,
+    "lat": 53.281157,
+    "lng": -6.467532
+  },
+  {
+    "id": 25,
+    "location": "Taylor's Lane",
+    "description": "Whitechurch Library",
+    "side": null,
+    "lat": 53.348176,
+    "lng": -6.37616
+  },
+  {
+    "id": 26,
+    "location": "Belgard Square",
+    "description": "County Hall",
+    "side": null,
+    "lat": 53.288726,
+    "lng": -6.372449
+  },
+  {
+    "id": 27,
+    "location": "Clondalkin",
+    "description": "South Dublin County Council Civic Offices",
+    "side": null,
+    "lat": 53.323734,
+    "lng": -6.394756
+  },
+  {
+    "id": 28,
+    "location": "Fettercairn Road",
+    "description": "Fettercairn Community Centre",
+    "side": null,
+    "lat": 53.293064,
+    "lng": -6.395109
+  },
+  {
+    "id": 29,
+    "location": "Killinarden",
+    "description": "Killinarden Community Centre",
+    "side": null,
+    "lat": 53.275477,
+    "lng": -6.379625
+  },
+  {
+    "id": 30,
+    "location": "Greenfort Gardens, Tallaght",
+    "description": "Quarryvale Community Centre",
+    "side": null,
+    "lat": 53.350937,
+    "lng": -6.399088
+  },
+  {
+    "id": 31,
+    "location": "Knockmitten Park, Clondalkin",
+    "description": "Knockmitten Youth and Community Centre",
+    "side": null,
+    "lat": 53.325061,
+    "lng": -6.375667
+  },
+  {
+    "id": 32,
+    "location": "Deansrath, Clondalkin",
+    "description": "Saint Ronan's Community Centre",
+    "side": null,
+    "lat": 53.323241,
+    "lng": -6.42426
+  },
+  {
+    "id": 33,
+    "location": "Castletymon Road, Tallaght",
+    "description": "Saint Aongus Community and Parish Centre",
+    "side": null,
+    "lat": 53.294909,
+    "lng": -6.342443
+  },
+  {
+    "id": 34,
+    "location": "Bawnogue Road, Clondalkin",
+    "description": "Bawnogue Youth and Community Centre",
+    "side": null,
+    "lat": 53.32507,
+    "lng": -6.412788
+  },
+  {
+    "id": 35,
+    "location": "Jobstown, Tallaght",
+    "description": "Jobstown Community Centre",
+    "side": null,
+    "lat": 53.282631,
+    "lng": -6.401462
+  },
+  {
+    "id": 36,
+    "location": "Earlsfort Road, Lucan",
+    "description": "Earlsfort Residents Community Centre",
+    "side": null,
+    "lat": 53.345378,
+    "lng": -6.415487
+  },
+  {
+    "id": 37,
+    "location": "Killinarden, Tallaght",
+    "description": "Killinarden Enterprise Park",
+    "side": null,
+    "lat": 53.277033,
+    "lng": -6.37823
+  },
+  {
+    "id": 38,
+    "location": "Brookfield Road, Tallaght",
+    "description": "Brookfield Enterprise Centre",
+    "side": null,
+    "lat": 53.288037,
+    "lng": -6.403717
+  },
+  {
+    "id": 39,
+    "location": "Elm Drive",
+    "description": "Kiltalown House",
+    "side": null,
+    "lat": 53.275547,
+    "lng": -6.402774
+  },
+  {
+    "id": 40,
+    "location": "Floraville Avenue",
+    "description": "Clondalkin Library",
+    "side": null,
+    "lat": 53.32044,
+    "lng": -6.388804
+  },
+  {
+    "id": 41,
+    "location": "Castletymon SC, Tymon Road North, Tallaght, D24",
+    "description": "Castletymon Library",
+    "side": null,
+    "lat": 53.295591,
+    "lng": -6.341904
+  },
+  {
+    "id": 42,
+    "location": "Esker Lane",
+    "description": "Griffeen Valley Park- At Leisure Centre",
+    "side": null,
+    "lat": 53.347221,
+    "lng": -6.437197
+  },
+  {
+    "id": 43,
+    "location": "Main Street",
+    "description": "Rathcoole Village",
+    "side": null,
+    "lat": 53.281228,
+    "lng": -6.470427
+  },
+  {
+    "id": 44,
+    "location": "Main Street",
+    "description": "Lucan Village",
+    "side": null,
+    "lat": 53.357307,
+    "lng": -6.450009
+  },
+  {
+    "id": 45,
+    "location": "Lucan Road",
+    "description": "Saint Joseph's College",
+    "side": null,
+    "lat": 53.358286,
+    "lng": -6.441199
+  },
+  {
+    "id": 46,
+    "location": "Lower Kennelsfort Road",
+    "description": "Palmerstown Village",
+    "side": null,
+    "lat": 53.355805,
+    "lng": -6.370908
+  },
+  {
+    "id": 47,
+    "location": "Main Street",
+    "description": "Rathfarnham Village",
+    "side": null,
+    "lat": 53.298331,
+    "lng": -6.285759
+  },
+  {
+    "id": 48,
+    "location": "Main Street",
+    "description": "Rathfarnham Village",
+    "side": null,
+    "lat": 53.298661,
+    "lng": -6.285532
+  },
+  {
+    "id": 49,
+    "location": "Main Street",
+    "description": "Rathfarnham Village",
+    "side": null,
+    "lat": 53.299721,
+    "lng": -6.284548
+  },
+  {
+    "id": 50,
+    "location": "Main Street",
+    "description": "Rathfarnham Village",
+    "side": null,
+    "lat": 53.299105,
+    "lng": -6.285187
+  },
+  {
+    "id": 51,
+    "location": "Naas Road",
+    "description": "Red Cow Park and Ride",
+    "side": null,
+    "lat": 53.31685,
+    "lng": -6.369737
+  },
+  {
+    "id": 52,
+    "location": "Neilstown Road",
+    "description": "Shopping area",
+    "side": null,
+    "lat": 53.344427,
+    "lng": -6.398281
+  },
+  {
+    "id": 53,
+    "location": "Neilstown Road",
+    "description": "Aras Rualach",
+    "side": null,
+    "lat": 53.344072,
+    "lng": -6.398227
+  },
+  {
+    "id": 54,
+    "location": "Station Road",
+    "description": "Adamstown Rail Station",
+    "side": null,
+    "lat": 53.336314,
+    "lng": -6.470557
+  },
+  {
+    "id": 55,
+    "location": "Hazelhatch Road",
+    "description": "Hazelhatch and Celbridge Station",
+    "side": null,
+    "lat": 53.322382,
+    "lng": -6.524036
+  },
+  {
+    "id": 56,
+    "location": "Fonthill Road",
+    "description": "Clondalkin / Fonthill Rail Station",
+    "side": null,
+    "lat": 53.333009,
+    "lng": -6.405777
+  },
+  {
+    "id": 57,
+    "location": "Camac Valley",
+    "description": "Camac Valley Caravan and Camping Park",
+    "side": null,
+    "lat": 53.304565,
+    "lng": -6.415119
+  },
+  {
+    "id": 58,
+    "location": "Whitestown Road",
+    "description": "Sean Walsh Park",
+    "side": null,
+    "lat": 53.281816,
+    "lng": -6.374073
+  },
+  {
+    "id": 59,
+    "location": "Lucan Celbridge Rd",
+    "description": "Lucan Demense",
+    "side": null,
+    "lat": 53.355661,
+    "lng": -6.460918
+  },
+  {
+    "id": 60,
+    "location": "Haydens Lane",
+    "description": "Griffeen Valley Park",
+    "side": null,
+    "lat": 53.343828,
+    "lng": -6.445103
+  },
+  {
+    "id": 61,
+    "location": "Bohernabreena",
+    "description": "Bohernabreena Burial Ground",
+    "side": null,
+    "lat": 53.266521,
+    "lng": -6.356278
+  },
+  {
+    "id": 62,
+    "location": "Esker",
+    "description": "Esker Burial Ground",
+    "side": null,
+    "lat": 53.352978,
+    "lng": -6.440428
+  },
+  {
+    "id": 63,
+    "location": "Saggart",
+    "description": "Saggart Burial Ground",
+    "side": null,
+    "lat": 53.281273,
+    "lng": -6.443659
+  },
+  {
+    "id": 64,
+    "location": "Adamstown Road",
+    "description": "Griffeen Valley Park",
+    "side": null,
+    "lat": 53.309646,
+    "lng": -6.336361
+  },
+  {
+    "id": 65,
+    "location": "Link road N81 to Firhouse Road",
+    "description": "Dodder Valley Linear Park",
+    "side": null,
+    "lat": 53.291517,
+    "lng": -6.316225
+  }
+]

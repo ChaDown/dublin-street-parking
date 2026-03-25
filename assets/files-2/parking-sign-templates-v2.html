@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dublin Parking Sign Templates</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1a1a2e; font-family: Arial, sans-serif; padding: 30px 20px; color: #eee; }
+  h1 { text-align: center; font-size: 1.2rem; color: #aaa; margin-bottom: 30px; letter-spacing: 0.05em; text-transform: uppercase; }
+  .signs-row { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; }
+  .sign-wrapper { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .sign-label { font-size: 0.7rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; }
+
+  .sign {
+    width: 160px;
+    background: white;
+    border-radius: 8px;
+    border: 3px solid black;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+  }
+  .sign-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0 12px;
+    background: white;
+  }
+  .p-circle {
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    background: white;
+    border: 12px solid #CC0000;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .p-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    line-height: 1;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+  }
+  .sign-body {
+    background: white;
+    padding: 8px 10px 10px;
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+  }
+  .sign-body hr { border: none; border-top: 1px solid black; margin: 6px 8px; }
+  .irish-text { font-size: 8.5px; font-style: italic; color: #222; line-height: 1.35; margin-bottom: 2px; }
+  .sign-title { font-size: 13px; font-weight: bold; color: black; line-height: 1.25; margin: 4px 0; }
+  .sign-days { font-size: 11px; font-weight: bold; color: black; margin-top: 5px; letter-spacing: 0.02em; }
+  .sign-times { font-size: 15px; font-weight: bold; color: black; margin-top: 3px; letter-spacing: 0.04em; }
+  .period-block { margin-top: 4px; }
+
+  /* Zone strip */
+  .zone-strip {
+    height: 24px;
+    transition: background 0.2s;
+  }
+
+  /* Controls */
+  .controls {
+    max-width: 760px; margin: 0 auto;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px; padding: 24px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .controls h2 { font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
+  .control-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .control-col h3 { font-size: 0.75rem; color: #aaa; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  label { display: block; font-size: 0.7rem; color: #888; margin-bottom: 3px; margin-top: 8px; }
+  input[type=text], input[type=time] {
+    width: 100%; padding: 6px 8px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px; color: white; font-size: 0.8rem; outline: none;
+  }
+  input:focus { border-color: #CC0000; }
+
+  /* Zone swatch picker */
+  .zone-picker { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 8px; }
+  .zone-swatch {
+    width: 26px; height: 26px; border-radius: 50%;
+    border: 2.5px solid rgba(255,255,255,0.15);
+    cursor: pointer; transition: transform 0.15s, border-color 0.15s;
+  }
+  .zone-swatch:hover { transform: scale(1.2); }
+  .zone-swatch.active { border-color: white; transform: scale(1.2); box-shadow: 0 0 0 1px rgba(255,255,255,0.5); }
+  .sw-yellow { background: #FCD301; }
+  .sw-red    { background: #CE1401; }
+  .sw-green  { background: #85B42B; }
+  .sw-orange { background: #E8680A; }
+  .sw-blue   { background: #1A56A0; }
+  .sw-white  { background: #ffffff; border-color: rgba(255,255,255,0.4); }
+
+  @media (max-width: 600px) { .control-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<h1>Dublin Parking Sign Templates</h1>
+
+<div class="signs-row">
+
+  <!-- SIGN 1: Pay & Display + Permit -->
+  <div class="sign-wrapper">
+    <div class="sign">
+      <div class="sign-top"><div class="p-circle"><span class="p-letter">P</span></div></div>
+      <div class="sign-body">
+        <div class="irish-text">Íoc &amp; Taispeáin agus<br>Ceadúnais Páirceála</div>
+        <hr>
+        <div class="sign-title">PAY &amp; DISPLAY<br>AND PERMIT<br>PARKING</div>
+        <hr>
+        <div class="irish-text" id="s1-irish">Luain - Aoine</div>
+        <div class="sign-days" id="s1-days">MON – FRI</div>
+        <div class="sign-times" id="s1-times">08:00 – 18:00</div>
+      </div>
+      <div class="zone-strip" id="s1-zone" style="background:#FCD301;color:black;"></div>
+    </div>
+    <div class="sign-label">P&amp;D + Permit</div>
+  </div>
+
+  <!-- SIGN 2: Pay & Display · Two periods -->
+  <div class="sign-wrapper">
+    <div class="sign">
+      <div class="sign-top"><div class="p-circle"><span class="p-letter">P</span></div></div>
+      <div class="sign-body">
+        <div class="irish-text">Íoc &amp; Taispeáin</div>
+        <hr>
+        <div class="sign-title">PAY &amp; DISPLAY</div>
+        <hr>
+        <div class="period-block">
+          <div class="irish-text" id="s2-irish-1">Luain - Sath</div>
+          <div class="sign-days" id="s2-days-1">MON – SAT</div>
+          <div class="sign-times" id="s2-times-1">07:00 – 19:00</div>
+        </div>
+        <hr>
+        <div class="period-block">
+          <div class="irish-text" id="s2-irish-2">Domhnach</div>
+          <div class="sign-days" id="s2-days-2">SUNDAY</div>
+          <div class="sign-times" id="s2-times-2">14:00 – 18:00</div>
+        </div>
+      </div>
+      <div class="zone-strip" id="s2-zone" style="background:#1A56A0;color:white;"></div>
+    </div>
+    <div class="sign-label">P&amp;D · Two periods</div>
+  </div>
+
+  <!-- SIGN 3: Pay & Display · Single period -->
+  <div class="sign-wrapper">
+    <div class="sign">
+      <div class="sign-top"><div class="p-circle"><span class="p-letter">P</span></div></div>
+      <div class="sign-body">
+        <div class="irish-text">Íoc &amp; Taispeáin</div>
+        <hr>
+        <div class="sign-title">PAY &amp; DISPLAY</div>
+        <hr>
+        <div class="irish-text" id="s3-irish">Luain - Sath</div>
+        <div class="sign-days" id="s3-days">MON – SAT</div>
+        <div class="sign-times" id="s3-times">07:00 – 19:00</div>
+      </div>
+      <div class="zone-strip" id="s3-zone" style="background:#CE1401;color:white;"></div>
+    </div>
+    <div class="sign-label">P&amp;D · Single period</div>
+  </div>
+
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <h2>Live Edit</h2>
+  <div class="control-grid">
+
+    <div class="control-col">
+      <h3>Sign 1 · P&amp;D + Permit</h3>
+      <label>Days (English)</label>
+      <input type="text" value="MON – FRI" oninput="$('s1-days').textContent=this.value">
+      <label>Days (Irish)</label>
+      <input type="text" value="Luain - Aoine" oninput="$('s1-irish').textContent=this.value">
+      <label>Start time</label>
+      <input type="time" value="08:00" id="s1start" oninput="updateTimes('s1-times',this.value,$('s1end').value)">
+      <label>End time</label>
+      <input type="time" value="18:00" id="s1end" oninput="updateTimes('s1-times',$('s1start').value,this.value)">
+      <label>Zone colour</label>
+      <div class="zone-picker" id="pk1">
+        <div class="zone-swatch sw-yellow active" title="Yellow" onclick="setZone('s1-zone','#FCD301','black',this,'pk1')"></div>
+        <div class="zone-swatch sw-red"           title="Red"    onclick="setZone('s1-zone','#CE1401','white',this,'pk1')"></div>
+        <div class="zone-swatch sw-green"         title="Green"  onclick="setZone('s1-zone','#85B42B','white',this,'pk1')"></div>
+        <div class="zone-swatch sw-orange"        title="Orange" onclick="setZone('s1-zone','#E8680A','white',this,'pk1')"></div>
+        <div class="zone-swatch sw-blue"          title="Blue"   onclick="setZone('s1-zone','#1A56A0','white',this,'pk1')"></div>
+        <div class="zone-swatch sw-white"         title="White"  onclick="setZone('s1-zone','#ffffff','#333', this,'pk1')"></div>
+      </div>
+    </div>
+
+    <div class="control-col">
+      <h3>Sign 2 · P&amp;D Two Periods</h3>
+      <label>Period 1 Days (EN)</label>
+      <input type="text" value="MON – SAT" oninput="$('s2-days-1').textContent=this.value">
+      <label>Period 1 Times</label>
+      <input type="text" value="07:00 – 19:00" oninput="$('s2-times-1').textContent=this.value">
+      <label>Period 2 Days (EN)</label>
+      <input type="text" value="SUNDAY" oninput="$('s2-days-2').textContent=this.value">
+      <label>Period 2 Days (Irish)</label>
+      <input type="text" value="Domhnach" oninput="$('s2-irish-2').textContent=this.value">
+      <label>Period 2 Times</label>
+      <input type="text" value="14:00 – 18:00" oninput="$('s2-times-2').textContent=this.value">
+      <label>Zone colour</label>
+      <div class="zone-picker" id="pk2">
+        <div class="zone-swatch sw-yellow"        title="Yellow" onclick="setZone('s2-zone','#FCD301','black',this,'pk2')"></div>
+        <div class="zone-swatch sw-red"           title="Red"    onclick="setZone('s2-zone','#CE1401','white',this,'pk2')"></div>
+        <div class="zone-swatch sw-green"         title="Green"  onclick="setZone('s2-zone','#85B42B','white',this,'pk2')"></div>
+        <div class="zone-swatch sw-orange"        title="Orange" onclick="setZone('s2-zone','#E8680A','white',this,'pk2')"></div>
+        <div class="zone-swatch sw-blue active"   title="Blue"   onclick="setZone('s2-zone','#1A56A0','white',this,'pk2')"></div>
+        <div class="zone-swatch sw-white"         title="White"  onclick="setZone('s2-zone','#ffffff','#333', this,'pk2')"></div>
+      </div>
+    </div>
+
+    <div class="control-col">
+      <h3>Sign 3 · P&amp;D Single</h3>
+      <label>Days (English)</label>
+      <input type="text" value="MON – SAT" oninput="$('s3-days').textContent=this.value">
+      <label>Days (Irish)</label>
+      <input type="text" value="Luain - Sath" oninput="$('s3-irish').textContent=this.value">
+      <label>Start time</label>
+      <input type="time" value="07:00" id="s3start" oninput="updateTimes('s3-times',this.value,$('s3end').value)">
+      <label>End time</label>
+      <input type="time" value="19:00" id="s3end" oninput="updateTimes('s3-times',$('s3start').value,this.value)">
+      <label>Zone colour</label>
+      <div class="zone-picker" id="pk3">
+        <div class="zone-swatch sw-yellow"        title="Yellow" onclick="setZone('s3-zone','#FCD301','black',this,'pk3')"></div>
+        <div class="zone-swatch sw-red active"    title="Red"    onclick="setZone('s3-zone','#CE1401','white',this,'pk3')"></div>
+        <div class="zone-swatch sw-green"         title="Green"  onclick="setZone('s3-zone','#85B42B','white',this,'pk3')"></div>
+        <div class="zone-swatch sw-orange"        title="Orange" onclick="setZone('s3-zone','#E8680A','white',this,'pk3')"></div>
+        <div class="zone-swatch sw-blue"          title="Blue"   onclick="setZone('s3-zone','#1A56A0','white',this,'pk3')"></div>
+        <div class="zone-swatch sw-white"         title="White"  onclick="setZone('s3-zone','#ffffff','#333', this,'pk3')"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+
+  function updateTimes(targetId, start, end) {
+    $(targetId).textContent = `${start} – ${end}`;
+  }
+
+  function setZone(stripId, bg, textCol, el, pickerId) {
+    $(stripId).style.background = bg;
+    $(stripId).style.color = textCol;
+    document.querySelectorAll(`#${pickerId} .zone-swatch`).forEach(s => s.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  // Exported constant for app.js
+  const ZONE_COLOURS = {
+    yellow: { bg: '#FCD301', text: 'black' },
+    red:    { bg: '#CE1401', text: 'white' },
+    green:  { bg: '#85B42B', text: 'white' },
+    orange: { bg: '#E8680A', text: 'white' },
+    blue:   { bg: '#1A56A0', text: 'white' },
+    white:  { bg: '#ffffff', text: '#333'  },
+  };
+</script>
+
+</body>
+</html>

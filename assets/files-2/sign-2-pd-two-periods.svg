@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 332" width="200" height="332" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="200" height="332" rx="6" ry="6" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Red ring, white fill, black P -->
+  <circle cx="100" cy="72" r="55" fill="white" stroke="#CC0000" stroke-width="14"/>
+  <text x="100" y="97" text-anchor="middle" font-size="64" font-weight="600" fill="black" font-family="Arial, sans-serif">P</text>
+  <!-- Info panel -->
+  <line x1="0" y1="138" x2="200" y2="138" stroke="black" stroke-width="2"/>
+  <text x="100" y="155" text-anchor="middle" font-size="9" fill="#222" font-style="italic">Íoc &amp; Taispeáin</text>
+  <line x1="16" y1="161" x2="184" y2="161" stroke="black" stroke-width="0.8"/>
+  <text x="100" y="177" text-anchor="middle" font-size="15" font-weight="bold" fill="black">PAY &amp; DISPLAY</text>
+  <line x1="16" y1="183" x2="184" y2="183" stroke="black" stroke-width="0.8"/>
+  <text x="100" y="197" text-anchor="middle" font-size="9" fill="#222" font-style="italic">Luain - Sath</text>
+  <text x="100" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="black">MON – SAT</text>
+  <text x="100" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="black">07:00 – 19:00</text>
+  <line x1="30" y1="232" x2="170" y2="232" stroke="black" stroke-width="0.8"/>
+  <text x="100" y="246" text-anchor="middle" font-size="9" fill="#222" font-style="italic">Domhnach</text>
+  <text x="100" y="259" text-anchor="middle" font-size="12" font-weight="bold" fill="black">SUNDAY</text>
+  <text x="100" y="275" text-anchor="middle" font-size="15" font-weight="bold" fill="black">14:00 – 18:00</text>
+  <!-- Zone colour strip - no border, rounded bottom corners -->
+  <rect x="0" y="305" width="200" height="27" rx="6" ry="6" fill="#FCD301"/>
+  <rect x="0" y="305" width="200" height="6" fill="#FCD301"/>
+</svg>

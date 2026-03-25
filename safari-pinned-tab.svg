@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Filled ring: outer circle minus inner circle -->
+  <path fill-rule="evenodd" fill="black" d="
+    M16 1
+    a15 15 0 1 1 0 30
+    a15 15 0 1 1 0 -30z
+    M16 4
+    a12 12 0 1 0 0 24
+    a12 12 0 1 0 0 -24z
+  "/>
+  <!-- Bold P -->
+  <text x="16" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial, sans-serif">P</text>
+</svg>

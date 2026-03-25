@@ -1,0 +1,4010 @@
+[
+  {
+    "id": 0,
+    "location": "Abbey Street Lower",
+    "description": "Permanent TSB, 1 Abbey Street Lower",
+    "side": "North",
+    "lat": 53.3485309,
+    "lng": -6.2591862
+  },
+  {
+    "id": 1,
+    "location": "Adelaide Road",
+    "description": "Dept. of Environment, Climate and Communications, 29-31 Adelaide Road.",
+    "side": "South",
+    "lat": 53.3322683,
+    "lng": -6.2554056
+  },
+  {
+    "id": 2,
+    "location": "Ailesbury Close",
+    "description": "Church of the Sacred Heart",
+    "side": "West",
+    "lat": 53.3192047,
+    "lng": -6.2301355
+  },
+  {
+    "id": 3,
+    "location": "Ailesbury Close",
+    "description": "Church of the Sacred Heart",
+    "side": "West",
+    "lat": 53.3192355,
+    "lng": -6.2302093
+  },
+  {
+    "id": 4,
+    "location": "Albert College Drive",
+    "description": "Albert College Court",
+    "side": "South",
+    "lat": 53.3871885,
+    "lng": -6.2642408
+  },
+  {
+    "id": 5,
+    "location": "Albert College Drive",
+    "description": "Albert College Court",
+    "side": "South",
+    "lat": 53.3871954,
+    "lng": -6.2645893
+  },
+  {
+    "id": 6,
+    "location": "All Saints Drive",
+    "description": "Scoil Áine",
+    "side": "South",
+    "lat": 53.3787356,
+    "lng": -6.1777327
+  },
+  {
+    "id": 7,
+    "location": "All Saints Drive",
+    "description": "Scoil Áine",
+    "side": "South",
+    "lat": 53.3785555,
+    "lng": -6.1780034
+  },
+  {
+    "id": 8,
+    "location": "All Saints Drive",
+    "description": "Naíscoil Íde",
+    "side": "South",
+    "lat": 53.3783763,
+    "lng": -6.1783343
+  },
+  {
+    "id": 9,
+    "location": "All Saints Drive",
+    "description": "Naíscoil Íde",
+    "side": "South",
+    "lat": 53.3782892,
+    "lng": -6.1785184
+  },
+  {
+    "id": 10,
+    "location": "Amiens Street",
+    "description": "69 Amiens Street",
+    "side": "West",
+    "lat": 53.3541542,
+    "lng": -6.247421
+  },
+  {
+    "id": 11,
+    "location": "Anglesea Road",
+    "description": "Pembroke Library",
+    "side": "East",
+    "lat": 53.3282814,
+    "lng": -6.2306456
+  },
+  {
+    "id": 12,
+    "location": "Anne Street South",
+    "description": "Sheridans, 11 Anne Street South",
+    "side": "North",
+    "lat": 53.3410824,
+    "lng": -6.2591832
+  },
+  {
+    "id": 13,
+    "location": "Arbour Hill",
+    "description": "Arbour Hill Prison",
+    "side": "North",
+    "lat": 53.3496056,
+    "lng": -6.2885582
+  },
+  {
+    "id": 14,
+    "location": "Ard Righ Road",
+    "description": "Irish United Nations Veteran's Association Memorial",
+    "side": "West",
+    "lat": 53.3511703,
+    "lng": -6.2861041
+  },
+  {
+    "id": 15,
+    "location": "Armagh Road",
+    "description": "Scoil Úna Naofa",
+    "side": "South",
+    "lat": 53.3204444,
+    "lng": -6.3068648
+  },
+  {
+    "id": 16,
+    "location": "Ashtown Grove",
+    "description": "Post Office, 23 Ashtown Grove",
+    "side": "North",
+    "lat": 53.3704528,
+    "lng": -6.3234645
+  },
+  {
+    "id": 17,
+    "location": "Ashtown Grove",
+    "description": "Spar, 33 Ashtown Grove",
+    "side": "North",
+    "lat": 53.3706788,
+    "lng": -6.3241995
+  },
+  {
+    "id": 18,
+    "location": "Aston Quay",
+    "description": "Opposite Supervalu, 14-18 Aston Quay",
+    "side": "North",
+    "lat": 53.3466474,
+    "lng": -6.2605727
+  },
+  {
+    "id": 19,
+    "location": "Bachelors Walk",
+    "description": "Sugar Sisters, 3/4 Bachelors Walk",
+    "side": "North",
+    "lat": 53.346769,
+    "lng": -6.2627486
+  },
+  {
+    "id": 20,
+    "location": "Baggot Street Lower",
+    "description": "International Organisation for Migration, 116 Baggot Street Lower",
+    "side": "South",
+    "lat": 53.3369782,
+    "lng": -6.2497728
+  },
+  {
+    "id": 21,
+    "location": "Baggot Street Upper",
+    "description": "Rocket's Diner, 33 Baggot Street Upper",
+    "side": "South",
+    "lat": 53.3332288,
+    "lng": -6.2436844
+  },
+  {
+    "id": 22,
+    "location": "Baggot Street Upper",
+    "description": "Rocket's Diner, 33 Baggot Street Upper",
+    "side": "South",
+    "lat": 53.3332568,
+    "lng": -6.2437583
+  },
+  {
+    "id": 23,
+    "location": "Baggot Street Upper",
+    "description": "Former Royal City of Dublin Hospital",
+    "side": "North",
+    "lat": 53.333594,
+    "lng": -6.2441349
+  },
+  {
+    "id": 24,
+    "location": "Baggot Street Upper",
+    "description": "Former Royal City of Dublin Hospital",
+    "side": "North",
+    "lat": 53.333623,
+    "lng": -6.2442088
+  },
+  {
+    "id": 25,
+    "location": "Ballyfermot Road",
+    "description": "Ferrys Solicitors, 345 Ballyfermot Road",
+    "side": "South",
+    "lat": 53.3424246,
+    "lng": -6.3571979
+  },
+  {
+    "id": 26,
+    "location": "Ballymun Road",
+    "description": "Ballymun Civic Centre",
+    "side": "East",
+    "lat": 53.3954894,
+    "lng": -6.2640187
+  },
+  {
+    "id": 27,
+    "location": "Ballymun Road",
+    "description": "Ballymun Civic Centre",
+    "side": "East",
+    "lat": 53.3954364,
+    "lng": -6.2640254
+  },
+  {
+    "id": 28,
+    "location": "Ballymun Road",
+    "description": "Ballymun Library",
+    "side": "West",
+    "lat": 53.3904032,
+    "lng": -6.2646512
+  },
+  {
+    "id": 29,
+    "location": "Ballymun Road",
+    "description": "Ballymun Library",
+    "side": "West",
+    "lat": 53.3904745,
+    "lng": -6.2646032
+  },
+  {
+    "id": 30,
+    "location": "Ballymun Road",
+    "description": "Chambers Pharmacy, 127 Ballymun Road",
+    "side": "West",
+    "lat": 53.385419,
+    "lng": -6.2654298
+  },
+  {
+    "id": 31,
+    "location": "Barrow Street",
+    "description": "Tots & Co Creche, 8 Barrow Street",
+    "side": "East",
+    "lat": 53.340508,
+    "lng": -6.2362967
+  },
+  {
+    "id": 32,
+    "location": "Basin View",
+    "description": "Canal Way Educate Together National School",
+    "side": "East",
+    "lat": 53.3399226,
+    "lng": -6.2896699
+  },
+  {
+    "id": 33,
+    "location": "Bath Street",
+    "description": "Canton House Takeaway, 2 Bath Street",
+    "side": "East",
+    "lat": 53.339797,
+    "lng": -6.2233312
+  },
+  {
+    "id": 34,
+    "location": "Beechwood Avenue Lower",
+    "description": "Opposite Ulster Bank",
+    "side": "West",
+    "lat": 53.3244496,
+    "lng": -6.2535133
+  },
+  {
+    "id": 35,
+    "location": "Beechwood Avenue Lower",
+    "description": "Opposite Ulster Bank",
+    "side": "West",
+    "lat": 53.3244169,
+    "lng": -6.2535447
+  },
+  {
+    "id": 36,
+    "location": "Belvedere Road",
+    "description": "15 Belvedere Road",
+    "side": "East",
+    "lat": 53.3599834,
+    "lng": -6.2593654
+  },
+  {
+    "id": 37,
+    "location": "Benson Street",
+    "description": "Spaces, Block C, Butlers Court",
+    "side": "West",
+    "lat": 53.3452248,
+    "lng": -6.2332423
+  },
+  {
+    "id": 38,
+    "location": "Benson Street",
+    "description": "Spaces, Block C, Butlers Court",
+    "side": "West",
+    "lat": 53.3452723,
+    "lng": -6.2332313
+  },
+  {
+    "id": 39,
+    "location": "Bishop Street",
+    "description": "Opposite The National Archives",
+    "side": "South",
+    "lat": 53.3383634,
+    "lng": -6.266277
+  },
+  {
+    "id": 40,
+    "location": "Bishop Street",
+    "description": "Junction with Aungier Street",
+    "side": "South",
+    "lat": 53.338361,
+    "lng": -6.2687744
+  },
+  {
+    "id": 41,
+    "location": "Blackpitts",
+    "description": "Diatec Digital, 1 Blackpitts",
+    "side": "East",
+    "lat": 53.3368718,
+    "lng": -6.2749886
+  },
+  {
+    "id": 42,
+    "location": "Bluebell Road",
+    "description": "Bluebell Community Centre",
+    "side": "North",
+    "lat": 53.3325602,
+    "lng": -6.3355366
+  },
+  {
+    "id": 43,
+    "location": "Bluebell Road",
+    "description": "Bluebell Community Centre",
+    "side": "North",
+    "lat": 53.3325806,
+    "lng": -6.3354517
+  },
+  {
+    "id": 44,
+    "location": "Bluebell Road",
+    "description": "Bluebell Community Centre",
+    "side": "North",
+    "lat": 53.3326019,
+    "lng": -6.3353623
+  },
+  {
+    "id": 45,
+    "location": "Bow Lane East",
+    "description": "Beaux Lane House",
+    "side": "North",
+    "lat": 53.3398894,
+    "lng": -6.2643484
+  },
+  {
+    "id": 46,
+    "location": "Bow Street",
+    "description": "Jameson Distillery",
+    "side": "West",
+    "lat": 53.3481917,
+    "lng": -6.2766885
+  },
+  {
+    "id": 47,
+    "location": "Buckingham Street Lower",
+    "description": "Fire Station Artists Studios",
+    "side": "East",
+    "lat": 53.353573,
+    "lng": -6.2492821
+  },
+  {
+    "id": 48,
+    "location": "Buckingham Street Upper",
+    "description": "Opposite JCs Hair and Make Up, 20B Buckingham Street Upper",
+    "side": "East",
+    "lat": 53.3545755,
+    "lng": -6.2498525
+  },
+  {
+    "id": 49,
+    "location": "Bulfin Road",
+    "description": "St. Michael's Church",
+    "side": "West",
+    "lat": 53.3398711,
+    "lng": -6.3155563
+  },
+  {
+    "id": 50,
+    "location": "Bulfin Road",
+    "description": "St. Michael's Church",
+    "side": "West",
+    "lat": 53.3399183,
+    "lng": -6.3155875
+  },
+  {
+    "id": 51,
+    "location": "Burgh Quay",
+    "description": "Adjacent Rosie Hackett Bridge",
+    "side": "North",
+    "lat": 53.3473171,
+    "lng": -6.2577411
+  },
+  {
+    "id": 52,
+    "location": "Burlington Road",
+    "description": "Opposite Mespil Hotel",
+    "side": "West",
+    "lat": 53.3332088,
+    "lng": -6.2472138
+  },
+  {
+    "id": 53,
+    "location": "Burlington Road",
+    "description": "Opposite 30 Burlington Road",
+    "side": "West",
+    "lat": 53.330248,
+    "lng": -6.2475755
+  },
+  {
+    "id": 54,
+    "location": "Burlington Road",
+    "description": "Adjacent to Mespil Hotel",
+    "side": "East",
+    "lat": 53.3329339,
+    "lng": -6.2468572
+  },
+  {
+    "id": 55,
+    "location": "Burlington Road",
+    "description": "Junction with Waterloo Road",
+    "side": "South",
+    "lat": 53.3313164,
+    "lng": -6.2444386
+  },
+  {
+    "id": 56,
+    "location": "Cabra Road",
+    "description": "AIB Bank, 93 Cabra Road",
+    "side": "North",
+    "lat": 53.3612088,
+    "lng": -6.2835856
+  },
+  {
+    "id": 57,
+    "location": "Cabra Road",
+    "description": "75 Cabra Road",
+    "side": "North",
+    "lat": 53.3610667,
+    "lng": -6.2822691
+  },
+  {
+    "id": 58,
+    "location": "Cabra Road",
+    "description": "30 Cabra Road",
+    "side": "South",
+    "lat": 53.3608998,
+    "lng": -6.2797922
+  },
+  {
+    "id": 59,
+    "location": "Cabra Road",
+    "description": "Mr Green Fresh Food, 111 Cabra Road",
+    "side": "North",
+    "lat": 53.361267,
+    "lng": -6.285191
+  },
+  {
+    "id": 60,
+    "location": "Capel Street",
+    "description": "Sweetastes, 132 Capel Street",
+    "side": "West",
+    "lat": 53.3482553,
+    "lng": -6.268725
+  },
+  {
+    "id": 61,
+    "location": "Capel Street",
+    "description": "Gateway House, 133 Capel street",
+    "side": "West",
+    "lat": 53.3482083,
+    "lng": -6.2687059
+  },
+  {
+    "id": 62,
+    "location": "Capel Street",
+    "description": "Junction with Little Britain Street",
+    "side": "East",
+    "lat": 53.3494974,
+    "lng": -6.2690922
+  },
+  {
+    "id": 63,
+    "location": "Cardiff Lane",
+    "description": "Clayton Hotel",
+    "side": "West",
+    "lat": 53.345184,
+    "lng": -6.2407012
+  },
+  {
+    "id": 64,
+    "location": "Cardiff Lane",
+    "description": "Clayton Hotel",
+    "side": "West",
+    "lat": 53.3452379,
+    "lng": -6.240696
+  },
+  {
+    "id": 65,
+    "location": "Carlingford Road",
+    "description": "Junction with Drumcondra Road Lower",
+    "side": "South",
+    "lat": 53.3661668,
+    "lng": -6.2560719
+  },
+  {
+    "id": 66,
+    "location": "Carndonagh Lawn",
+    "description": "Howth Junction Dart Station",
+    "side": "East",
+    "lat": 53.3915806,
+    "lng": -6.1560191
+  },
+  {
+    "id": 67,
+    "location": "Casino Park",
+    "description": "Junction with Malahide Road",
+    "side": "North",
+    "lat": 53.3722772,
+    "lng": -6.2228242
+  },
+  {
+    "id": 68,
+    "location": "Casino Park",
+    "description": "Junction with Malahide Road",
+    "side": "North",
+    "lat": 53.3722612,
+    "lng": -6.2227783
+  },
+  {
+    "id": 69,
+    "location": "Castle Street",
+    "description": "Dublin Castle Entrance Gate",
+    "side": "South",
+    "lat": 53.3437273,
+    "lng": -6.2677505
+  },
+  {
+    "id": 70,
+    "location": "Castle Street",
+    "description": "Dublin Castle Entrance Gate",
+    "side": "South",
+    "lat": 53.3437499,
+    "lng": -6.267691
+  },
+  {
+    "id": 71,
+    "location": "Castle Street",
+    "description": "Opposite Bottega Toffoli Restaurant, 34 Castle Street",
+    "side": "South",
+    "lat": 53.3433249,
+    "lng": -6.2692522
+  },
+  {
+    "id": 72,
+    "location": "Cathal Brugha Street",
+    "description": "Holiday Inn Express",
+    "side": "North",
+    "lat": 53.352086,
+    "lng": -6.2606276
+  },
+  {
+    "id": 73,
+    "location": "Cathal Brugha Street",
+    "description": "Findlater Place",
+    "side": "North",
+    "lat": 53.35215,
+    "lng": -6.2603336
+  },
+  {
+    "id": 74,
+    "location": "Cathedral Street",
+    "description": "Burger King",
+    "side": "North",
+    "lat": 53.350456,
+    "lng": -6.2600406
+  },
+  {
+    "id": 75,
+    "location": "Cathedral Street",
+    "description": "Central Revenue Information Office",
+    "side": "North",
+    "lat": 53.3504729,
+    "lng": -6.2599648
+  },
+  {
+    "id": 76,
+    "location": "Charleville Road",
+    "description": "Adjacent 20 Charleville Road",
+    "side": "East",
+    "lat": 53.3221777,
+    "lng": -6.2699386
+  },
+  {
+    "id": 77,
+    "location": "Church Road",
+    "description": "East Wall Health Centre",
+    "side": "South",
+    "lat": 53.3520323,
+    "lng": -6.2363918
+  },
+  {
+    "id": 78,
+    "location": "Claddagh Green",
+    "description": "Superior Salon, 13 Claddagh Green",
+    "side": "East",
+    "lat": 53.3409222,
+    "lng": -6.3661883
+  },
+  {
+    "id": 79,
+    "location": "Clanbrassil Street Lower",
+    "description": "Mace Supermarket",
+    "side": "West",
+    "lat": 53.3341075,
+    "lng": -6.274956
+  },
+  {
+    "id": 80,
+    "location": "Clancarthy Road",
+    "description": "Le Chéile Community & Youth Centre",
+    "side": "West",
+    "lat": 53.374461,
+    "lng": -6.2176832
+  },
+  {
+    "id": 81,
+    "location": "Clare Road",
+    "description": "Junction with Home Farm Road",
+    "side": "East",
+    "lat": 53.3743248,
+    "lng": -6.2556078
+  },
+  {
+    "id": 82,
+    "location": "Clarendon Street",
+    "description": "Coco Boutique, 40 Clarendon Street",
+    "side": "West",
+    "lat": 53.3415637,
+    "lng": -6.2618024
+  },
+  {
+    "id": 83,
+    "location": "Clarendon Street",
+    "description": "Rear of Westbury Hotel",
+    "side": "East",
+    "lat": 53.3411643,
+    "lng": -6.2620889
+  },
+  {
+    "id": 84,
+    "location": "Clareville Road",
+    "description": "Harold's Cross National School",
+    "side": "South",
+    "lat": 53.3176957,
+    "lng": -6.2868379
+  },
+  {
+    "id": 85,
+    "location": "Clogher Road",
+    "description": "Marist Primary School",
+    "side": "South",
+    "lat": 53.3263171,
+    "lng": -6.2936716
+  },
+  {
+    "id": 86,
+    "location": "Clonmel Street",
+    "description": "Dept. of Foreign Affairs and Trade",
+    "side": "North",
+    "lat": 53.3360469,
+    "lng": -6.2625508
+  },
+  {
+    "id": 87,
+    "location": "Clonmel Street",
+    "description": "Dept. of Foreign Affairs and Trade",
+    "side": "North",
+    "lat": 53.3360441,
+    "lng": -6.2624833
+  },
+  {
+    "id": 88,
+    "location": "Clonmel Street",
+    "description": "Dept. of Foreign Affairs and Trade",
+    "side": "North",
+    "lat": 53.3360414,
+    "lng": -6.2624174
+  },
+  {
+    "id": 89,
+    "location": "Clonmel Street",
+    "description": "Dept. of Foreign Affairs and Trade",
+    "side": "North",
+    "lat": 53.3360386,
+    "lng": -6.2623499
+  },
+  {
+    "id": 90,
+    "location": "Clontarf Road",
+    "description": "Car Park Adjacent to Fairview Bottle Bank",
+    "side": "South",
+    "lat": 53.3632212,
+    "lng": -6.2235783
+  },
+  {
+    "id": 91,
+    "location": "Clontarf Road",
+    "description": "Car Park Opposite St. Anthony's Church Hall",
+    "side": "South",
+    "lat": 53.3620044,
+    "lng": -6.2167863
+  },
+  {
+    "id": 92,
+    "location": "Clontarf Road",
+    "description": "Car Park Opposite Vernon Avenue",
+    "side": "South",
+    "lat": 53.3590725,
+    "lng": -6.1968719
+  },
+  {
+    "id": 93,
+    "location": "Clontarf Road",
+    "description": "Connolly's, 198 Clontarf Road",
+    "side": "North",
+    "lat": 53.359036,
+    "lng": -6.1957661
+  },
+  {
+    "id": 94,
+    "location": "Clontarf Road",
+    "description": "The Sandbar Restaurant, 193 Clontarf Road",
+    "side": "North",
+    "lat": 53.3591634,
+    "lng": -6.1963422
+  },
+  {
+    "id": 95,
+    "location": "Clonturk Park",
+    "description": "Junction with Drumcondra Road Upper",
+    "side": "South",
+    "lat": 53.3696053,
+    "lng": -6.2540829
+  },
+  {
+    "id": 96,
+    "location": "Clyde Road",
+    "description": "24 Clyde Road",
+    "side": "South",
+    "lat": 53.3285606,
+    "lng": -6.2394321
+  },
+  {
+    "id": 97,
+    "location": "Clyde Road",
+    "description": "National Disability Authority, 25 Clyde Road",
+    "side": "South",
+    "lat": 53.3285392,
+    "lng": -6.239505
+  },
+  {
+    "id": 98,
+    "location": "Clyde Road",
+    "description": "26 Clyde Road",
+    "side": "South",
+    "lat": 53.3284784,
+    "lng": -6.2397147
+  },
+  {
+    "id": 99,
+    "location": "Coleraine Street",
+    "description": "Carmichael Centre, 49 Coleraine Street",
+    "side": "East",
+    "lat": 53.3515912,
+    "lng": -6.2733397
+  },
+  {
+    "id": 100,
+    "location": "Coleraine Street",
+    "description": "Carmichael Centre, 49 Coleraine Street",
+    "side": "East",
+    "lat": 53.3516407,
+    "lng": -6.2733452
+  },
+  {
+    "id": 101,
+    "location": "Collins Avenue",
+    "description": "The Gourmet Kitchen,404 Collins Avenue",
+    "side": "North",
+    "lat": 53.3816224,
+    "lng": -6.2413503
+  },
+  {
+    "id": 102,
+    "location": "Collins Avenue",
+    "description": "Rimini Take Away, 392 Collins Avenue",
+    "side": "North",
+    "lat": 53.3814778,
+    "lng": -6.2407445
+  },
+  {
+    "id": 103,
+    "location": "Collins Avenue East",
+    "description": "Opposite 36 Collins Avenue East",
+    "side": "South",
+    "lat": 53.3724559,
+    "lng": -6.2086246
+  },
+  {
+    "id": 104,
+    "location": "Collins Avenue East",
+    "description": "Pure Pharmacy, 59 Collins Avenue East",
+    "side": "South",
+    "lat": 53.3726915,
+    "lng": -6.2091768
+  },
+  {
+    "id": 105,
+    "location": "Collins Avenue Extension",
+    "description": "Dublin City University",
+    "side": "South",
+    "lat": 53.3869437,
+    "lng": -6.2568148
+  },
+  {
+    "id": 106,
+    "location": "Collins Avenue Extension",
+    "description": "Dublin City University",
+    "side": "South",
+    "lat": 53.3870195,
+    "lng": -6.2570176
+  },
+  {
+    "id": 107,
+    "location": "Collins Avenue Extension",
+    "description": "Dublin City University",
+    "side": "South",
+    "lat": 53.3870485,
+    "lng": -6.2570991
+  },
+  {
+    "id": 108,
+    "location": "Cornmarket",
+    "description": "MRCB Paints & Papers, 12 Cornmarket",
+    "side": "North",
+    "lat": 53.3432944,
+    "lng": -6.2757716
+  },
+  {
+    "id": 109,
+    "location": "Cowper Road",
+    "description": "Opposite 43 Cowper Road",
+    "side": "North",
+    "lat": 53.3162311,
+    "lng": -6.2558046
+  },
+  {
+    "id": 110,
+    "location": "Cowper Road",
+    "description": "The Mageough",
+    "side": "North",
+    "lat": 53.3162768,
+    "lng": -6.2544384
+  },
+  {
+    "id": 111,
+    "location": "Cowper Road",
+    "description": "The Mageough",
+    "side": "North",
+    "lat": 53.3162794,
+    "lng": -6.2543753
+  },
+  {
+    "id": 112,
+    "location": "Cuffe Lane",
+    "description": "Junction with Cuffe Street",
+    "side": "West",
+    "lat": 53.3377917,
+    "lng": -6.2637413
+  },
+  {
+    "id": 113,
+    "location": "Cuffe Lane",
+    "description": "Junction with Cuffe Street",
+    "side": "West",
+    "lat": 53.3378367,
+    "lng": -6.2637425
+  },
+  {
+    "id": 114,
+    "location": "D'Olier Street",
+    "description": "Kohinoor Beauty, 8 Dolier Street",
+    "side": "West",
+    "lat": 53.3464056,
+    "lng": -6.2582274
+  },
+  {
+    "id": 115,
+    "location": "D'Olier Street",
+    "description": "Platinum, 9 Dolier Street",
+    "side": "West",
+    "lat": 53.3463642,
+    "lng": -6.2581645
+  },
+  {
+    "id": 116,
+    "location": "Donnybrook Road",
+    "description": "Eddie Rockets, The Mall, Donnybrook Road",
+    "side": "West",
+    "lat": 53.3222246,
+    "lng": -6.2374112
+  },
+  {
+    "id": 117,
+    "location": "Drumcondra Road Lower",
+    "description": "AIB Bank, 140 Drumcondra Road Lower",
+    "side": "West",
+    "lat": 53.3673527,
+    "lng": -6.2556026
+  },
+  {
+    "id": 118,
+    "location": "Drumcondra Road Upper",
+    "description": "Domino's, 106 Drumcondra Road Upper",
+    "side": "East",
+    "lat": 53.372181,
+    "lng": -6.2527076
+  },
+  {
+    "id": 119,
+    "location": "Drumfinn Park",
+    "description": "Ballyfermot / Chapelizod Partnership, 4 Drumfinn Park",
+    "side": "South",
+    "lat": 53.3442307,
+    "lng": -6.3592521
+  },
+  {
+    "id": 120,
+    "location": "Dunne Street",
+    "description": "Saint Agatha's Church",
+    "side": "East",
+    "lat": 53.3571,
+    "lng": -6.2465339
+  },
+  {
+    "id": 121,
+    "location": "Dunne Street",
+    "description": "Saint Agatha's Church",
+    "side": "East",
+    "lat": 53.3570612,
+    "lng": -6.2465836
+  },
+  {
+    "id": 122,
+    "location": "Earl Street South",
+    "description": "Health Centre, 33-35 Earl Street South",
+    "side": "South",
+    "lat": 53.3415058,
+    "lng": -6.2800744
+  },
+  {
+    "id": 123,
+    "location": "Earl Street South",
+    "description": "Health Centre, 33-35 Earl Street South",
+    "side": "South",
+    "lat": 53.3415082,
+    "lng": -6.2799917
+  },
+  {
+    "id": 124,
+    "location": "East Road",
+    "description": "Centra, Island Key",
+    "side": "East",
+    "lat": 53.3535668,
+    "lng": -6.2308857
+  },
+  {
+    "id": 125,
+    "location": "Eaton Road",
+    "description": "4 Eaton Road",
+    "side": "South",
+    "lat": 53.311878,
+    "lng": -6.2842944
+  },
+  {
+    "id": 126,
+    "location": "Eccles Place",
+    "description": "Junction with Dorset Street Lower",
+    "side": "North",
+    "lat": 53.3581639,
+    "lng": -6.2634134
+  },
+  {
+    "id": 127,
+    "location": "Eccles Place",
+    "description": "Junction with Dorset Street Lower",
+    "side": "North",
+    "lat": 53.3581891,
+    "lng": -6.263477
+  },
+  {
+    "id": 128,
+    "location": "Eccles Street",
+    "description": "Mater Hospital",
+    "side": "North",
+    "lat": 53.3589637,
+    "lng": -6.2686575
+  },
+  {
+    "id": 129,
+    "location": "Eccles Street",
+    "description": "Mater Hospital",
+    "side": "North",
+    "lat": 53.3589523,
+    "lng": -6.2686204
+  },
+  {
+    "id": 130,
+    "location": "Eccles Street",
+    "description": "Mater Hospital",
+    "side": "North",
+    "lat": 53.358941,
+    "lng": -6.2685818
+  },
+  {
+    "id": 131,
+    "location": "Eccles Street",
+    "description": "Mater Hospital Staff Car Park",
+    "side": "North",
+    "lat": 53.3584171,
+    "lng": -6.266731
+  },
+  {
+    "id": 132,
+    "location": "Eccles Street",
+    "description": "Mater Hospital Staff Car Park",
+    "side": "North",
+    "lat": 53.358399,
+    "lng": -6.2666656
+  },
+  {
+    "id": 133,
+    "location": "Eccles Street",
+    "description": "Mater Hospital Staff Car Park",
+    "side": "North",
+    "lat": 53.3583782,
+    "lng": -6.2665914
+  },
+  {
+    "id": 134,
+    "location": "Eccles Street",
+    "description": "Mater Private",
+    "side": "North",
+    "lat": 53.3579281,
+    "lng": -6.2650607
+  },
+  {
+    "id": 135,
+    "location": "Eccles Street",
+    "description": "The Dublin Neurological Institute, 57 Eccles Street",
+    "side": "South",
+    "lat": 53.3582579,
+    "lng": -6.2665392
+  },
+  {
+    "id": 136,
+    "location": "Eccles Street",
+    "description": "Centre for Lung Health, 56 Eccles Street",
+    "side": "South",
+    "lat": 53.3582806,
+    "lng": -6.2666179
+  },
+  {
+    "id": 137,
+    "location": "Eccles Street",
+    "description": "Liver Centre, 55 Eccles Street",
+    "side": "South",
+    "lat": 53.3583034,
+    "lng": -6.2666996
+  },
+  {
+    "id": 138,
+    "location": "Eccles Street",
+    "description": "Heart House, 54 Eccles Street",
+    "side": "South",
+    "lat": 53.3583298,
+    "lng": -6.2667856
+  },
+  {
+    "id": 139,
+    "location": "Eccles Street",
+    "description": "The Mater Foundation, 53 Eccles Street",
+    "side": "South",
+    "lat": 53.3583553,
+    "lng": -6.2668748
+  },
+  {
+    "id": 140,
+    "location": "Eden Quay",
+    "description": "Laughter Lounge, 8 Eden Quay",
+    "side": "North",
+    "lat": 53.3478365,
+    "lng": -6.2582922
+  },
+  {
+    "id": 141,
+    "location": "Edenmore Avenue",
+    "description": "Cronin's Pharmacy",
+    "side": "East",
+    "lat": 53.3877525,
+    "lng": -6.1834532
+  },
+  {
+    "id": 142,
+    "location": "Edenmore Park",
+    "description": "Health Centre",
+    "side": "North",
+    "lat": 53.3882862,
+    "lng": -6.1820202
+  },
+  {
+    "id": 143,
+    "location": "Edenmore Park",
+    "description": "Saint Malachy's Boys School",
+    "side": "South",
+    "lat": 53.3886525,
+    "lng": -6.1805762
+  },
+  {
+    "id": 144,
+    "location": "Elmwood Avenue Lower",
+    "description": "Junction with Ranelagh",
+    "side": "East",
+    "lat": 53.3249415,
+    "lng": -6.2545726
+  },
+  {
+    "id": 145,
+    "location": "Ely Place Upper",
+    "description": "Royal Hibernian Acadamy",
+    "side": "West",
+    "lat": 53.3370692,
+    "lng": -6.2545068
+  },
+  {
+    "id": 146,
+    "location": "Errigal Road",
+    "description": "Crumlin Medical Clinic, 1 Errigal Road",
+    "side": "West",
+    "lat": 53.3253472,
+    "lng": -6.3214174
+  },
+  {
+    "id": 147,
+    "location": "Essex Street East",
+    "description": "Dollard & Co",
+    "side": "North",
+    "lat": 53.3450481,
+    "lng": -6.2670346
+  },
+  {
+    "id": 148,
+    "location": "Essex Street East",
+    "description": "Dollard & Co",
+    "side": "North",
+    "lat": 53.3450645,
+    "lng": -6.2669288
+  },
+  {
+    "id": 149,
+    "location": "Exchange Street Upper",
+    "description": "Hard Rock Hotel",
+    "side": "West",
+    "lat": 53.344186,
+    "lng": -6.2679527
+  },
+  {
+    "id": 150,
+    "location": "Exchequer Street",
+    "description": "Central Hotel",
+    "side": "North",
+    "lat": 53.343047,
+    "lng": -6.2640414
+  },
+  {
+    "id": 151,
+    "location": "Fairfield Road",
+    "description": "Bank of Ireland",
+    "side": "North",
+    "lat": 53.3702055,
+    "lng": -6.2680663
+  },
+  {
+    "id": 152,
+    "location": "Fairview Strand",
+    "description": "Junction with Merville Avenue",
+    "side": "North",
+    "lat": 53.3635137,
+    "lng": -6.2345697
+  },
+  {
+    "id": 153,
+    "location": "Faussagh Avenue",
+    "description": "Pelly's Pharmacy, 26 Faussagh Avenue",
+    "side": "North",
+    "lat": 53.3669643,
+    "lng": -6.2930783
+  },
+  {
+    "id": 154,
+    "location": "Faussagh Avenue",
+    "description": "Spar, 72 Faussagh Avenue",
+    "side": "North",
+    "lat": 53.3673597,
+    "lng": -6.299114
+  },
+  {
+    "id": 155,
+    "location": "Faussagh Avenue",
+    "description": "Londis, 38 Faussagh Avenue",
+    "side": "North",
+    "lat": 53.3670603,
+    "lng": -6.2938815
+  },
+  {
+    "id": 156,
+    "location": "Ferguson Road",
+    "description": "Opposite 1 Ferguson Road",
+    "side": "South",
+    "lat": 53.3703324,
+    "lng": -6.2596813
+  },
+  {
+    "id": 157,
+    "location": "Ferguson Road",
+    "description": "Opposite 3 Ferguson Road",
+    "side": "South",
+    "lat": 53.3703695,
+    "lng": -6.259755
+  },
+  {
+    "id": 158,
+    "location": "Finglas Road",
+    "description": "Glasnevin Cemetery Museum",
+    "side": "South",
+    "lat": 53.3695753,
+    "lng": -6.2775025
+  },
+  {
+    "id": 159,
+    "location": "Finglas Road Old",
+    "description": "Saint Brigid's National School",
+    "side": "South",
+    "lat": 53.3772721,
+    "lng": -6.2755911
+  },
+  {
+    "id": 160,
+    "location": "Finglas Road Old",
+    "description": "Saint Mary's Secondary School",
+    "side": "South",
+    "lat": 53.3769871,
+    "lng": -6.2741551
+  },
+  {
+    "id": 161,
+    "location": "Fishamble Street",
+    "description": "31 Fishamble Street",
+    "side": "East",
+    "lat": 53.3448604,
+    "lng": -6.2698959
+  },
+  {
+    "id": 162,
+    "location": "Fishamble Street",
+    "description": "30 Fishamble Street",
+    "side": "East",
+    "lat": 53.3448181,
+    "lng": -6.2698886
+  },
+  {
+    "id": 163,
+    "location": "Fishamble Street",
+    "description": "29 Fishamble Street",
+    "side": "East",
+    "lat": 53.3447386,
+    "lng": -6.2698633
+  },
+  {
+    "id": 164,
+    "location": "Fishamble Street",
+    "description": "28 Fishamble Street",
+    "side": "East",
+    "lat": 53.3446572,
+    "lng": -6.269829
+  },
+  {
+    "id": 165,
+    "location": "Fishamble Street",
+    "description": "Reptile Haven, 27 Fishamble Street",
+    "side": "East",
+    "lat": 53.3446211,
+    "lng": -6.2698155
+  },
+  {
+    "id": 166,
+    "location": "Fishamble Street",
+    "description": "Christ Church",
+    "side": "West",
+    "lat": 53.3437008,
+    "lng": -6.2701982
+  },
+  {
+    "id": 167,
+    "location": "Fishamble Street",
+    "description": "Christ Church",
+    "side": "West",
+    "lat": 53.343773,
+    "lng": -6.2702148
+  },
+  {
+    "id": 168,
+    "location": "Fitzmaurice Road",
+    "description": "Post Office, 1 Fitzmaurice Road",
+    "side": "North",
+    "lat": 53.3825891,
+    "lng": -6.2768163
+  },
+  {
+    "id": 169,
+    "location": "Fitzmaurice Road",
+    "description": "Marsellas Take Away, 10 Fitzmaurice Road",
+    "side": "South",
+    "lat": 53.3825049,
+    "lng": -6.2771474
+  },
+  {
+    "id": 170,
+    "location": "Fitzwilliam Lane",
+    "description": "The Merrion Hotel",
+    "side": "South",
+    "lat": 53.3386859,
+    "lng": -6.2521597
+  },
+  {
+    "id": 171,
+    "location": "Fitzwilliam Lane",
+    "description": "The Merrion Hotel Spa",
+    "side": "South",
+    "lat": 53.3386004,
+    "lng": -6.2518448
+  },
+  {
+    "id": 172,
+    "location": "Fitzwilliam Place",
+    "description": "9 Fitzwilliam Place",
+    "side": "East",
+    "lat": 53.3338129,
+    "lng": -6.2519971
+  },
+  {
+    "id": 173,
+    "location": "Fitzwilliam Square South",
+    "description": "35 Fitzwilliam Square South",
+    "side": "South",
+    "lat": 53.3352508,
+    "lng": -6.2532101
+  },
+  {
+    "id": 174,
+    "location": "Fitzwilliam Street",
+    "description": "NCBI Home, 12/13 Fitzwilliam Street",
+    "side": "West",
+    "lat": 53.3416916,
+    "lng": -6.2268854
+  },
+  {
+    "id": 175,
+    "location": "Fitzwilliam Street Lower",
+    "description": "ESB Head Office",
+    "side": "East",
+    "lat": 53.3372248,
+    "lng": -6.2486259
+  },
+  {
+    "id": 176,
+    "location": "Fitzwilliam Street Upper",
+    "description": "20 Fitzwilliam Street Upper",
+    "side": "West",
+    "lat": 53.3355838,
+    "lng": -6.25042
+  },
+  {
+    "id": 177,
+    "location": "Fleet Street",
+    "description": "Temple Bar Hotel",
+    "side": "North",
+    "lat": 53.3457943,
+    "lng": -6.2600712
+  },
+  {
+    "id": 178,
+    "location": "Foley Street",
+    "description": "Opposite Citas College Dublin",
+    "side": "South",
+    "lat": 53.3522592,
+    "lng": -6.2505858
+  },
+  {
+    "id": 179,
+    "location": "Foley Street",
+    "description": "Opposite Citas College Dublin",
+    "side": "South",
+    "lat": 53.3522868,
+    "lng": -6.2505066
+  },
+  {
+    "id": 180,
+    "location": "Foley Street",
+    "description": "Liberty Park",
+    "side": "South",
+    "lat": 53.3517808,
+    "lng": -6.2519168
+  },
+  {
+    "id": 181,
+    "location": "Foley Street",
+    "description": "Liberty Park",
+    "side": "South",
+    "lat": 53.3517532,
+    "lng": -6.2519961
+  },
+  {
+    "id": 182,
+    "location": "Foster Place",
+    "description": "Opposite Bank of Ireland",
+    "side": "West",
+    "lat": 53.3447356,
+    "lng": -6.2611251
+  },
+  {
+    "id": 183,
+    "location": "Foxfield Crescent",
+    "description": "Kilbarrack Health Centre",
+    "side": "North",
+    "lat": 53.3848424,
+    "lng": -6.155282
+  },
+  {
+    "id": 184,
+    "location": "Foxfield Crescent",
+    "description": "Kilbarrack Health Centre",
+    "side": "North",
+    "lat": 53.3848511,
+    "lng": -6.1551434
+  },
+  {
+    "id": 185,
+    "location": "Frederick Street South",
+    "description": "Trinity Townhouse, 29 Frederick Street South",
+    "side": "East",
+    "lat": 53.3419634,
+    "lng": -6.2566077
+  },
+  {
+    "id": 186,
+    "location": "Fumbally Lane",
+    "description": "Fumbally Court",
+    "side": "South",
+    "lat": 53.3369622,
+    "lng": -6.2740869
+  },
+  {
+    "id": 187,
+    "location": "Gardiner Street Upper",
+    "description": "Saint Francis Xavier Church",
+    "side": "East",
+    "lat": 53.357926,
+    "lng": -6.2601614
+  },
+  {
+    "id": 188,
+    "location": "Gardiner Street Upper",
+    "description": "Saint Francis Xavier Church",
+    "side": "East",
+    "lat": 53.3578858,
+    "lng": -6.260118
+  },
+  {
+    "id": 189,
+    "location": "Gateway Avenue",
+    "description": "Junction with Ballymun Road",
+    "side": "South",
+    "lat": 53.3931339,
+    "lng": -6.2644123
+  },
+  {
+    "id": 190,
+    "location": "Gateway Avenue",
+    "description": "Junction with Ballymun Road",
+    "side": "South",
+    "lat": 53.3931284,
+    "lng": -6.2645283
+  },
+  {
+    "id": 191,
+    "location": "Gilford Road",
+    "description": "Brabazon House, 2 Gilford Road",
+    "side": "North",
+    "lat": 53.3280464,
+    "lng": -6.2101992
+  },
+  {
+    "id": 192,
+    "location": "Gilford Road",
+    "description": "Brabazon House, 2 Gilford Road",
+    "side": "North",
+    "lat": 53.3280097,
+    "lng": -6.2098494
+  },
+  {
+    "id": 193,
+    "location": "Glasnevin Hill",
+    "description": "52 Glasnevin Hill",
+    "side": "West",
+    "lat": 53.3752085,
+    "lng": -6.2692611
+  },
+  {
+    "id": 194,
+    "location": "Glengarriff Parade",
+    "description": "Ormsby's Newsagent",
+    "side": "West",
+    "lat": 53.3604806,
+    "lng": -6.2661004
+  },
+  {
+    "id": 195,
+    "location": "Golden Lane",
+    "description": "Radisson Blu Hotel",
+    "side": "North",
+    "lat": 53.3407823,
+    "lng": -6.2681462
+  },
+  {
+    "id": 196,
+    "location": "Granby Row",
+    "description": "Colaiste Mhuire",
+    "side": "East",
+    "lat": 53.3537703,
+    "lng": -6.2656832
+  },
+  {
+    "id": 197,
+    "location": "Granby Row",
+    "description": "Colaiste Mhuire",
+    "side": "East",
+    "lat": 53.3537315,
+    "lng": -6.2656142
+  },
+  {
+    "id": 198,
+    "location": "Grand Canal Place",
+    "description": "Guinness Storehouse",
+    "side": "East",
+    "lat": 53.3418564,
+    "lng": -6.2875139
+  },
+  {
+    "id": 199,
+    "location": "Grand Canal Place",
+    "description": "Guinness Storehouse",
+    "side": "East",
+    "lat": 53.3417935,
+    "lng": -6.2875164
+  },
+  {
+    "id": 200,
+    "location": "Grand Canal Place",
+    "description": "Guinness Storehouse",
+    "side": "East",
+    "lat": 53.3417307,
+    "lng": -6.287519
+  },
+  {
+    "id": 201,
+    "location": "Grand Canal Quay",
+    "description": "Clanwilliam Square",
+    "side": "West",
+    "lat": 53.3394723,
+    "lng": -6.2395608
+  },
+  {
+    "id": 202,
+    "location": "Grand Canal Street Lower",
+    "description": "Sir Patrick Dun's Hospital",
+    "side": "South",
+    "lat": 53.3392009,
+    "lng": -6.2407193
+  },
+  {
+    "id": 203,
+    "location": "Grand Canal Street Lower",
+    "description": "Sir Patrick Dun's Hospital",
+    "side": "South",
+    "lat": 53.3392299,
+    "lng": -6.2407962
+  },
+  {
+    "id": 204,
+    "location": "Grangegorman Lower",
+    "description": "TU Dublin Grangegorman",
+    "side": "West",
+    "lat": 53.3557364,
+    "lng": -6.2783116
+  },
+  {
+    "id": 205,
+    "location": "Grantham Street",
+    "description": "Gratham House",
+    "side": "South",
+    "lat": 53.3341082,
+    "lng": -6.2660742
+  },
+  {
+    "id": 206,
+    "location": "Grattan Crescent",
+    "description": "Inchicore Medical Centre, 15 Grattan Crescent",
+    "side": "East",
+    "lat": 53.3405428,
+    "lng": -6.3201781
+  },
+  {
+    "id": 207,
+    "location": "Grattan Crescent",
+    "description": "Inchicore Medical Centre, 15 Grattan Crescent",
+    "side": "East",
+    "lat": 53.3404886,
+    "lng": -6.3202044
+  },
+  {
+    "id": 208,
+    "location": "Grattan Crescent",
+    "description": "Opposite Inchicore Medical Centre, 15 Grattan Crescent",
+    "side": "West",
+    "lat": 53.3405977,
+    "lng": -6.3203063
+  },
+  {
+    "id": 209,
+    "location": "Greek Street",
+    "description": "Saint Michan's House",
+    "side": "East",
+    "lat": 53.3473278,
+    "lng": -6.2730073
+  },
+  {
+    "id": 210,
+    "location": "Greek Street",
+    "description": "Saint Michan's House",
+    "side": "East",
+    "lat": 53.3473819,
+    "lng": -6.2730232
+  },
+  {
+    "id": 211,
+    "location": "Greek Street",
+    "description": "Saint Michan's House",
+    "side": "East",
+    "lat": 53.3474262,
+    "lng": -6.2730364
+  },
+  {
+    "id": 212,
+    "location": "Green Street",
+    "description": "Junction with King Street North",
+    "side": "East",
+    "lat": 53.3505076,
+    "lng": -6.2705099
+  },
+  {
+    "id": 213,
+    "location": "Green Street",
+    "description": "Junction with King Street North",
+    "side": "East",
+    "lat": 53.3504491,
+    "lng": -6.2705108
+  },
+  {
+    "id": 214,
+    "location": "Greendale Avenue",
+    "description": "North Bay Educate Together National School",
+    "side": "South",
+    "lat": 53.3854609,
+    "lng": -6.1519177
+  },
+  {
+    "id": 215,
+    "location": "Greendale Road",
+    "description": "Kilbarrack Foxfield Pre School",
+    "side": "North",
+    "lat": 53.3847293,
+    "lng": -6.1522682
+  },
+  {
+    "id": 216,
+    "location": "Greenlea Road",
+    "description": "Greenlea Pharmacy, 116 Greenlea Road",
+    "side": "North",
+    "lat": 53.3073336,
+    "lng": -6.3003052
+  },
+  {
+    "id": 217,
+    "location": "Greenmount Lane",
+    "description": "Opposite 1 Greenmount Lane",
+    "side": "East",
+    "lat": 53.3294942,
+    "lng": -6.2783972
+  },
+  {
+    "id": 218,
+    "location": "Haddington Road",
+    "description": "Saint Mary's Church",
+    "side": "South",
+    "lat": 53.3349256,
+    "lng": -6.2420905
+  },
+  {
+    "id": 219,
+    "location": "Haddington Road",
+    "description": "Junction with Percy Place",
+    "side": "South",
+    "lat": 53.3343944,
+    "lng": -6.2438557
+  },
+  {
+    "id": 220,
+    "location": "Halston Street",
+    "description": "Saint Michan's Church",
+    "side": "West",
+    "lat": 53.3493959,
+    "lng": -6.2715147
+  },
+  {
+    "id": 221,
+    "location": "Halston Street",
+    "description": "Saint Michan's Church",
+    "side": "West",
+    "lat": 53.349424,
+    "lng": -6.2715271
+  },
+  {
+    "id": 222,
+    "location": "Harcourt Terrace",
+    "description": "Junction with Adelaide Road",
+    "side": "West",
+    "lat": 53.3325978,
+    "lng": -6.2579672
+  },
+  {
+    "id": 223,
+    "location": "Hardwicke Place",
+    "description": "Opposite Saint George's Church",
+    "side": "South",
+    "lat": 53.3568924,
+    "lng": -6.2629994
+  },
+  {
+    "id": 224,
+    "location": "Hardwicke Street",
+    "description": "Junction with Frederick Court",
+    "side": "East",
+    "lat": 53.3556027,
+    "lng": -6.2641831
+  },
+  {
+    "id": 225,
+    "location": "Hardwicke Street",
+    "description": "Block 2, Dermot O'Dwyer House",
+    "side": "West",
+    "lat": 53.3561901,
+    "lng": -6.2639038
+  },
+  {
+    "id": 226,
+    "location": "Harold'S Cross Road",
+    "description": "77 Harold's Cross Road",
+    "side": "East",
+    "lat": 53.3266422,
+    "lng": -6.2777689
+  },
+  {
+    "id": 227,
+    "location": "Hatch Street Lower",
+    "description": "Junction with Leeson Street",
+    "side": "North",
+    "lat": 53.3343178,
+    "lng": -6.2556057
+  },
+  {
+    "id": 228,
+    "location": "Hatch Street Upper",
+    "description": "Opposite National Concert Hall",
+    "side": "South",
+    "lat": 53.3338148,
+    "lng": -6.2588936
+  },
+  {
+    "id": 229,
+    "location": "Haymarket",
+    "description": "Junction with Queen Street",
+    "side": "North",
+    "lat": 53.3477663,
+    "lng": -6.2798434
+  },
+  {
+    "id": 230,
+    "location": "Hendrick Lane",
+    "description": "Junction with Benburb Street",
+    "side": "East",
+    "lat": 53.3474834,
+    "lng": -6.2816708
+  },
+  {
+    "id": 231,
+    "location": "Henrietta Street",
+    "description": "Junction with Henrietta Place",
+    "side": "South",
+    "lat": 53.3523153,
+    "lng": -6.2695985
+  },
+  {
+    "id": 232,
+    "location": "Herbert Park",
+    "description": "Herbert Park Tennis Courts",
+    "side": "North",
+    "lat": 53.3274332,
+    "lng": -6.2355255
+  },
+  {
+    "id": 233,
+    "location": "Herbert Park",
+    "description": "Herbert Park Tennis Courts",
+    "side": "North",
+    "lat": 53.3274787,
+    "lng": -6.235441
+  },
+  {
+    "id": 234,
+    "location": "Herbert Park",
+    "description": "Herbert Park Tennis Courts",
+    "side": "South",
+    "lat": 53.3274619,
+    "lng": -6.2353366
+  },
+  {
+    "id": 235,
+    "location": "Herbert Street",
+    "description": "6 Herbert Street",
+    "side": "East",
+    "lat": 53.336412,
+    "lng": -6.2446348
+  },
+  {
+    "id": 236,
+    "location": "Herbert Street",
+    "description": "Junction with Baggot Street Lower",
+    "side": "West",
+    "lat": 53.3352465,
+    "lng": -6.2462443
+  },
+  {
+    "id": 237,
+    "location": "Heytesbury Street",
+    "description": "Opposite Saint Kevin's Church",
+    "side": "West",
+    "lat": 53.3328399,
+    "lng": -6.2684185
+  },
+  {
+    "id": 238,
+    "location": "Highfield Road",
+    "description": "Christ Church Rathgar",
+    "side": "North",
+    "lat": 53.3122844,
+    "lng": -6.2730312
+  },
+  {
+    "id": 239,
+    "location": "Hill Street",
+    "description": "21 Hill Street",
+    "side": "East",
+    "lat": 53.3556033,
+    "lng": -6.260582
+  },
+  {
+    "id": 240,
+    "location": "Hill Street",
+    "description": "21 Hill Street",
+    "side": "East",
+    "lat": 53.3555675,
+    "lng": -6.2605324
+  },
+  {
+    "id": 241,
+    "location": "Hill Street",
+    "description": "21 Hill Street",
+    "side": "East",
+    "lat": 53.355496,
+    "lng": -6.2604362
+  },
+  {
+    "id": 242,
+    "location": "Hill Street",
+    "description": "21 Hill Street",
+    "side": "East",
+    "lat": 53.3554584,
+    "lng": -6.2603821
+  },
+  {
+    "id": 243,
+    "location": "Hogan Place",
+    "description": "31 Hogan Place",
+    "side": "South",
+    "lat": 53.3405438,
+    "lng": -6.2438373
+  },
+  {
+    "id": 244,
+    "location": "Hogan Place",
+    "description": "30 Hogan Place",
+    "side": "South",
+    "lat": 53.3405671,
+    "lng": -6.2438919
+  },
+  {
+    "id": 245,
+    "location": "Holles Street",
+    "description": "Opposite The National Maternity Hospital",
+    "side": "West",
+    "lat": 53.3403172,
+    "lng": -6.2462134
+  },
+  {
+    "id": 246,
+    "location": "Holles Street",
+    "description": "Opposite The National Maternity Hospital",
+    "side": "West",
+    "lat": 53.3403651,
+    "lng": -6.2461679
+  },
+  {
+    "id": 247,
+    "location": "Hollybank Road",
+    "description": "Opposite Spectrum Health",
+    "side": "South",
+    "lat": 53.366852,
+    "lng": -6.2560919
+  },
+  {
+    "id": 248,
+    "location": "Howth Road",
+    "description": "Tully's Total Health Pharmacy, 439 Howth Road",
+    "side": "South",
+    "lat": 53.3802107,
+    "lng": -6.1721018
+  },
+  {
+    "id": 249,
+    "location": "Howth Road",
+    "description": "Raheny Shopping Centre",
+    "side": "North",
+    "lat": 53.3801272,
+    "lng": -6.1778056
+  },
+  {
+    "id": 250,
+    "location": "Hume Street",
+    "description": "Junction with Saint Stephen's Green",
+    "side": "North",
+    "lat": 53.3379481,
+    "lng": -6.2554245
+  },
+  {
+    "id": 251,
+    "location": "Inchicore Road",
+    "description": "Opposite Kilmainham Gaol",
+    "side": "North",
+    "lat": 53.342143,
+    "lng": -6.3088646
+  },
+  {
+    "id": 252,
+    "location": "Iona Road",
+    "description": "Saint Columba's Church",
+    "side": "North",
+    "lat": 53.3659216,
+    "lng": -6.2642249
+  },
+  {
+    "id": 253,
+    "location": "Iona Road",
+    "description": "Saint Columba's Church",
+    "side": "North",
+    "lat": 53.3658827,
+    "lng": -6.2640206
+  },
+  {
+    "id": 254,
+    "location": "Irishtown Road",
+    "description": "Irishtown & Ringsend Primary Care Centre",
+    "side": "West",
+    "lat": 53.3408034,
+    "lng": -6.2252432
+  },
+  {
+    "id": 255,
+    "location": "Irishtown Road",
+    "description": "Irishtown & Ringsend Primary Care Centre",
+    "side": "West",
+    "lat": 53.3408375,
+    "lng": -6.2253019
+  },
+  {
+    "id": 256,
+    "location": "Irishtown Road",
+    "description": "Jumction with Fairview Avenue",
+    "side": "West",
+    "lat": 53.3410986,
+    "lng": -6.2257521
+  },
+  {
+    "id": 257,
+    "location": "James'S Street",
+    "description": "Saint James Medical Centre, 178 Saint James's Street",
+    "side": "North",
+    "lat": 53.3422423,
+    "lng": -6.2948155
+  },
+  {
+    "id": 258,
+    "location": "Keeper Road",
+    "description": "Fr. Lar Redmond Community Centre",
+    "side": "North",
+    "lat": 53.3320328,
+    "lng": -6.3026926
+  },
+  {
+    "id": 259,
+    "location": "Kenilworth Road",
+    "description": "8 Kenilworth Road",
+    "side": "North",
+    "lat": 53.3200045,
+    "lng": -6.2735405
+  },
+  {
+    "id": 260,
+    "location": "Kenilworth Square South",
+    "description": "47 Kenilworth Square South",
+    "side": "South",
+    "lat": 53.3170398,
+    "lng": -6.2761893
+  },
+  {
+    "id": 261,
+    "location": "Killarney Street",
+    "description": "Killarney Court",
+    "side": "North",
+    "lat": 53.3544429,
+    "lng": -6.2494523
+  },
+  {
+    "id": 262,
+    "location": "Killarney Street",
+    "description": "Killarney Court",
+    "side": "North",
+    "lat": 53.3544563,
+    "lng": -6.2493916
+  },
+  {
+    "id": 263,
+    "location": "Killarney Street",
+    "description": "Killarney Court",
+    "side": "North",
+    "lat": 53.3544689,
+    "lng": -6.2493295
+  },
+  {
+    "id": 264,
+    "location": "Kincora Road",
+    "description": "Junction with Clontarf Road",
+    "side": "North",
+    "lat": 53.3608685,
+    "lng": -6.1831952
+  },
+  {
+    "id": 265,
+    "location": "King'S Inns Street",
+    "description": "Opposite The Salvation Army",
+    "side": "West",
+    "lat": 53.3511125,
+    "lng": -6.2669839
+  },
+  {
+    "id": 266,
+    "location": "Kinvara Park",
+    "description": "Meaghers Pharmacy, 41 Kinvara Park",
+    "side": "North",
+    "lat": 53.3689675,
+    "lng": -6.3183818
+  },
+  {
+    "id": 267,
+    "location": "La Touche Road",
+    "description": "La Touche Café, 14 La Touche Road",
+    "side": "West",
+    "lat": 53.3301359,
+    "lng": -6.3343547
+  },
+  {
+    "id": 268,
+    "location": "Larkfield Grove",
+    "description": "31 Larkfield Grove",
+    "side": "East",
+    "lat": 53.3175797,
+    "lng": -6.2873964
+  },
+  {
+    "id": 269,
+    "location": "Lea Road",
+    "description": "Junction with Strand Road",
+    "side": "South",
+    "lat": 53.3312702,
+    "lng": -6.2100582
+  },
+  {
+    "id": 270,
+    "location": "Lea Road",
+    "description": "Junction with Strand Road",
+    "side": "South",
+    "lat": 53.3312381,
+    "lng": -6.2101376
+  },
+  {
+    "id": 271,
+    "location": "Leicester Avenue",
+    "description": "Church of the Three Patrons",
+    "side": "South",
+    "lat": 53.3172417,
+    "lng": -6.2707642
+  },
+  {
+    "id": 272,
+    "location": "Leicester Avenue",
+    "description": "Church of the Three Patrons",
+    "side": "South",
+    "lat": 53.3172599,
+    "lng": -6.2708385
+  },
+  {
+    "id": 273,
+    "location": "Leinster Road",
+    "description": "11 Leinster Road",
+    "side": "North",
+    "lat": 53.3238871,
+    "lng": -6.2680695
+  },
+  {
+    "id": 274,
+    "location": "Leinster Square",
+    "description": "Junction with Rathmines Road Lower",
+    "side": "North",
+    "lat": 53.3236903,
+    "lng": -6.2657236
+  },
+  {
+    "id": 275,
+    "location": "Liffey Street West",
+    "description": "Junction with Benburb Street",
+    "side": "East",
+    "lat": 53.3476732,
+    "lng": -6.2851794
+  },
+  {
+    "id": 276,
+    "location": "Lisle Road",
+    "description": "Crumlin Village Pharmacy",
+    "side": "West",
+    "lat": 53.3205588,
+    "lng": -6.3168559
+  },
+  {
+    "id": 277,
+    "location": "Lombard Street East",
+    "description": "Joyce House, 8-11 Lombard Street East",
+    "side": "East",
+    "lat": 53.3449102,
+    "lng": -6.2487254
+  },
+  {
+    "id": 278,
+    "location": "Lombard Street East",
+    "description": "Joyce House, 8-11 Lombard Street East",
+    "side": "East",
+    "lat": 53.3448594,
+    "lng": -6.2487575
+  },
+  {
+    "id": 279,
+    "location": "Long Mile Road",
+    "description": "Long Mile Road Pharmacy, 1 Long Mile Road",
+    "side": "North",
+    "lat": 53.3240719,
+    "lng": -6.3294884
+  },
+  {
+    "id": 280,
+    "location": "Lough Conn Road",
+    "description": "Saint Louise De Marillac National School",
+    "side": "North",
+    "lat": 53.3473066,
+    "lng": -6.3607051
+  },
+  {
+    "id": 281,
+    "location": "Macken Street",
+    "description": "Conway Court",
+    "side": "West",
+    "lat": 53.3418063,
+    "lng": -6.241438
+  },
+  {
+    "id": 282,
+    "location": "Macken Street",
+    "description": "Conway Court",
+    "side": "West",
+    "lat": 53.3418682,
+    "lng": -6.2414265
+  },
+  {
+    "id": 283,
+    "location": "Main Street",
+    "description": "Raheny Health Centre",
+    "side": "East",
+    "lat": 53.3792571,
+    "lng": -6.1753324
+  },
+  {
+    "id": 284,
+    "location": "Main Street",
+    "description": "Adam's Pharmacy, 11 Main Street, Raheny",
+    "side": "East",
+    "lat": 53.379947,
+    "lng": -6.1744867
+  },
+  {
+    "id": 285,
+    "location": "Main Street",
+    "description": "Coolock Post Office, 19 Main Street, Coolock",
+    "side": "East",
+    "lat": 53.3886389,
+    "lng": -6.2007869
+  },
+  {
+    "id": 286,
+    "location": "Malahide Road",
+    "description": "Hidden Hearing, Malahide Road, Artane",
+    "side": "West",
+    "lat": 53.3821513,
+    "lng": -6.207484
+  },
+  {
+    "id": 287,
+    "location": "Manor Street",
+    "description": "Manor Health, 4 Manor Street",
+    "side": "East",
+    "lat": 53.3515484,
+    "lng": -6.2830185
+  },
+  {
+    "id": 288,
+    "location": "Manor Street",
+    "description": "76 Manor Street",
+    "side": "West",
+    "lat": 53.3521465,
+    "lng": -6.2837951
+  },
+  {
+    "id": 289,
+    "location": "Mark Street",
+    "description": "Saint Mark's Church",
+    "side": "East",
+    "lat": 53.3447458,
+    "lng": -6.2514297
+  },
+  {
+    "id": 290,
+    "location": "Mark'S Lane",
+    "description": "Pearse Street Primary Care Centre",
+    "side": "North",
+    "lat": 53.3449115,
+    "lng": -6.2500381
+  },
+  {
+    "id": 291,
+    "location": "Mark'S Lane",
+    "description": "Pearse Street Primary Care Centre",
+    "side": "North",
+    "lat": 53.3449038,
+    "lng": -6.2499483
+  },
+  {
+    "id": 292,
+    "location": "Marlborough Street",
+    "description": "Opposite The Spire Car Park",
+    "side": "West",
+    "lat": 53.3520859,
+    "lng": -6.2590788
+  },
+  {
+    "id": 293,
+    "location": "Marlborough Street",
+    "description": "Opposite The Spire Car Park",
+    "side": "West",
+    "lat": 53.3521501,
+    "lng": -6.2591078
+  },
+  {
+    "id": 294,
+    "location": "Marlborough Street",
+    "description": "An Bord Pleanála",
+    "side": "West",
+    "lat": 53.3528471,
+    "lng": -6.2594384
+  },
+  {
+    "id": 295,
+    "location": "Marrowbone Lane",
+    "description": "Saint Catherine's Community Sports Centre",
+    "side": "East",
+    "lat": 53.3388996,
+    "lng": -6.2867809
+  },
+  {
+    "id": 296,
+    "location": "Martin'S Row",
+    "description": "Saint Laurence's Church",
+    "side": "North",
+    "lat": 53.3499568,
+    "lng": -6.3449905
+  },
+  {
+    "id": 297,
+    "location": "Maryfield Avenue",
+    "description": "Track Sports, 1 Maryfield Avenue",
+    "side": "West",
+    "lat": 53.3862836,
+    "lng": -6.2116447
+  },
+  {
+    "id": 298,
+    "location": "Mayor Street Lower",
+    "description": "Spar, Mayor Street Lower",
+    "side": "North",
+    "lat": 53.3493781,
+    "lng": -6.24444
+  },
+  {
+    "id": 299,
+    "location": "Mayor Street Lower",
+    "description": "Opposite National College of Ireland",
+    "side": "North",
+    "lat": 53.3492332,
+    "lng": -6.2422259
+  },
+  {
+    "id": 300,
+    "location": "Mcauley Avenue",
+    "description": "Scoil Neasáin",
+    "side": "South",
+    "lat": 53.3824556,
+    "lng": -6.1960041
+  },
+  {
+    "id": 301,
+    "location": "Meath Street",
+    "description": "Junction with The Coombe",
+    "side": "West",
+    "lat": 53.3399932,
+    "lng": -6.2780839
+  },
+  {
+    "id": 302,
+    "location": "Meath Street",
+    "description": "Vincent's Shop, 35 Meath Street",
+    "side": "West",
+    "lat": 53.3406589,
+    "lng": -6.2783154
+  },
+  {
+    "id": 303,
+    "location": "Meath Street",
+    "description": "Cut Price Jewellers, 25 Meath Street",
+    "side": "West",
+    "lat": 53.3412848,
+    "lng": -6.2786476
+  },
+  {
+    "id": 304,
+    "location": "Merrion Road",
+    "description": "Spar, 6 Merrion Road",
+    "side": "North",
+    "lat": 53.3291158,
+    "lng": -6.2307927
+  },
+  {
+    "id": 305,
+    "location": "Merrion Square East",
+    "description": "Opposite 45 Merrion Square East",
+    "side": "West",
+    "lat": 53.3387799,
+    "lng": -6.2472331
+  },
+  {
+    "id": 306,
+    "location": "Merrion Square South",
+    "description": "69 Merrion Square South",
+    "side": "South",
+    "lat": 53.3389233,
+    "lng": -6.2498343
+  },
+  {
+    "id": 307,
+    "location": "Merrion Square South",
+    "description": "70 Merrion Square South",
+    "side": "South",
+    "lat": 53.3389402,
+    "lng": -6.2498831
+  },
+  {
+    "id": 308,
+    "location": "Merrion Square South",
+    "description": "70 Merrion Square South",
+    "side": "South",
+    "lat": 53.338957,
+    "lng": -6.2499305
+  },
+  {
+    "id": 309,
+    "location": "Merrion Square South",
+    "description": "71 Merrion Square South",
+    "side": "South",
+    "lat": 53.3389739,
+    "lng": -6.2499794
+  },
+  {
+    "id": 310,
+    "location": "Merrion Square West",
+    "description": "National Gallery of Ireland",
+    "side": "West",
+    "lat": 53.340393,
+    "lng": -6.2515642
+  },
+  {
+    "id": 311,
+    "location": "Merrion Square West",
+    "description": "National Gallery of Ireland",
+    "side": "West",
+    "lat": 53.3404223,
+    "lng": -6.2515375
+  },
+  {
+    "id": 312,
+    "location": "Merrion Square West",
+    "description": "National Gallery of Ireland",
+    "side": "West",
+    "lat": 53.3404515,
+    "lng": -6.2515093
+  },
+  {
+    "id": 313,
+    "location": "Merrion Square West",
+    "description": "National Gallery of Ireland",
+    "side": "West",
+    "lat": 53.3404808,
+    "lng": -6.2514825
+  },
+  {
+    "id": 314,
+    "location": "Merville Avenue",
+    "description": "Saint Joseph's Secondary School",
+    "side": "East",
+    "lat": 53.3639012,
+    "lng": -6.2340909
+  },
+  {
+    "id": 315,
+    "location": "Merville Avenue",
+    "description": "Saint Joseph's Secondary School",
+    "side": "East",
+    "lat": 53.3638478,
+    "lng": -6.2341232
+  },
+  {
+    "id": 316,
+    "location": "Millbourne Avenue",
+    "description": "Millmount Library",
+    "side": "South",
+    "lat": 53.3701009,
+    "lng": -6.2590295
+  },
+  {
+    "id": 317,
+    "location": "Millbourne Avenue",
+    "description": "Millmount Library",
+    "side": "South",
+    "lat": 53.3701218,
+    "lng": -6.2591038
+  },
+  {
+    "id": 318,
+    "location": "Milltown Road",
+    "description": "Church of Saints Columbanus and Gall",
+    "side": "West",
+    "lat": 53.311456,
+    "lng": -6.2480317
+  },
+  {
+    "id": 319,
+    "location": "Milltown Road",
+    "description": "Milltown Parish Pastoral Centre",
+    "side": "West",
+    "lat": 53.3119969,
+    "lng": -6.2478355
+  },
+  {
+    "id": 320,
+    "location": "Molesworth Street",
+    "description": "Junction with Frederick Street South",
+    "side": "North",
+    "lat": 53.3412182,
+    "lng": -6.2572824
+  },
+  {
+    "id": 321,
+    "location": "Molesworth Street",
+    "description": "29 Molesworth Street",
+    "side": "South",
+    "lat": 53.3409311,
+    "lng": -6.2560867
+  },
+  {
+    "id": 322,
+    "location": "Molesworth Street",
+    "description": "30 Molesworth Street",
+    "side": "South",
+    "lat": 53.3409515,
+    "lng": -6.256194
+  },
+  {
+    "id": 323,
+    "location": "Montague Street",
+    "description": "Opposite Gerry's Coffee Shop, 6 Montaque Street",
+    "side": "South",
+    "lat": 53.3364634,
+    "lng": -6.2646767
+  },
+  {
+    "id": 324,
+    "location": "Morehampton Road",
+    "description": "Pure Pharmacy, 79 Morehampton Road",
+    "side": "West",
+    "lat": 53.3245242,
+    "lng": -6.2404225
+  },
+  {
+    "id": 325,
+    "location": "Morning Star Avenue",
+    "description": "The Richmond Education and Event Centre",
+    "side": "West",
+    "lat": 53.3510579,
+    "lng": -6.2758699
+  },
+  {
+    "id": 326,
+    "location": "Morning Star Avenue",
+    "description": "The Richmond Education and Event Centre",
+    "side": "West",
+    "lat": 53.3511065,
+    "lng": -6.2758724
+  },
+  {
+    "id": 327,
+    "location": "Morning Star Avenue",
+    "description": "The Richmond Education and Event Centre",
+    "side": "West",
+    "lat": 53.351155,
+    "lng": -6.2758719
+  },
+  {
+    "id": 328,
+    "location": "Mount Eden Road",
+    "description": "1 Mount Eden Road",
+    "side": "North",
+    "lat": 53.3233714,
+    "lng": -6.2397779
+  },
+  {
+    "id": 329,
+    "location": "Mount Street Crescent",
+    "description": "Saint Stephen's Church",
+    "side": "South",
+    "lat": 53.3369448,
+    "lng": -6.243766
+  },
+  {
+    "id": 330,
+    "location": "Mount Street Lower",
+    "description": "Dublin Passport Office, 42-47 Mount Street Lower",
+    "side": "South",
+    "lat": 53.3380943,
+    "lng": -6.2421119
+  },
+  {
+    "id": 331,
+    "location": "Mount Street Upper",
+    "description": "37 Upper Mount Street",
+    "side": "South",
+    "lat": 53.3371751,
+    "lng": -6.2449443
+  },
+  {
+    "id": 332,
+    "location": "Mount Street Upper",
+    "description": "48 Upper Mount Street",
+    "side": "South",
+    "lat": 53.3375445,
+    "lng": -6.2459818
+  },
+  {
+    "id": 333,
+    "location": "Mountjoy Square East",
+    "description": "29 Mountjoy Square",
+    "side": "East",
+    "lat": 53.3567844,
+    "lng": -6.2562116
+  },
+  {
+    "id": 334,
+    "location": "Moyne Road",
+    "description": "Junction with Dunville Avenue",
+    "side": "West",
+    "lat": 53.3210306,
+    "lng": -6.2558506
+  },
+  {
+    "id": 335,
+    "location": "Nelson Street",
+    "description": "Opposite Centre for Nurse Education",
+    "side": "West",
+    "lat": 53.3580955,
+    "lng": -6.2673646
+  },
+  {
+    "id": 336,
+    "location": "Nerney'S Court",
+    "description": "Junction with Temple Street",
+    "side": "North",
+    "lat": 53.3564488,
+    "lng": -6.2615527
+  },
+  {
+    "id": 337,
+    "location": "Nerney'S Court",
+    "description": "Junction with Temple Street",
+    "side": "North",
+    "lat": 53.3564821,
+    "lng": -6.2614897
+  },
+  {
+    "id": 338,
+    "location": "New Bride Street",
+    "description": "Junction with Long Lane",
+    "side": "West",
+    "lat": 53.3363662,
+    "lng": -6.2689994
+  },
+  {
+    "id": 339,
+    "location": "New Bride Street",
+    "description": "Junction with Long Lane",
+    "side": "West",
+    "lat": 53.3364167,
+    "lng": -6.2690079
+  },
+  {
+    "id": 340,
+    "location": "Newmarket",
+    "description": "Creedon Group Ltd, 12 Newmarket",
+    "side": "South",
+    "lat": 53.337909,
+    "lng": -6.2766662
+  },
+  {
+    "id": 341,
+    "location": "Newmarket",
+    "description": "Creedon Group Ltd, 12 Newmarket",
+    "side": "South",
+    "lat": 53.3379097,
+    "lng": -6.2767127
+  },
+  {
+    "id": 342,
+    "location": "Noel Purcell Walk",
+    "description": "Beaux Lane House",
+    "side": "South",
+    "lat": 53.3403066,
+    "lng": -6.2639845
+  },
+  {
+    "id": 343,
+    "location": "North Great George'S Street",
+    "description": "HSE, 44 North Great George's Street",
+    "side": "East",
+    "lat": 53.354867,
+    "lng": -6.2611228
+  },
+  {
+    "id": 344,
+    "location": "North Great George'S Street",
+    "description": "HSE, 44 North Great George's Street",
+    "side": "East",
+    "lat": 53.3547534,
+    "lng": -6.2609787
+  },
+  {
+    "id": 345,
+    "location": "North Great George'S Street",
+    "description": "27 North Great George's Street",
+    "side": "West",
+    "lat": 53.3537164,
+    "lng": -6.2597605
+  },
+  {
+    "id": 346,
+    "location": "North Great George'S Street",
+    "description": "27 North Great George's Street",
+    "side": "West",
+    "lat": 53.353754,
+    "lng": -6.2598146
+  },
+  {
+    "id": 347,
+    "location": "North Wall Avenue",
+    "description": "South of junction with Mayor Street Upper",
+    "side": "East",
+    "lat": 53.3479571,
+    "lng": -6.2298383
+  },
+  {
+    "id": 348,
+    "location": "North Wall Avenue",
+    "description": "South of junction with Mayor Street Upper",
+    "side": "East",
+    "lat": 53.347897,
+    "lng": -6.2298483
+  },
+  {
+    "id": 349,
+    "location": "North Wall Quay",
+    "description": "Waterfront",
+    "side": "North",
+    "lat": 53.3470732,
+    "lng": -6.2319988
+  },
+  {
+    "id": 350,
+    "location": "North Wall Quay",
+    "description": "Waterfront",
+    "side": "North",
+    "lat": 53.3469943,
+    "lng": -6.2309792
+  },
+  {
+    "id": 351,
+    "location": "Northbrook Avenue",
+    "description": "13 Northbrook Avenue",
+    "side": "North",
+    "lat": 53.3277709,
+    "lng": -6.2555516
+  },
+  {
+    "id": 352,
+    "location": "Northbrook Road",
+    "description": "Junction with Ranelagh Road",
+    "side": "North",
+    "lat": 53.3283427,
+    "lng": -6.2582637
+  },
+  {
+    "id": 353,
+    "location": "Northumberland Square",
+    "description": "Junction with Abbey Street Lower",
+    "side": "East",
+    "lat": 53.3491654,
+    "lng": -6.256045
+  },
+  {
+    "id": 354,
+    "location": "Nutley Lane",
+    "description": "Merrion Shopping Centre",
+    "side": "North",
+    "lat": 53.3184688,
+    "lng": -6.213389
+  },
+  {
+    "id": 355,
+    "location": "Nutley Lane",
+    "description": "Merrion Shopping Centre",
+    "side": "North",
+    "lat": 53.3184863,
+    "lng": -6.2132967
+  },
+  {
+    "id": 356,
+    "location": "Nutley Lane",
+    "description": "Merrion Shopping Centre",
+    "side": "North",
+    "lat": 53.3185256,
+    "lng": -6.2131044
+  },
+  {
+    "id": 357,
+    "location": "Nutley Lane",
+    "description": "Merrion Shopping Centre",
+    "side": "North",
+    "lat": 53.3185449,
+    "lng": -6.2130135
+  },
+  {
+    "id": 358,
+    "location": "Ormond Quay Upper",
+    "description": "Raymond Quinn Solicitor, 23 Ormond Quay Upper",
+    "side": "North",
+    "lat": 53.3457862,
+    "lng": -6.2703901
+  },
+  {
+    "id": 359,
+    "location": "Ormond Quay Upper",
+    "description": "Word Perfect Translations, 22 Ormond Quay Upper",
+    "side": "North",
+    "lat": 53.3457951,
+    "lng": -6.2703222
+  },
+  {
+    "id": 360,
+    "location": "Ormond Quay Upper",
+    "description": "Inn on the Liffey, 21 Ormond Quay Upper",
+    "side": "North",
+    "lat": 53.3458064,
+    "lng": -6.2702331
+  },
+  {
+    "id": 361,
+    "location": "Ormond Road",
+    "description": "31 Ormond Road",
+    "side": "South",
+    "lat": 53.3699674,
+    "lng": -6.2513104
+  },
+  {
+    "id": 362,
+    "location": "Ormond Road",
+    "description": "31 Ormond Road",
+    "side": "South",
+    "lat": 53.3699756,
+    "lng": -6.2513822
+  },
+  {
+    "id": 363,
+    "location": "Palmerston Park",
+    "description": "12 Palmerston Park",
+    "side": "North",
+    "lat": 53.3134353,
+    "lng": -6.258416
+  },
+  {
+    "id": 364,
+    "location": "Park Drive",
+    "description": "43 Park Drive",
+    "side": "West",
+    "lat": 53.317692,
+    "lng": -6.2514642
+  },
+  {
+    "id": 365,
+    "location": "Parkgate Street",
+    "description": "The Criminal Courts of Justice",
+    "side": "North",
+    "lat": 53.348262,
+    "lng": -6.2959706
+  },
+  {
+    "id": 366,
+    "location": "Parkgate Street",
+    "description": "The Criminal Courts of Justice",
+    "side": "North",
+    "lat": 53.3482578,
+    "lng": -6.2958701
+  },
+  {
+    "id": 367,
+    "location": "Parkgate Street",
+    "description": "Opposite Tipperary House, 7 Parkgate Street",
+    "side": "South",
+    "lat": 53.3478841,
+    "lng": -6.2904146
+  },
+  {
+    "id": 368,
+    "location": "Parnell Square North",
+    "description": "The Hugh Lane Gallery",
+    "side": "North",
+    "lat": 53.3539265,
+    "lng": -6.2648041
+  },
+  {
+    "id": 369,
+    "location": "Parnell Square North",
+    "description": "The Hugh Lane Gallery",
+    "side": "North",
+    "lat": 53.3539455,
+    "lng": -6.2647537
+  },
+  {
+    "id": 370,
+    "location": "Parnell Square North",
+    "description": "The Hugh Lane Gallery",
+    "side": "North",
+    "lat": 53.3540257,
+    "lng": -6.2645822
+  },
+  {
+    "id": 371,
+    "location": "Parnell Square North",
+    "description": "Garden of Remembrance",
+    "side": "South",
+    "lat": 53.3541247,
+    "lng": -6.2639713
+  },
+  {
+    "id": 372,
+    "location": "Parnell Square North",
+    "description": "Garden of Remembrance",
+    "side": "South",
+    "lat": 53.3540892,
+    "lng": -6.2640644
+  },
+  {
+    "id": 373,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3527076,
+    "lng": -6.2641175
+  },
+  {
+    "id": 374,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3526755,
+    "lng": -6.2640722
+  },
+  {
+    "id": 375,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3526451,
+    "lng": -6.2640254
+  },
+  {
+    "id": 376,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3522715,
+    "lng": -6.2634878
+  },
+  {
+    "id": 377,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3522412,
+    "lng": -6.2634454
+  },
+  {
+    "id": 378,
+    "location": "Parnell Square West",
+    "description": "Rotunda Hospital",
+    "side": "East",
+    "lat": 53.3522137,
+    "lng": -6.2634045
+  },
+  {
+    "id": 379,
+    "location": "Parnell Street",
+    "description": "Egali Hostel, 146 Parnell Street",
+    "side": "North",
+    "lat": 53.3534471,
+    "lng": -6.2596603
+  },
+  {
+    "id": 380,
+    "location": "Parnell Street",
+    "description": "Brazuca's Market, 145 Parnell Street",
+    "side": "North",
+    "lat": 53.3534915,
+    "lng": -6.2595594
+  },
+  {
+    "id": 381,
+    "location": "Parnell Street",
+    "description": "Nimra Asian Foods, 90 Parnell Street",
+    "side": "South",
+    "lat": 53.3531295,
+    "lng": -6.2600668
+  },
+  {
+    "id": 382,
+    "location": "Pearse Street",
+    "description": "Apache Pizza, 108 Pearse Street",
+    "side": "North",
+    "lat": 53.3430525,
+    "lng": -6.2431154
+  },
+  {
+    "id": 383,
+    "location": "Pearse Street",
+    "description": "Opposite Trinity Technology and Enterprise Campus",
+    "side": "North",
+    "lat": 53.342707,
+    "lng": -6.2404022
+  },
+  {
+    "id": 384,
+    "location": "Pembroke Road",
+    "description": "46 Pembroke Road",
+    "side": "North",
+    "lat": 53.3326109,
+    "lng": -6.2401812
+  },
+  {
+    "id": 385,
+    "location": "Pembroke Road",
+    "description": "48 Pembroke Road",
+    "side": "North",
+    "lat": 53.3326052,
+    "lng": -6.2400989
+  },
+  {
+    "id": 386,
+    "location": "Philipsburgh Avenue",
+    "description": "The Edge, 203 Philipsburgh Avenue",
+    "side": "West",
+    "lat": 53.3709064,
+    "lng": -6.2385832
+  },
+  {
+    "id": 387,
+    "location": "Poppintree Parade",
+    "description": "Poppintree Pharmacy",
+    "side": "South",
+    "lat": 53.3997109,
+    "lng": -6.2764794
+  },
+  {
+    "id": 388,
+    "location": "Portland Street North",
+    "description": "Pure Pharmacy",
+    "side": "East",
+    "lat": 53.3593617,
+    "lng": -6.2563062
+  },
+  {
+    "id": 389,
+    "location": "Raheny Road",
+    "description": "87 Raheny Road",
+    "side": "West",
+    "lat": 53.384337,
+    "lng": -6.1757872
+  },
+  {
+    "id": 390,
+    "location": "Ranelagh",
+    "description": "Burke's Pharmacy, 21-23 Ranelagh",
+    "side": "West",
+    "lat": 53.3256507,
+    "lng": -6.2553693
+  },
+  {
+    "id": 391,
+    "location": "Ranelagh",
+    "description": "Ranelagh Luas Stop",
+    "side": "West",
+    "lat": 53.3261118,
+    "lng": -6.2558655
+  },
+  {
+    "id": 392,
+    "location": "Ranelagh Avenue",
+    "description": "Opposite AIB Bank",
+    "side": "South",
+    "lat": 53.3255628,
+    "lng": -6.2547094
+  },
+  {
+    "id": 393,
+    "location": "Rathdown Avenue",
+    "description": "Bushy Park entrance opposite Rathdown Crescent",
+    "side": "South",
+    "lat": 53.3048247,
+    "lng": -6.2872767
+  },
+  {
+    "id": 394,
+    "location": "Rathdown Avenue",
+    "description": "Bushy Park entrance at Tennis Courts",
+    "side": "South",
+    "lat": 53.3031378,
+    "lng": -6.289856
+  },
+  {
+    "id": 395,
+    "location": "Rathdown Avenue",
+    "description": "Bushy Park entrance opposite Rathdown Drive",
+    "side": "South",
+    "lat": 53.3036838,
+    "lng": -6.2935885
+  },
+  {
+    "id": 396,
+    "location": "Rathfarnham Road",
+    "description": "Bank of Ireland, 1 Rathfarnham Road",
+    "side": "West",
+    "lat": 53.3094994,
+    "lng": -6.283773
+  },
+  {
+    "id": 397,
+    "location": "Rathgar Road",
+    "description": "Benezet Antiques, 101A Rathgar Road",
+    "side": "West",
+    "lat": 53.3123963,
+    "lng": -6.2739932
+  },
+  {
+    "id": 398,
+    "location": "Rathmines Road Upper",
+    "description": "Rathmines Post Office, 4-6 Rathmines Road Upper",
+    "side": "East",
+    "lat": 53.3215384,
+    "lng": -6.2657733
+  },
+  {
+    "id": 399,
+    "location": "Rathmines Road Upper",
+    "description": "Uppercross House Hotel, 36 Rathmines Road Upper",
+    "side": "East",
+    "lat": 53.3206461,
+    "lng": -6.2652916
+  },
+  {
+    "id": 400,
+    "location": "Rathmines Road Upper",
+    "description": "Uppercross House Hotel, 36 Rathmines Road Upper",
+    "side": "East",
+    "lat": 53.3206034,
+    "lng": -6.2652648
+  },
+  {
+    "id": 401,
+    "location": "Raymond Street",
+    "description": "Opposite 1 Raymond Street",
+    "side": "East",
+    "lat": 53.3322279,
+    "lng": -6.2769327
+  },
+  {
+    "id": 402,
+    "location": "Richmond Avenue South",
+    "description": "Brookfield Court",
+    "side": "West",
+    "lat": 53.3126766,
+    "lng": -6.2526913
+  },
+  {
+    "id": 403,
+    "location": "Richmond Row",
+    "description": "Atlas Language School, Portobello House",
+    "side": "East",
+    "lat": 53.3304935,
+    "lng": -6.2649821
+  },
+  {
+    "id": 404,
+    "location": "Richmond Row",
+    "description": "Atlas Language School, Portobello House",
+    "side": "East",
+    "lat": 53.3304484,
+    "lng": -6.264975
+  },
+  {
+    "id": 405,
+    "location": "Richmond Street North",
+    "description": "8 Richmond Street North",
+    "side": "East",
+    "lat": 53.3587444,
+    "lng": -6.2501729
+  },
+  {
+    "id": 406,
+    "location": "Rope Walk Place",
+    "description": "Junction with Fitzwilliam Street",
+    "side": "North",
+    "lat": 53.3424279,
+    "lng": -6.2271357
+  },
+  {
+    "id": 407,
+    "location": "Royal Canal Bank",
+    "description": "Phibsboro Library",
+    "side": "South",
+    "lat": 53.3612538,
+    "lng": -6.2710754
+  },
+  {
+    "id": 408,
+    "location": "Rutland Street Lower",
+    "description": "Rutland Street School",
+    "side": "West",
+    "lat": 53.3548413,
+    "lng": -6.2521656
+  },
+  {
+    "id": 409,
+    "location": "Saint Agnes Park",
+    "description": "City Girl, 58 Saint Agnes Park",
+    "side": "North",
+    "lat": 53.3194753,
+    "lng": -6.3127482
+  },
+  {
+    "id": 410,
+    "location": "Saint Anthony'S Road",
+    "description": "Enable Ireland, 41 Saint Anthony's Road",
+    "side": "East",
+    "lat": 53.3376117,
+    "lng": -6.2939986
+  },
+  {
+    "id": 411,
+    "location": "Saint Anthony'S Road",
+    "description": "Enable Ireland, 41 Saint Anthony's Road",
+    "side": "East",
+    "lat": 53.3375351,
+    "lng": -6.2940497
+  },
+  {
+    "id": 412,
+    "location": "Saint Brigid'S Road",
+    "description": "Evelyn Bradley Pharmacy, 48 Saint Brigid's Road",
+    "side": "West",
+    "lat": 53.3818781,
+    "lng": -6.2051504
+  },
+  {
+    "id": 413,
+    "location": "Saint Brigid'S Road",
+    "description": "AIB Bank, 62 Saint Brigid's Road",
+    "side": "West",
+    "lat": 53.3824505,
+    "lng": -6.2052029
+  },
+  {
+    "id": 414,
+    "location": "Saint Canice'S Road",
+    "description": "Sacred Heart Boys School",
+    "side": "North",
+    "lat": 53.3838317,
+    "lng": -6.2744195
+  },
+  {
+    "id": 415,
+    "location": "Saint Canice'S Road",
+    "description": "Sacred Heart Boys School",
+    "side": "North",
+    "lat": 53.3838879,
+    "lng": -6.2741421
+  },
+  {
+    "id": 416,
+    "location": "Saint Canice'S Road",
+    "description": "Sacred Heart Boys School",
+    "side": "North",
+    "lat": 53.3839005,
+    "lng": -6.2740784
+  },
+  {
+    "id": 417,
+    "location": "Saint David'S Terrace",
+    "description": "Met Eireann",
+    "side": "West",
+    "lat": 53.3758779,
+    "lng": -6.2692505
+  },
+  {
+    "id": 418,
+    "location": "Saint James'S Terrace",
+    "description": "Our Lady of Dolours Church",
+    "side": "East",
+    "lat": 53.3330786,
+    "lng": -6.2912711
+  },
+  {
+    "id": 419,
+    "location": "Saint James'S Terrace",
+    "description": "Our Lady of Dolours Church",
+    "side": "East",
+    "lat": 53.3330396,
+    "lng": -6.2913117
+  },
+  {
+    "id": 420,
+    "location": "Saint John'S Road",
+    "description": "Saint John's Church",
+    "side": "South",
+    "lat": 53.3243932,
+    "lng": -6.2117903
+  },
+  {
+    "id": 421,
+    "location": "Saint Peter'S Road",
+    "description": "Opposite 5 Saint Peter's Road",
+    "side": "East",
+    "lat": 53.3610849,
+    "lng": -6.276918
+  },
+  {
+    "id": 422,
+    "location": "Saint Stephen'S Green North",
+    "description": "15 Saint Stephen's Green",
+    "side": "North",
+    "lat": 53.3394408,
+    "lng": -6.2584212
+  },
+  {
+    "id": 423,
+    "location": "Saint Stephen'S Green North",
+    "description": "Cliff Townhouse, 22 Saint Stephen's Green",
+    "side": "North",
+    "lat": 53.3391308,
+    "lng": -6.2572579
+  },
+  {
+    "id": 424,
+    "location": "Saint Stephen'S Green North",
+    "description": "23 Saint Stephen's Green",
+    "side": "North",
+    "lat": 53.339108,
+    "lng": -6.2571747
+  },
+  {
+    "id": 425,
+    "location": "Saint Stephen'S Green West",
+    "description": "Royal College of Surgeons",
+    "side": "West",
+    "lat": 53.3385534,
+    "lng": -6.2619143
+  },
+  {
+    "id": 426,
+    "location": "Saint Stephen'S Green West",
+    "description": "Royal College of Surgeons",
+    "side": "West",
+    "lat": 53.3385962,
+    "lng": -6.2618885
+  },
+  {
+    "id": 427,
+    "location": "Saint Stephen'S Green West",
+    "description": "Stephen's Green Shopping Centre",
+    "side": "West",
+    "lat": 53.3394633,
+    "lng": -6.2611985
+  },
+  {
+    "id": 428,
+    "location": "Saint Stephen'S Green West",
+    "description": "Stephen's Green Shopping Centre",
+    "side": "West",
+    "lat": 53.3395061,
+    "lng": -6.2611682
+  },
+  {
+    "id": 429,
+    "location": "Saint Stephen'S Green West",
+    "description": "Stephen's Green Shopping Centre",
+    "side": "West",
+    "lat": 53.3396573,
+    "lng": -6.2610599
+  },
+  {
+    "id": 430,
+    "location": "Sandymount Green",
+    "description": "17 Sandymount Green",
+    "side": "West",
+    "lat": 53.3315037,
+    "lng": -6.2158652
+  },
+  {
+    "id": 431,
+    "location": "Sandymount Green",
+    "description": "Jaz Hair Co., 20B Sandymount Green",
+    "side": "West",
+    "lat": 53.3318692,
+    "lng": -6.2158469
+  },
+  {
+    "id": 432,
+    "location": "Sandymount Green",
+    "description": "Sandymount Pharmacy, 1A Sandymount Green",
+    "side": "East",
+    "lat": 53.3322673,
+    "lng": -6.2153003
+  },
+  {
+    "id": 433,
+    "location": "Sandymount Green",
+    "description": "Sandymount Pharmacy, 1A Sandymount Green",
+    "side": "East",
+    "lat": 53.3322439,
+    "lng": -6.2152382
+  },
+  {
+    "id": 434,
+    "location": "Sandymount Road",
+    "description": "Saint Mary's Church",
+    "side": "East",
+    "lat": 53.3358257,
+    "lng": -6.2201131
+  },
+  {
+    "id": 435,
+    "location": "Sandymount Road",
+    "description": "Saint Mary's Church",
+    "side": "East",
+    "lat": 53.3357848,
+    "lng": -6.2200803
+  },
+  {
+    "id": 436,
+    "location": "Sandymount Road",
+    "description": "Tesco, 80 Sandymount Road",
+    "side": "East",
+    "lat": 53.3331168,
+    "lng": -6.2163294
+  },
+  {
+    "id": 437,
+    "location": "Seafield Road West",
+    "description": "Saint John the Baptist School",
+    "side": "South",
+    "lat": 53.3640304,
+    "lng": -6.1998481
+  },
+  {
+    "id": 438,
+    "location": "Seafort Avenue",
+    "description": "Seafort Terrace",
+    "side": "North",
+    "lat": 53.3333908,
+    "lng": -6.2143374
+  },
+  {
+    "id": 439,
+    "location": "Seamus Ennis Road",
+    "description": "Supervalu Car Park Entrance",
+    "side": "North",
+    "lat": 53.3901994,
+    "lng": -6.2994499
+  },
+  {
+    "id": 440,
+    "location": "Seamus Ennis Road",
+    "description": "Finglas Credit Union",
+    "side": "North",
+    "lat": 53.3900617,
+    "lng": -6.2972316
+  },
+  {
+    "id": 441,
+    "location": "Sean Macdermott Street Lower",
+    "description": "Sean MacDermott Street Swimming Pool",
+    "side": "North",
+    "lat": 53.353879,
+    "lng": -6.2521885
+  },
+  {
+    "id": 442,
+    "location": "Serpentine Avenue",
+    "description": "Opposite 15 Serpentine Avenue",
+    "side": "West",
+    "lat": 53.3286403,
+    "lng": -6.226008
+  },
+  {
+    "id": 443,
+    "location": "Shangan Gardens",
+    "description": "88 Shangan Gardens",
+    "side": "West",
+    "lat": 53.3930053,
+    "lng": -6.2556498
+  },
+  {
+    "id": 444,
+    "location": "Shantalla Road",
+    "description": "Haven Pharmacy, 2 Shantalla Road",
+    "side": "West",
+    "lat": 53.3856941,
+    "lng": -6.2338069
+  },
+  {
+    "id": 445,
+    "location": "Shelbourne Road",
+    "description": "IBM House",
+    "side": "East",
+    "lat": 53.3320021,
+    "lng": -6.2317123
+  },
+  {
+    "id": 446,
+    "location": "Shelbourne Road",
+    "description": "Starbucks Coffee, The Oval",
+    "side": "East",
+    "lat": 53.3312491,
+    "lng": -6.2317855
+  },
+  {
+    "id": 447,
+    "location": "Shelbourne Road",
+    "description": "Ballsbridge College of Further Education",
+    "side": "East",
+    "lat": 53.3298845,
+    "lng": -6.2318374
+  },
+  {
+    "id": 448,
+    "location": "Shelbourne Road",
+    "description": "Ballsbridge College of Further Education",
+    "side": "East",
+    "lat": 53.329836,
+    "lng": -6.2318394
+  },
+  {
+    "id": 449,
+    "location": "Silloge Road",
+    "description": "Ballymun Post Office",
+    "side": "South",
+    "lat": 53.3952784,
+    "lng": -6.2645942
+  },
+  {
+    "id": 450,
+    "location": "Sir John Rogerson'S Quay",
+    "description": "56 Sir John Rogerson's Quay",
+    "side": "South",
+    "lat": 53.3458182,
+    "lng": -6.2366558
+  },
+  {
+    "id": 451,
+    "location": "Smithfield",
+    "description": "Maldron Hotel, Smithfield",
+    "side": "West",
+    "lat": 53.3495308,
+    "lng": -6.2781095
+  },
+  {
+    "id": 452,
+    "location": "Smithfield",
+    "description": "Phoenix House",
+    "side": "East",
+    "lat": 53.3470238,
+    "lng": -6.2783413
+  },
+  {
+    "id": 453,
+    "location": "South Circular Road",
+    "description": "684 South Circular Road",
+    "side": "North",
+    "lat": 53.3392434,
+    "lng": -6.3055659
+  },
+  {
+    "id": 454,
+    "location": "South Circular Road",
+    "description": "Rialto Parish Church",
+    "side": "North",
+    "lat": 53.335749,
+    "lng": -6.2964245
+  },
+  {
+    "id": 455,
+    "location": "South Circular Road",
+    "description": "Haven Pharmacy, 449 South Circular Road",
+    "side": "South",
+    "lat": 53.33605,
+    "lng": -6.2981859
+  },
+  {
+    "id": 456,
+    "location": "Sperrin Road",
+    "description": "Saint John Bosco Youth Centre",
+    "side": "West",
+    "lat": 53.3351288,
+    "lng": -6.3175136
+  },
+  {
+    "id": 457,
+    "location": "Stannaway Drive",
+    "description": "Cashel Business Centre",
+    "side": "East",
+    "lat": 53.3175816,
+    "lng": -6.300731
+  },
+  {
+    "id": 458,
+    "location": "Stannaway Drive",
+    "description": "Cashel Business Centre",
+    "side": "East",
+    "lat": 53.3175387,
+    "lng": -6.3006802
+  },
+  {
+    "id": 459,
+    "location": "Stephen Street Lower",
+    "description": "Opposite The Grafton Hotel",
+    "side": "North",
+    "lat": 53.341106,
+    "lng": -6.2637012
+  },
+  {
+    "id": 460,
+    "location": "Stephen Street Lower",
+    "description": "Opposite The Grafton Hotel",
+    "side": "North",
+    "lat": 53.3410826,
+    "lng": -6.2636391
+  },
+  {
+    "id": 461,
+    "location": "Stephen Street Lower",
+    "description": "Mercer's Medical Centre",
+    "side": "South",
+    "lat": 53.3408914,
+    "lng": -6.2635328
+  },
+  {
+    "id": 462,
+    "location": "Strand Street Great",
+    "description": "Opposite Penny Lane Café, 2 Great Strand Street",
+    "side": "North",
+    "lat": 53.3465832,
+    "lng": -6.267462
+  },
+  {
+    "id": 463,
+    "location": "Strand Street Great",
+    "description": "55 Strand Street Great",
+    "side": "North",
+    "lat": 53.3469387,
+    "lng": -6.2650849
+  },
+  {
+    "id": 464,
+    "location": "Strand Street Great",
+    "description": "54 Strand Street Great",
+    "side": "North",
+    "lat": 53.3469633,
+    "lng": -6.2649187
+  },
+  {
+    "id": 465,
+    "location": "Strand Street Great",
+    "description": "53 Strand Street Great",
+    "side": "North",
+    "lat": 53.3469763,
+    "lng": -6.2648295
+  },
+  {
+    "id": 466,
+    "location": "Strand Street Little",
+    "description": "31 Strand Street Little",
+    "side": "North",
+    "lat": 53.3463825,
+    "lng": -6.268873
+  },
+  {
+    "id": 467,
+    "location": "Sundrive Road",
+    "description": "Sundrive Credit Union, 116 Sundrive Road",
+    "side": "West",
+    "lat": 53.323393,
+    "lng": -6.295351
+  },
+  {
+    "id": 468,
+    "location": "Sussex Road",
+    "description": "3 Sussex Road",
+    "side": "West",
+    "lat": 53.3308354,
+    "lng": -6.251284
+  },
+  {
+    "id": 469,
+    "location": "Swan'S Nest Road",
+    "description": "Kilbarrack Shopping Centre",
+    "side": "South",
+    "lat": 53.3890204,
+    "lng": -6.167086
+  },
+  {
+    "id": 470,
+    "location": "Swan'S Nest Road",
+    "description": "Kilbarrack Shopping Centre",
+    "side": "South",
+    "lat": 53.3890353,
+    "lng": -6.167174
+  },
+  {
+    "id": 471,
+    "location": "Sybil Hill Road",
+    "description": "Saint Anne's Park Gates",
+    "side": "East",
+    "lat": 53.3721033,
+    "lng": -6.1940611
+  },
+  {
+    "id": 472,
+    "location": "Sybil Hill Road",
+    "description": "Saint Anne's Park Gates",
+    "side": "East",
+    "lat": 53.3720486,
+    "lng": -6.1940664
+  },
+  {
+    "id": 473,
+    "location": "Talbot Street",
+    "description": "11 Talbot Street",
+    "side": "North",
+    "lat": 53.3505563,
+    "lng": -6.2557043
+  },
+  {
+    "id": 474,
+    "location": "Talbot Street",
+    "description": "12 Talbot Street",
+    "side": "North",
+    "lat": 53.3505702,
+    "lng": -6.2556136
+  },
+  {
+    "id": 475,
+    "location": "Talbot Street",
+    "description": "13 Talbot Street",
+    "side": "North",
+    "lat": 53.3505843,
+    "lng": -6.2555289
+  },
+  {
+    "id": 476,
+    "location": "Talbot Street",
+    "description": "Indepndent House, 27 Talbot Street",
+    "side": "North",
+    "lat": 53.3510016,
+    "lng": -6.2529056
+  },
+  {
+    "id": 477,
+    "location": "Talbot Street",
+    "description": "Indepndent House, 27 Talbot Street",
+    "side": "North",
+    "lat": 53.3510106,
+    "lng": -6.2528481
+  },
+  {
+    "id": 478,
+    "location": "Temple Road",
+    "description": "Saint Philip's Church",
+    "side": "South",
+    "lat": 53.3111681,
+    "lng": -6.2575869
+  },
+  {
+    "id": 479,
+    "location": "Temple Street",
+    "description": "Temple Street Children's Hospital",
+    "side": "North",
+    "lat": 53.3567733,
+    "lng": -6.2622275
+  },
+  {
+    "id": 480,
+    "location": "Temple Street",
+    "description": "Temple Street Children's Hospital",
+    "side": "North",
+    "lat": 53.3567411,
+    "lng": -6.2621808
+  },
+  {
+    "id": 481,
+    "location": "Temple Street",
+    "description": "Temple Street Children's Hospital",
+    "side": "North",
+    "lat": 53.356709,
+    "lng": -6.2621325
+  },
+  {
+    "id": 482,
+    "location": "Terenure Park",
+    "description": "40 Terenure Park",
+    "side": "East",
+    "lat": 53.3104352,
+    "lng": -6.2862177
+  },
+  {
+    "id": 483,
+    "location": "Terenure Road East",
+    "description": "O'Connell's Pharmacy, 3 Terenure Road East",
+    "side": "South",
+    "lat": 53.3118163,
+    "lng": -6.2749095
+  },
+  {
+    "id": 484,
+    "location": "The Rise",
+    "description": "The Rise Pharmacy, 1 The Rise",
+    "side": "East",
+    "lat": 53.378923,
+    "lng": -6.2622576
+  },
+  {
+    "id": 485,
+    "location": "Thorncastle Street",
+    "description": "Corcoran Solicitors, 12 Thorncastle Street",
+    "side": "East",
+    "lat": 53.3421535,
+    "lng": -6.2276682
+  },
+  {
+    "id": 486,
+    "location": "Townsend Street",
+    "description": "Georges Court, 54-62 Townsend Street",
+    "side": "North",
+    "lat": 53.3457302,
+    "lng": -6.2509523
+  },
+  {
+    "id": 487,
+    "location": "Townsend Street",
+    "description": "88 Townsend Street",
+    "side": "North",
+    "lat": 53.3452173,
+    "lng": -6.2470517
+  },
+  {
+    "id": 488,
+    "location": "Verschoyle Place",
+    "description": "Junction with Stephen's Place",
+    "side": "North",
+    "lat": 53.338629,
+    "lng": -6.2455243
+  },
+  {
+    "id": 489,
+    "location": "Waterloo Road",
+    "description": "37 Waterloo Road",
+    "side": "West",
+    "lat": 53.3307287,
+    "lng": -6.2444447
+  },
+  {
+    "id": 490,
+    "location": "Waterloo Road",
+    "description": "35 Waterloo Road",
+    "side": "West",
+    "lat": 53.3307715,
+    "lng": -6.244425
+  },
+  {
+    "id": 491,
+    "location": "Watermill Road",
+    "description": "Saint Anne's Park",
+    "side": "South",
+    "lat": 53.376935,
+    "lng": -6.1705496
+  },
+  {
+    "id": 492,
+    "location": "Watermill Road",
+    "description": "Saint Anne's Park",
+    "side": "South",
+    "lat": 53.3769751,
+    "lng": -6.1706441
+  },
+  {
+    "id": 493,
+    "location": "Watermill Road",
+    "description": "6 Watermill Road",
+    "side": "South",
+    "lat": 53.3787333,
+    "lng": -6.175227
+  },
+  {
+    "id": 494,
+    "location": "Western Way",
+    "description": "Romanian Orthodox Church",
+    "side": "South",
+    "lat": 53.3550042,
+    "lng": -6.2696999
+  },
+  {
+    "id": 495,
+    "location": "Western Way",
+    "description": "Romanian Orthodox Church",
+    "side": "South",
+    "lat": 53.3550236,
+    "lng": -6.2697982
+  },
+  {
+    "id": 496,
+    "location": "Williams Park",
+    "description": "1 Williams Park",
+    "side": "West",
+    "lat": 53.3248057,
+    "lng": -6.2672681
+  },
+  {
+    "id": 497,
+    "location": "Williams Park",
+    "description": "Swan Leisure",
+    "side": "North",
+    "lat": 53.3251345,
+    "lng": -6.2655254
+  },
+  {
+    "id": 498,
+    "location": "Williams Park",
+    "description": "Swan Leisure",
+    "side": "North",
+    "lat": 53.3251271,
+    "lng": -6.2654476
+  },
+  {
+    "id": 499,
+    "location": "Winton Road",
+    "description": "Opposite 12 Winton Road",
+    "side": "East",
+    "lat": 53.327255,
+    "lng": -6.2495973
+  },
+  {
+    "id": 500,
+    "location": "Wolfe Tone Street",
+    "description": "Wolfe Tone Park",
+    "side": "East",
+    "lat": 53.3483098,
+    "lng": -6.2672177
+  }
+]

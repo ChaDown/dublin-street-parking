@@ -1,0 +1,2010 @@
+[
+  {
+    "id": 1,
+    "location": "Adelaide Road, Glenageary",
+    "description": "outside No.69/70 Adelaide Road",
+    "side": null,
+    "lat": 53.283776504260906,
+    "lng": -6.124729079128849
+  },
+  {
+    "id": 2,
+    "location": "Adelaide Road, Glenageary",
+    "description": "1 space at #7 on east side of Adelaide Road.",
+    "side": null,
+    "lat": 53.28627470082049,
+    "lng": -6.123584896546008
+  },
+  {
+    "id": 3,
+    "location": "Adelaide Street, Dun Laoghaire",
+    "description": "1 space at house #21 on west side of road.",
+    "side": null,
+    "lat": 53.29153495760112,
+    "lng": -6.13179802656102
+  },
+  {
+    "id": 4,
+    "location": "Adelaide Street, Dun Laoghaire",
+    "description": "1 space at house #24 on west side of road.",
+    "side": null,
+    "lat": 53.291266488868494,
+    "lng": -6.131869738379675
+  },
+  {
+    "id": 5,
+    "location": "Adelaide Street, Dun Laoghaire",
+    "description": "1 space at first parking bay south west side of Adelaide Street, 7 metres from junction with Georges Street Upper.",
+    "side": null,
+    "lat": 53.29096890940984,
+    "lng": -6.132377651514944
+  },
+  {
+    "id": 6,
+    "location": "Albert Road Lower, Glenageary",
+    "description": "outside No.45 Albert Road Lower",
+    "side": null,
+    "lat": 53.28127961306413,
+    "lng": -6.120250218339605
+  },
+  {
+    "id": 7,
+    "location": "Albert Road Lower, Glenageary",
+    "description": "at No. 48  Albert Road Lower.",
+    "side": null,
+    "lat": 53.28159250324809,
+    "lng": -6.120146512247672
+  },
+  {
+    "id": 8,
+    "location": "Albert Road Lower, Glenageary",
+    "description": "1 space at house #55 on east side of road. 10m north of public lighting pole #17.",
+    "side": null,
+    "lat": 53.282155429315544,
+    "lng": -6.119959482409452
+  },
+  {
+    "id": 9,
+    "location": "Anglesea Avenue, Blackrock",
+    "description": "outside House No 13. Anglesea Avenue",
+    "side": null,
+    "lat": 53.29833651880331,
+    "lng": -6.181706555790726
+  },
+  {
+    "id": 10,
+    "location": "Anglesea Avenue, Blackrock",
+    "description": "outside No.14 Anglesea Avenue",
+    "side": null,
+    "lat": 53.29827319790517,
+    "lng": -6.181679246886785
+  },
+  {
+    "id": 11,
+    "location": "Ardeevin Road, Dalkey",
+    "description": "on Ardeevin Road near Dalkey DART station.",
+    "side": null,
+    "lat": 53.275272425489256,
+    "lng": -6.102403397713673
+  },
+  {
+    "id": 12,
+    "location": "Ardmore Park,        Kill O' the Grange",
+    "description": "1 space outside #74 Ardmore Park.",
+    "side": null,
+    "lat": 53.281066281096145,
+    "lng": -6.14795380047471
+  },
+  {
+    "id": 13,
+    "location": "Ballybrack Village, Ballybrack",
+    "description": "1 space outside Spar shop in Ballybrack Village near jct of Military Road and Shanganagh Road.",
+    "side": null,
+    "lat": 53.25238253971277,
+    "lng": -6.122746749877707
+  },
+  {
+    "id": 14,
+    "location": "Bath Place, Blackrock",
+    "description": "2 spaces (nose in to wall) at northwest corner of car park at Dart station.",
+    "side": null,
+    "lat": 53.30249179478173,
+    "lng": -6.178409602307162
+  },
+  {
+    "id": 15,
+    "location": "Beech Grove, Booterstown",
+    "description": "on the south side of Beech Grove west of No.1 Beech Grove",
+    "side": null,
+    "lat": 53.30766376576337,
+    "lng": -6.197648669654581
+  },
+  {
+    "id": 16,
+    "location": "Belgrave Square, Monkstown",
+    "description": "outside 47 Belgrave square(Belgrave square West at junction of Belgrave square North)",
+    "side": null,
+    "lat": 53.296509670567794,
+    "lng": -6.162779853968537
+  },
+  {
+    "id": 17,
+    "location": "Booterstown Avenue, Booterstown",
+    "description": "1 space at house #85 Booterstown Ave.",
+    "side": null,
+    "lat": 53.30438752100372,
+    "lng": -6.1984918307126184
+  },
+  {
+    "id": 18,
+    "location": "Bray Road, Cabinteely",
+    "description": "1 space at entrance to Cabinteely Park on the Bray Road in Cabinteely Village.",
+    "side": null,
+    "lat": 53.26195063501214,
+    "lng": -6.153066749139379
+  },
+  {
+    "id": 19,
+    "location": "Bray Road, Cabinteely",
+    "description": "1 space at the Horse and Hound public house in Cabinteely Village.",
+    "side": null,
+    "lat": 53.260855555651574,
+    "lng": -6.150251436940869
+  },
+  {
+    "id": 20,
+    "location": "Bray Road, Cabinteely",
+    "description": "1 space at Cabinteely library off the Bray Road near Cabinteely Village.",
+    "side": null,
+    "lat": 53.260050164381184,
+    "lng": -6.149312072043227
+  },
+  {
+    "id": 21,
+    "location": "Bray Road, Cabinteely",
+    "description": "1 space near post office and adjacent to bus stop on the Bray Road in Cabinteely Village.",
+    "side": null,
+    "lat": 53.26124458722978,
+    "lng": -6.150998985073551
+  },
+  {
+    "id": 22,
+    "location": "Bray Road, Cornelscourt",
+    "description": "1 space at Centra shop in car park off the Bray Road.",
+    "side": null,
+    "lat": 53.26894850723746,
+    "lng": -6.166870427756193
+  },
+  {
+    "id": 23,
+    "location": "Brighton Vale, Blackrock",
+    "description": "1 space at house #12 Brighton Vale on south side of road.",
+    "side": null,
+    "lat": 53.298679467335674,
+    "lng": -6.1624616691609
+  },
+  {
+    "id": 24,
+    "location": "Brighton Vale, Blackrock",
+    "description": "1 space at house #9 Brighton Vale on south side of road.",
+    "side": null,
+    "lat": 53.29850880714182,
+    "lng": -6.161883991360132
+  },
+  {
+    "id": 25,
+    "location": "Brighton Vale, Monkstown",
+    "description": "at the bathing area near Brighton Vale",
+    "side": null,
+    "lat": 53.29806911594193,
+    "lng": -6.160177876470525
+  },
+  {
+    "id": 26,
+    "location": "Brookfield Grove, Blackrock",
+    "description": "1 space at #10 Brookfield Grove.",
+    "side": null,
+    "lat": 53.29694147951425,
+    "lng": -6.177445956330076
+  },
+  {
+    "id": 27,
+    "location": "Brookfield Terrace, Blackrock",
+    "description": "outside No.16 Brookfield Terrace",
+    "side": null,
+    "lat": 53.29621625717276,
+    "lng": -6.178796793525545
+  },
+  {
+    "id": 28,
+    "location": "Brookfield Terrace, Blackrock",
+    "description": "1 space outside #21 Brookfield Terrace on east side of road.",
+    "side": null,
+    "lat": 53.296081549584095,
+    "lng": -6.178802527542745
+  },
+  {
+    "id": 29,
+    "location": "Brookfield Terrace, Blackrock",
+    "description": "1 space outside #32 Brookfield Terrace on east side of road.",
+    "side": null,
+    "lat": 53.29562079571405,
+    "lng": -6.1786421499993684
+  },
+  {
+    "id": 30,
+    "location": "Carrickbrennan Road, Monkstown",
+    "description": "1 space outside church beside public lighting pole #22.",
+    "side": null,
+    "lat": 53.29294370678648,
+    "lng": -6.152419182159152
+  },
+  {
+    "id": 31,
+    "location": "Carrickbrennan Road, Monkstown",
+    "description": "1 space at \"Cosgroves Phamacy\" 5m west of public lighting pole #28.",
+    "side": null,
+    "lat": 53.2936245847629,
+    "lng": -6.154024620433005
+  },
+  {
+    "id": 32,
+    "location": "Carysfort Villas, Dalkey",
+    "description": "outside No.21 Carysfort Villas",
+    "side": null,
+    "lat": 53.27877983848447,
+    "lng": -6.1053965551318425
+  },
+  {
+    "id": 33,
+    "location": "Castlebyrne Park, Blackrock",
+    "description": "outside House No 58 Castlebyrne Park",
+    "side": null,
+    "lat": 53.29006440633083,
+    "lng": -6.175519267509392
+  },
+  {
+    "id": 34,
+    "location": "Clarinda Park East, Dun Laoghaire",
+    "description": "2 spaces on west side of car park adjacent to north entrance at Clarinda Park North.",
+    "side": null,
+    "lat": 53.28884426944301,
+    "lng": -6.130985681183591
+  },
+  {
+    "id": 35,
+    "location": "Clonkeen Drive, Dean's Grange",
+    "description": "3 spaces on east side of Clonkeen Drive outside Dean's Grange Library.",
+    "side": null,
+    "lat": 53.27746496221436,
+    "lng": -6.164946553671596
+  },
+  {
+    "id": 36,
+    "location": "Clonkeen Road, Deans Grange",
+    "description": "1 space on the Clonkeen service road outside Grange Pharmacy beside Super Value.",
+    "side": null,
+    "lat": 53.27804126630159,
+    "lng": -6.163272619308639
+  },
+  {
+    "id": 37,
+    "location": "Clonkeen Road, Deans Grange",
+    "description": "1 space on east side of Clonkeen service road outside G.P surgery.",
+    "side": null,
+    "lat": 53.277435881278045,
+    "lng": -6.163058705524468
+  },
+  {
+    "id": 38,
+    "location": "Convent Road, Dun Laoghaire",
+    "description": "1 space at house #36 on east side of road.",
+    "side": null,
+    "lat": 53.29195392710099,
+    "lng": -6.137898908617071
+  },
+  {
+    "id": 39,
+    "location": "Convent Road, Dun Laoghaire",
+    "description": "1 space at #52 Convent Road on east side of road opposite Dominican Convent School.",
+    "side": null,
+    "lat": 53.29224653091152,
+    "lng": -6.13764620628293
+  },
+  {
+    "id": 40,
+    "location": "Convent Road, Dun Laoghaire",
+    "description": "1 space at #54 Convent Road on east side of road opposite Dominican Convent School.",
+    "side": null,
+    "lat": 53.292292134897075,
+    "lng": -6.137689215724732
+  },
+  {
+    "id": 41,
+    "location": "Convent Road, D\u00fan Laoghaire",
+    "description": "outside House No 56 at it\u2019s junction with Lynch Lane",
+    "side": null,
+    "lat": 53.292165708173094,
+    "lng": -6.137649723911803
+  },
+  {
+    "id": 42,
+    "location": "Corrig Avenue, Dun Laoghaire",
+    "description": "1 space at District Court on east side of road starting at public lighting pole #9.",
+    "side": null,
+    "lat": 53.29025013186783,
+    "lng": -6.133533824877419
+  },
+  {
+    "id": 43,
+    "location": "Cow Shed,   Glasthule",
+    "description": "2 spaces on south side Glasthule village car park near Devitt Villas.",
+    "side": null,
+    "lat": 53.287033033153484,
+    "lng": -6.124376444126026
+  },
+  {
+    "id": 44,
+    "location": "Crofton Avenue, Dun Laoghaire",
+    "description": "1 space on Crofton Avenue at junction with Crofton Road on west side of road, 5m north of house #12.",
+    "side": null,
+    "lat": 53.295643343251186,
+    "lng": -6.138218316781408
+  },
+  {
+    "id": 45,
+    "location": "Crofton Road, Dun Laoghaire",
+    "description": "1 space at \"Irish Sea Fisheries Bord\" on south side of Crofton Road.",
+    "side": null,
+    "lat": 53.296151159116974,
+    "lng": -6.1413910986035996
+  },
+  {
+    "id": 46,
+    "location": "Cross Avenue, Blackrock",
+    "description": "1 space #12 Pine Haven off Cross Avenue",
+    "side": null,
+    "lat": 53.30402246110002,
+    "lng": -6.196931990592901
+  },
+  {
+    "id": 47,
+    "location": "Cross Avenue, Dun Laoghaire",
+    "description": "1 space 5 metres from apex of junction with Northcote Place outside house #29.",
+    "side": null,
+    "lat": 53.291396129197636,
+    "lng": -6.141312677182993
+  },
+  {
+    "id": 48,
+    "location": "Cumberland Street, Dun Laoghaire",
+    "description": "1 space on south side of Cumberland Street west of FAS car park exit, 6 metres west of public lighting pole #5.",
+    "side": null,
+    "lat": 53.29502691788665,
+    "lng": -6.144214756868745
+  },
+  {
+    "id": 49,
+    "location": "Dalkey Dart station car park, Dalkey",
+    "description": "3 spaces in southwest corner of car park.",
+    "side": null,
+    "lat": 53.27592146373968,
+    "lng": -6.1030942688844645
+  },
+  {
+    "id": 50,
+    "location": "Dalkey Eurospar car park, Dalkey",
+    "description": "1 space in northwest corner of car park.",
+    "side": null,
+    "lat": 53.276808749054624,
+    "lng": -6.104074463641943
+  },
+  {
+    "id": 51,
+    "location": "Dalkey Health Centre, Dalkey",
+    "description": "2 spaces at Dalkey Health Centre car park off Kilbegnet Close.",
+    "side": null,
+    "lat": 53.27693778351041,
+    "lng": -6.105972833410158
+  },
+  {
+    "id": 52,
+    "location": "Dart Station, Booterstown",
+    "description": "5 spaces in Booterstown Dart Station car park.",
+    "side": null,
+    "lat": 53.30954533029078,
+    "lng": -6.195498818214301
+  },
+  {
+    "id": 53,
+    "location": "Deansgrange Road, Deans Grange",
+    "description": "1 space outside house #17 on Deans Grange Road opposite cemetary.",
+    "side": null,
+    "lat": 53.2812545022736,
+    "lng": -6.165353888799047
+  },
+  {
+    "id": 54,
+    "location": "Dominick Street, Dun Laoghaire",
+    "description": "1 space outside house #21on south side of road.",
+    "side": null,
+    "lat": 53.29175469373197,
+    "lng": -6.13952735126012
+  },
+  {
+    "id": 55,
+    "location": "Dominick Street, Dun Laoghaire",
+    "description": "1 space at house #35 on north side of road.",
+    "side": null,
+    "lat": 53.29180754749137,
+    "lng": -6.14003498227945
+  },
+  {
+    "id": 56,
+    "location": "Dornden Park, Booterstown",
+    "description": "outside House No 27 Dornden Park, Booterstown",
+    "side": null,
+    "lat": 53.3118720698585,
+    "lng": -6.20557388713805
+  },
+  {
+    "id": 57,
+    "location": "Dublin Road, Shanganagh",
+    "description": "1 space at Shanganagh cemetary off the Dublin Road.",
+    "side": null,
+    "lat": 53.221956177450195,
+    "lng": -6.117744632912399
+  },
+  {
+    "id": 58,
+    "location": "Dublin Road, Shankill",
+    "description": "1 space to be provided at shops in Shankill village opposite Aubrey Park.",
+    "side": null,
+    "lat": 53.230834286892,
+    "lng": -6.123974665252869
+  },
+  {
+    "id": 59,
+    "location": "Eaton Square, Monkstown",
+    "description": "outside No. 15 Eaton Square, Monkstown .",
+    "side": null,
+    "lat": 53.296009358038226,
+    "lng": -6.164136277989935
+  },
+  {
+    "id": 60,
+    "location": "Emmett Square, Blackrock",
+    "description": "outside 28 Emmett Square",
+    "side": null,
+    "lat": 53.30537000984616,
+    "lng": -6.187423582192556
+  },
+  {
+    "id": 61,
+    "location": "Ferry Terminal Car Park, Dun Laoghaire",
+    "description": "3 spaces in Ferry Terminal car park.",
+    "side": null,
+    "lat": 53.29544419152488,
+    "lng": -6.1341022038728
+  },
+  {
+    "id": 62,
+    "location": "Foxrock Close, Foxrock",
+    "description": "outside 174A Foxrock close",
+    "side": null,
+    "lat": 53.278830699695014,
+    "lng": -6.165517732773197
+  },
+  {
+    "id": 63,
+    "location": "Georges Place, Blackrock",
+    "description": "2 spaces (nose in) at southeast entrance to car park.",
+    "side": null,
+    "lat": 53.30060749367007,
+    "lng": -6.178594848077184
+  },
+  {
+    "id": 64,
+    "location": "Georges Street Lwr, Dun Laoghaire",
+    "description": "1 space opposite \"Two Beans Coffee Bar\"  on north side of road.",
+    "side": null,
+    "lat": 53.294647706683364,
+    "lng": -6.141216425388585
+  },
+  {
+    "id": 65,
+    "location": "Georges Street Upr, Dun Laoghaire",
+    "description": "1 space outside \"Mc donalds on south side of road.",
+    "side": null,
+    "lat": 53.2912880271165,
+    "lng": -6.133818505142648
+  },
+  {
+    "id": 66,
+    "location": "Georges Street Upr, Dun Laoghaire",
+    "description": "1 space on Georges Street Upr north side at #73 (\"Kozie 2\" public house)",
+    "side": null,
+    "lat": 53.289803278812904,
+    "lng": -6.130823819103974
+  },
+  {
+    "id": 67,
+    "location": "Georges Street Upr, Dun Laoghaire",
+    "description": "1 space on south side of Georges Street Upr beside space at \"Mc donalds\", adjacent to laneway.",
+    "side": null,
+    "lat": 53.29134425509829,
+    "lng": -6.133966030624203
+  },
+  {
+    "id": 68,
+    "location": "Glasthule Road, Glasthule",
+    "description": "1 space to be provided on north side of Glasthule Road outside #57 (\"Sandycove Health Clinic\") immediately west of public lighting pole #5.",
+    "side": null,
+    "lat": 53.28708743281153,
+    "lng": -6.1226944746773135
+  },
+  {
+    "id": 69,
+    "location": "Glenageary Road Upper/Lower roundabout, Sallynoggin",
+    "description": "1 space outside Centra shop adjacent to roundabout at junction of Glenageary Road Upper and Glenageary Road Lower junction.",
+    "side": null,
+    "lat": 53.27959631551927,
+    "lng": -6.134942951608199
+  },
+  {
+    "id": 70,
+    "location": "Green Road (Seaforth), Blackrock",
+    "description": "1 space outside #14 Green Road (\"Seaforth\") on south side of road.",
+    "side": null,
+    "lat": 53.29825092437902,
+    "lng": -6.184935207448324
+  },
+  {
+    "id": 71,
+    "location": "Haigh Terrace, D\u00fan Laoghaire",
+    "description": "Northern end of Haigh Terrace.",
+    "side": null,
+    "lat": 53.292164930142704,
+    "lng": -6.132430436829854
+  },
+  {
+    "id": 72,
+    "location": "Harbour Car Park, Dun Laoghaire",
+    "description": "Total of 10 spaces in Harbour car park opposite the junction of DunLeary Road and Clarence Street.",
+    "side": null,
+    "lat": 53.29683766242282,
+    "lng": -6.142771244305205
+  },
+  {
+    "id": 73,
+    "location": "Harbour Road, Dalkey",
+    "description": "1 Space Harbour Road, Dalkey to the left of the entrance to St. Patrick\u2019s National School",
+    "side": null,
+    "lat": 53.27763087123309,
+    "lng": -6.103783175065833
+  },
+  {
+    "id": 74,
+    "location": "Hillview Drive,",
+    "description": "outside No. 32 Hillview Drive",
+    "side": null,
+    "lat": 53.27041754569238,
+    "lng": -6.152596679214066
+  },
+  {
+    "id": 75,
+    "location": "Holmston Avenue, Glenageary",
+    "description": "at the corner of Holmston Avenue and Lower Glenageary Road, opposite house No1, Holmston Avenue.",
+    "side": null,
+    "lat": 53.283041537583365,
+    "lng": -6.134013109468475
+  },
+  {
+    "id": 76,
+    "location": "Hudson Road, Sandycove",
+    "description": "1 space on south side of Hudson Road near junction with Albert Road Lower.",
+    "side": null,
+    "lat": 53.28514961641427,
+    "lng": -6.119480433321801
+  },
+  {
+    "id": 77,
+    "location": "Idrone Terrace, Blackrock",
+    "description": "1 space at house #16 Idrone Terrace on south side of road.",
+    "side": null,
+    "lat": 53.30189764227795,
+    "lng": -6.175989682837905
+  },
+  {
+    "id": 78,
+    "location": "Idrone Terrace, Blackrock",
+    "description": "1 space at house #5 Idrone Terrace on south side of road.",
+    "side": null,
+    "lat": 53.30155690771161,
+    "lng": -6.17486411747161
+  },
+  {
+    "id": 79,
+    "location": "Johnstown Road, Cabinteely",
+    "description": "1 space outside \"Adrian's Cleaners\" in car park adjacent to Johnstown Park.",
+    "side": null,
+    "lat": 53.268652421116144,
+    "lng": -6.14598738100985
+  },
+  {
+    "id": 80,
+    "location": "Johnstown Road, Cabinteely",
+    "description": "1 space outside \"Johnstown Pharmacy\" in car park adjacent to Johnstown Park.",
+    "side": null,
+    "lat": 53.268537773418586,
+    "lng": -6.146127251801478
+  },
+  {
+    "id": 81,
+    "location": "Kilbegnet Close, Dalkey",
+    "description": "1 space at #23 Kilbegnet Close.",
+    "side": null,
+    "lat": 53.276925125086976,
+    "lng": -6.106872960100336
+  },
+  {
+    "id": 82,
+    "location": "Kilbegnet Close, Dalkey",
+    "description": "1 space at #12 Kilbegnet Close.",
+    "side": null,
+    "lat": 53.277287123858436,
+    "lng": -6.106467137586975
+  },
+  {
+    "id": 83,
+    "location": "Kilbegnet Close, Dalkey",
+    "description": "1 space at #6 Kilbegnet Close.",
+    "side": null,
+    "lat": 53.27757353703062,
+    "lng": -6.106394497984848
+  },
+  {
+    "id": 84,
+    "location": "Kilbegnet Close, Dalkey",
+    "description": "1 space at #3 Kilbegnet Close.",
+    "side": null,
+    "lat": 53.277698545215635,
+    "lng": -6.106343989688226
+  },
+  {
+    "id": 85,
+    "location": "Killiney Dart station car park,  Killiney",
+    "description": "2 spaces (nose in) along the southside of the car park adjacent to the entrance.",
+    "side": null,
+    "lat": 53.25655330329137,
+    "lng": -6.113707517950506
+  },
+  {
+    "id": 86,
+    "location": "Killiney Dart station car park, Killiney",
+    "description": "3 spaces (nose in) on the northeast side of the car park immediately south of the toilet block.",
+    "side": null,
+    "lat": 53.25720198473676,
+    "lng": -6.113244369299861
+  },
+  {
+    "id": 87,
+    "location": "Killiney Hill Road, Killiney",
+    "description": "in the middle space of the existing parking bays opposite the Holy Trinity Church  on Killiney Hill Road.",
+    "side": null,
+    "lat": 53.267647256366175,
+    "lng": -6.114567998181357
+  },
+  {
+    "id": 88,
+    "location": "Lanesville, Monkstown",
+    "description": "outside no.20",
+    "side": null,
+    "lat": 53.28620871296228,
+    "lng": -6.157373658014714
+  },
+  {
+    "id": 89,
+    "location": "Library Road, D\u00fan Laoghaire",
+    "description": "on the west side of Library Road prior to the road ramp, just north of the junction with Rosary Gardens West",
+    "side": null,
+    "lat": 53.2932149276077,
+    "lng": -6.140963700742956
+  },
+  {
+    "id": 90,
+    "location": "Magenta Place, Glenageary",
+    "description": "1 space at #6 Magenta Place on west side of road.",
+    "side": null,
+    "lat": 53.28658809052907,
+    "lng": -6.128084987823683
+  },
+  {
+    "id": 91,
+    "location": "Main Street, Blackrock",
+    "description": "1 Space Rock Hill Rd beside the taxi rank, main street blackrock.",
+    "side": null,
+    "lat": 53.30095973677373,
+    "lng": -6.176359697849048
+  },
+  {
+    "id": 92,
+    "location": "Main Street, Blackrock",
+    "description": "1 space at south east entrance at rear of wicked wolfe car park off Main Street.",
+    "side": null,
+    "lat": 53.302154658740896,
+    "lng": -6.17869398529047
+  },
+  {
+    "id": 93,
+    "location": "Main Street, Shankill",
+    "description": "outside Lloyds in Main Street Shankill",
+    "side": null,
+    "lat": 53.230845152673766,
+    "lng": -6.124094002832608
+  },
+  {
+    "id": 94,
+    "location": "Maretimo Villas, Blackrock",
+    "description": "outside No. 10 Maretimo Villas",
+    "side": null,
+    "lat": 53.29996606206675,
+    "lng": -6.173086906065511
+  },
+  {
+    "id": 95,
+    "location": "Marina Car Park, Dun Laoghaire",
+    "description": "3 spaces in Marina car park.",
+    "side": null,
+    "lat": 53.29576071071391,
+    "lng": -6.1353783407781215
+  },
+  {
+    "id": 96,
+    "location": "Marine Road, Dun Laoghaire",
+    "description": "3 spaces at St.Michaels church Dun Laoghaire on west side of road.",
+    "side": null,
+    "lat": 53.292682815420925,
+    "lng": -6.135662450021206
+  },
+  {
+    "id": 97,
+    "location": "Marine Road, Dun Laoghaire",
+    "description": "1 space on west side of road outside Dun Laoghaire County Hall.",
+    "side": null,
+    "lat": 53.29394823768669,
+    "lng": -6.1344074195940355
+  },
+  {
+    "id": 98,
+    "location": "Mart Lane, Cornelscourt",
+    "description": "1 space near junction with St. Brigid's Park",
+    "side": null,
+    "lat": 53.2693183184192,
+    "lng": -6.169297962307096
+  },
+  {
+    "id": 99,
+    "location": "Martello Avenue, Dun Laoghaire",
+    "description": "1 space at house #5 on east side of road.",
+    "side": null,
+    "lat": 53.28936753293579,
+    "lng": -6.127108578059037
+  },
+  {
+    "id": 100,
+    "location": "Mellifont Avenue, Dun Laoghaire",
+    "description": "1 space at house #7 on west side of road.",
+    "side": null,
+    "lat": 53.2910532304202,
+    "lng": -6.13030429323367
+  },
+  {
+    "id": 101,
+    "location": "Mellifont Avenue, Dun Laoghaire",
+    "description": "1 space on south west side of Mellifont Avenue, 11 metres from junction with Georges Street.",
+    "side": null,
+    "lat": 53.290520944649266,
+    "lng": -6.131317383699007
+  },
+  {
+    "id": 102,
+    "location": "Monkstown Crescent, Monkstown",
+    "description": "Provide a Disabled Parking Bay outside \u201cSALT\u201d restauarant in Monkstown Cresent, Monkstown",
+    "side": null,
+    "lat": 53.293909020729906,
+    "lng": -6.152662473918291
+  },
+  {
+    "id": 103,
+    "location": "Monkstown Cresent, Monkstown",
+    "description": "1 space on north side of Monkstown Crescent outside \"Caf\u00e9 du Journal\" 1 metre west of public lighting pole #9.",
+    "side": null,
+    "lat": 53.293846607666374,
+    "lng": -6.150955328596449
+  },
+  {
+    "id": 104,
+    "location": "Monkstown Cresent, Monkstown",
+    "description": "2 spaces on north side of Monkstown Crescent outside \"Seapoint Caf\u00e9 Bar\" east side of loading bay.",
+    "side": null,
+    "lat": 53.293955392723774,
+    "lng": -6.153335410250239
+  },
+  {
+    "id": 105,
+    "location": "Mulgrave Street, Dun Laoghaire",
+    "description": "1 space outside house #57 on east side Mulgrave Street.",
+    "side": null,
+    "lat": 53.291062227736425,
+    "lng": -6.136617917430997
+  },
+  {
+    "id": 106,
+    "location": "Mulgrave Street, D\u00fan Laoghaire",
+    "description": "at the beginning of the Pay and Display parking bays directly opposite House No. 25 Mulgrave Street",
+    "side": null,
+    "lat": 53.29047655534636,
+    "lng": -6.137093343673078
+  },
+  {
+    "id": 107,
+    "location": "Mulgrave Street, D\u00fan Laoghaire",
+    "description": "Mulgrave St., D\u00fan Laoghaire opposite House No 27",
+    "side": null,
+    "lat": 53.290323890175245,
+    "lng": -6.137099989612922
+  },
+  {
+    "id": 108,
+    "location": "Mulvey Park, Dundrum",
+    "description": "Disabled Parking bay will be provided opposite 164 Mulvey Park",
+    "side": null,
+    "lat": 53.30158634265785,
+    "lng": -6.243223204144879
+  },
+  {
+    "id": 109,
+    "location": "Mulvey Park, Dundrum",
+    "description": "outside 125 Mulvey Park",
+    "side": null,
+    "lat": 53.30223718409241,
+    "lng": -6.240436231601889
+  },
+  {
+    "id": 110,
+    "location": "N11 slip road, Belfield",
+    "description": "1 space at the Montrose Hotel off the N11 slip road at UCD.",
+    "side": null,
+    "lat": 53.30889106564596,
+    "lng": -6.215916512906506
+  },
+  {
+    "id": 111,
+    "location": "New Grange Road, Dean's Grange",
+    "description": "1 space on south side of New Grange Road outside school.",
+    "side": null,
+    "lat": 53.2806867285508,
+    "lng": -6.175199251402739
+  },
+  {
+    "id": 112,
+    "location": "Newtown Avenue, Blackrock",
+    "description": "2 spaces in Guardian Angels Church car park between Temple Road and Newtown Avenue",
+    "side": null,
+    "lat": 53.300167946203615,
+    "lng": -6.174533358149975
+  },
+  {
+    "id": 113,
+    "location": "Northumberland Avenue, Dun Laoghaire",
+    "description": "1 space at house #5 (near Dunnes Stores) on west side of road.",
+    "side": null,
+    "lat": 53.29107065438656,
+    "lng": -6.13543273515023
+  },
+  {
+    "id": 114,
+    "location": "Northumberland Avenue, Dun Laoghaire",
+    "description": "1 space at house #9 on west side of road.",
+    "side": null,
+    "lat": 53.29084708471998,
+    "lng": -6.135502466976039
+  },
+  {
+    "id": 115,
+    "location": "Northumberland Avenue, Dun Laoghaire",
+    "description": "1 space at Dun Laoghaire Methodist Church on west side of road.",
+    "side": null,
+    "lat": 53.2908473191416,
+    "lng": -6.135517454347595
+  },
+  {
+    "id": 116,
+    "location": "Northumberland Avenue, D\u00fan Laoghaire",
+    "description": "outside acquired Brain Injury Ireland on Northumberland Avenue",
+    "side": null,
+    "lat": 53.29099787428803,
+    "lng": -6.1353759158194725
+  },
+  {
+    "id": 117,
+    "location": "Oliver Plunket Road, Monkstown",
+    "description": "1 space on south side of Oliver Plunket Road outside \"Gunnings Stores\".",
+    "side": null,
+    "lat": 53.28360622638392,
+    "lng": -6.147169127873651
+  },
+  {
+    "id": 118,
+    "location": "Park Road, Dun Laoghaire",
+    "description": "1 space on west side of Park Road immediately before first parking bay close to Georges Street Upper junction.",
+    "side": null,
+    "lat": 53.28979180631401,
+    "lng": -6.129519561339807
+  },
+  {
+    "id": 119,
+    "location": "Parnell Street, Sallynoggin",
+    "description": "1 space at house #1 on south side of road.",
+    "side": null,
+    "lat": 53.279573518239374,
+    "lng": -6.137507855825503
+  },
+  {
+    "id": 120,
+    "location": "Parnell Street, Sallynoggin",
+    "description": "1 space at house #10 on south side of road.",
+    "side": null,
+    "lat": 53.27993741354981,
+    "lng": -6.137791899160488
+  },
+  {
+    "id": 121,
+    "location": "Parnell Street, Sallynoggin",
+    "description": "1 space at house #21 on south side of road.",
+    "side": null,
+    "lat": 53.280113423577205,
+    "lng": -6.138129100490332
+  },
+  {
+    "id": 122,
+    "location": "Patrick Street, Dun Laoghaire",
+    "description": "1 space at #25 \"Snow White Cottage Laundry\" on west side of road. (across from #85-86)",
+    "side": null,
+    "lat": 53.291015292487366,
+    "lng": -6.137639800776568
+  },
+  {
+    "id": 123,
+    "location": "Patrick Street, Dun Laoghaire",
+    "description": "2 space on west side of Patrick Street outside \"Carmona Enterprises Training and Recruitment\".",
+    "side": null,
+    "lat": 53.28869875658955,
+    "lng": -6.138340484912188
+  },
+  {
+    "id": 124,
+    "location": "Patrick Street, Dun Laoghaire",
+    "description": "1 space on west side of Patrick Street outside \"Charisma Blinds\"(formerly \"Dun Laoghaire Recruitment\").",
+    "side": null,
+    "lat": 53.29148960952928,
+    "lng": -6.137514173062905
+  },
+  {
+    "id": 125,
+    "location": "Pearse Villas, Sallynoggin",
+    "description": "1 space outside #470 Pearse Villas.",
+    "side": null,
+    "lat": 53.2721530169035,
+    "lng": -6.138805036273124
+  },
+  {
+    "id": 126,
+    "location": "Pembroke Cottages, Booterstown",
+    "description": "1 space outside house #1 Pembroke Cottages",
+    "side": null,
+    "lat": 53.30506106538367,
+    "lng": -6.198463461383519
+  },
+  {
+    "id": 127,
+    "location": "Queens Road, Dun Laoghaire",
+    "description": "2 spaces on north side of Queens Road at first parking bay west of disused baths.",
+    "side": null,
+    "lat": 53.291567117337884,
+    "lng": -6.128692067417458
+  },
+  {
+    "id": 128,
+    "location": "Queens Road, Dun Laoghaire",
+    "description": "2 spaces in car park adjacent toOld Mail Boat Pier off Queen Road.",
+    "side": null,
+    "lat": 53.2929929680495,
+    "lng": -6.130219535956733
+  },
+  {
+    "id": 129,
+    "location": "Rathsallagh Estate, Shankill",
+    "description": "2 space outside school adjacent to public lighting pole #5.",
+    "side": null,
+    "lat": 53.23677886317398,
+    "lng": -6.120838670707619
+  },
+  {
+    "id": 130,
+    "location": "Rathsallagh Estate, Shankill",
+    "description": "1 space outside Spar shop in Rathsallagh Estate.",
+    "side": null,
+    "lat": 53.23680747131367,
+    "lng": -6.119234695459561
+  },
+  {
+    "id": 131,
+    "location": "Recycling Centre car park, Shanganagh",
+    "description": "1 space in south east corner of Recycling Centre car park off the Dublin Road.",
+    "side": null,
+    "lat": 53.222573683522405,
+    "lng": -6.117013773606684
+  },
+  {
+    "id": 132,
+    "location": "Richmond Grove, Monkstown",
+    "description": "1 space at #12 Richmond Grove beside public lighting pole #2.",
+    "side": null,
+    "lat": 53.29091714892432,
+    "lng": -6.154441366290692
+  },
+  {
+    "id": 133,
+    "location": "Rock Road, Blackrock",
+    "description": "outside House No 128 on the Rock Road.",
+    "side": null,
+    "lat": 53.309361095713946,
+    "lng": -6.197577134775448
+  },
+  {
+    "id": 134,
+    "location": "Rock Road, Blackrock",
+    "description": "2 spaces in car park off the Rock Road adjacent to Phoenix Terrace.",
+    "side": null,
+    "lat": 53.30437266267971,
+    "lng": -6.186250669134701
+  },
+  {
+    "id": 135,
+    "location": "Rock Road, Blackrock",
+    "description": "1 space at #24 Emmet Square off the Rock Road.",
+    "side": null,
+    "lat": 53.305466516242134,
+    "lng": -6.187269466464097
+  },
+  {
+    "id": 136,
+    "location": "Rockville Crescent, Blackrock",
+    "description": "outside House No. 6 Rockville Crescent.",
+    "side": null,
+    "lat": 53.29043580098922,
+    "lng": -6.16926453550976
+  },
+  {
+    "id": 137,
+    "location": "Rockville Road, Blackrock",
+    "description": "1 space at Rockville Road adjacent to Newtown Park Avenue. (Outside Spar shop).",
+    "side": null,
+    "lat": 53.29072473159762,
+    "lng": -6.172281660897007
+  },
+  {
+    "id": 138,
+    "location": "Rollins Court, Sallynoggin",
+    "description": "outside No.8 Rollins Court",
+    "side": null,
+    "lat": 53.27959051548568,
+    "lng": -6.139171409563648
+  },
+  {
+    "id": 139,
+    "location": "Royal St. George Yacht Club,          Dun Laoghaire",
+    "description": "2 spaces outside Royal St. George Yacht Club off Queen's Road facing Yacht Club.",
+    "side": null,
+    "lat": 53.29428046078469,
+    "lng": -6.132668072734518
+  },
+  {
+    "id": 140,
+    "location": "Royal St. George Yacht Club,          Dun Laoghaire",
+    "description": "2 space outside Royal St. George Yacht Club & 1 opposite Club off Queen's Road facing Queen's Road.",
+    "side": null,
+    "lat": 53.29450279554193,
+    "lng": -6.133093336756553
+  },
+  {
+    "id": 141,
+    "location": "Royal Terrace West, D\u00fan Laoghaire",
+    "description": "outside No  22 Royal Terrace West",
+    "side": null,
+    "lat": 53.2857868788056,
+    "lng": -6.137747344779804
+  },
+  {
+    "id": 142,
+    "location": "Sallynoggin Road, Sallynoggin",
+    "description": "1 space outside shop(post office) on west side of road.",
+    "side": null,
+    "lat": 53.27779940266483,
+    "lng": -6.140718573930663
+  },
+  {
+    "id": 143,
+    "location": "Sallynoggin Road, Sallynoggin",
+    "description": "1 further space outside shop(post office) on west side of road beside public lighting pole #15.",
+    "side": null,
+    "lat": 53.27765898918583,
+    "lng": -6.140934573087781
+  },
+  {
+    "id": 144,
+    "location": "Salthill/Monkstown Dart Station car park, Monkstown",
+    "description": "2 spaces in car park adjacent to station entrance/exit.",
+    "side": null,
+    "lat": 53.29514157567363,
+    "lng": -6.152174284879985
+  },
+  {
+    "id": 145,
+    "location": "Sandycove Harbour, Sandycove",
+    "description": "3 spaces at Sandycove Harbour adjacent to beach.",
+    "side": null,
+    "lat": 53.28829575135804,
+    "lng": -6.1143113533606845
+  },
+  {
+    "id": 146,
+    "location": "Sarsfield Street, Sallynoggin",
+    "description": "1 space at house #33 on Sarsfield Street.",
+    "side": null,
+    "lat": 53.27996941694319,
+    "lng": -6.138690132952995
+  },
+  {
+    "id": 147,
+    "location": "Seafield Road, Killiney",
+    "description": "opposite \u201cRoss\u201d on Seafield Road (West side)",
+    "side": null,
+    "lat": 53.25157021891446,
+    "lng": -6.113986801950279
+  },
+  {
+    "id": 148,
+    "location": "Seapoint Avenue, Monkstown",
+    "description": "1 space at house #22 on north side of road, 5m east of public lighting pole #35",
+    "side": null,
+    "lat": 53.2985899555837,
+    "lng": -6.1681717917582874
+  },
+  {
+    "id": 149,
+    "location": "Shandon Park, Monkstown",
+    "description": "outside House No 18 in Shandon Park, Monkstown",
+    "side": null,
+    "lat": 53.29476138177941,
+    "lng": -6.167129606837872
+  },
+  {
+    "id": 150,
+    "location": "Shankill Dart Station",
+    "description": "6 Spaces outside Shankill Dart Station",
+    "side": null,
+    "lat": 53.23641705169756,
+    "lng": -6.117274649094259
+  },
+  {
+    "id": 151,
+    "location": "Shankill shopping centre car park",
+    "description": "2 spaces in car park of Shankill S.C.",
+    "side": null,
+    "lat": 53.23416676468494,
+    "lng": -6.121597186063469
+  },
+  {
+    "id": 152,
+    "location": "Silchester Road, Glenageary",
+    "description": "2 spaces on south side of Silchester Road opposite church near junction with Adelaide Road.",
+    "side": null,
+    "lat": 53.28120100604962,
+    "lng": -6.126101421998048
+  },
+  {
+    "id": 153,
+    "location": "St. Ann's Park, Shankill",
+    "description": "1 space outside #52 St. Ann's Park.",
+    "side": null,
+    "lat": 53.22909079191801,
+    "lng": -6.117701102124221
+  },
+  {
+    "id": 154,
+    "location": "St. Begnet's Villas, Dalkey",
+    "description": "1 space on north side of street outside #7.",
+    "side": null,
+    "lat": 53.27943415295006,
+    "lng": -6.1092509543239775
+  },
+  {
+    "id": 155,
+    "location": "St. Brigid's Park, Cornelscourt",
+    "description": "1 space beside front door of school in St. Brigid's Park.",
+    "side": null,
+    "lat": 53.26889346672838,
+    "lng": -6.169720847864904
+  },
+  {
+    "id": 156,
+    "location": "St. Fintans Park, Deansgrange",
+    "description": "outside No.  49 St. Fintans Park.",
+    "side": null,
+    "lat": 53.283088997052126,
+    "lng": -6.163685814293033
+  },
+  {
+    "id": 157,
+    "location": "St. Helens Road, Booterstown",
+    "description": "on St Helens Road, Booterstown  outside House No 82",
+    "side": null,
+    "lat": 53.30976462291533,
+    "lng": -6.201686244840256
+  },
+  {
+    "id": 158,
+    "location": "St. Lukes Crescent, Dundrum",
+    "description": "outside 25 St. Lukes Crescent",
+    "side": null,
+    "lat": 53.30783437325565,
+    "lng": -6.247062458279704
+  },
+  {
+    "id": 159,
+    "location": "St. Patricks Avenue, Dalkey",
+    "description": "opposite No.9 St. Patricks Avenue",
+    "side": null,
+    "lat": 53.27661730573415,
+    "lng": -6.103903029185447
+  },
+  {
+    "id": 160,
+    "location": "St. Patricks Cresent, Monkstown",
+    "description": "1 space at house #90 on west side of road.",
+    "side": null,
+    "lat": 53.285079866809305,
+    "lng": -6.149474630518015
+  },
+  {
+    "id": 161,
+    "location": "St. Patricks Road, Dalkey",
+    "description": "outside the yoga village, St Patricks Road Dalkey.",
+    "side": null,
+    "lat": 53.27777336179103,
+    "lng": -6.103701898541253
+  },
+  {
+    "id": 162,
+    "location": "St. Patricks Square, Dalkey",
+    "description": "opposite house no.22 St. Patricks Square",
+    "side": null,
+    "lat": 53.276602280420775,
+    "lng": -6.10465332812906
+  },
+  {
+    "id": 163,
+    "location": "Station Road, Killiney",
+    "description": "1 space on east side of road near Killiney Dart station.",
+    "side": null,
+    "lat": 53.255581986158546,
+    "lng": -6.113090926472176
+  },
+  {
+    "id": 164,
+    "location": "Summerhill Road, Dun Laoghaire",
+    "description": "2 spaces (nose in) at Sandycove Dart station car park, directly to left of entrance to Eden Park Recycling Centre.",
+    "side": null,
+    "lat": 53.287917944124686,
+    "lng": -6.12693207090909
+  },
+  {
+    "id": 165,
+    "location": "Summerhill Road, Dun Laoghaire",
+    "description": "2 spaces (nose in) at Sandycove Dart station car park, directly east of entrance to Eden Park Recycling Centre.",
+    "side": null,
+    "lat": 53.28783880097871,
+    "lng": -6.126470641610032
+  },
+  {
+    "id": 166,
+    "location": "Summerhill Road, Dun Laoghaire",
+    "description": "1 space in south east corner of church car park off Summerhill Road between Link Road and Islington Avenue.",
+    "side": null,
+    "lat": 53.28767202423355,
+    "lng": -6.125008285882257
+  },
+  {
+    "id": 167,
+    "location": "Summerhill Road, Dun Laoghaire",
+    "description": "2 spaces in north west corner of church car park off Summerhill Road between Link Road and Islington Avenue.",
+    "side": null,
+    "lat": 53.2877823801372,
+    "lng": -6.125168412965223
+  },
+  {
+    "id": 168,
+    "location": "Tivoli Terrace East, Dun Laoghaire",
+    "description": "1 space outside house #23 on east side of Tivoli Terrace.",
+    "side": null,
+    "lat": 53.29072499813852,
+    "lng": -6.139767086996154
+  },
+  {
+    "id": 169,
+    "location": "Tubbermore Avenue, Dalkey",
+    "description": "1 space at #7 Tubbermore Road on north side of road.",
+    "side": null,
+    "lat": 53.27682432104247,
+    "lng": -6.102229665694079
+  },
+  {
+    "id": 170,
+    "location": "Ulverton Place, Dalkey",
+    "description": "1 space at junction with Castle Street on east side of road outside post office.",
+    "side": null,
+    "lat": 53.27804883601486,
+    "lng": -6.106898236153083
+  },
+  {
+    "id": 171,
+    "location": "Ulverton Place, Dalkey",
+    "description": "1 space at junction with Castle Street on west side of road opposite post office.",
+    "side": null,
+    "lat": 53.27814125534517,
+    "lng": -6.107059074673725
+  },
+  {
+    "id": 172,
+    "location": "Villarea Park, Glenageary",
+    "description": "outside house no.3 Villarea Park",
+    "side": null,
+    "lat": 53.28274882257702,
+    "lng": -6.121100381181233
+  },
+  {
+    "id": 173,
+    "location": "West Pier, Dun Laoghaire",
+    "description": "2 spaces at Irish National Sailing School near West Pier Pumping Station on Dun Laoghaire west pier.",
+    "side": null,
+    "lat": 53.29588003552175,
+    "lng": -6.150537465574627
+  },
+  {
+    "id": 174,
+    "location": "West Pier, Dun Laoghaire",
+    "description": "2 spaces at car park between Marine Activity Centre and West Pier Pumping Station on Dun Laoghaire west pier.",
+    "side": null,
+    "lat": 53.29625359517487,
+    "lng": -6.147919688212687
+  },
+  {
+    "id": 175,
+    "location": "West Pier, Dun Laoghaire",
+    "description": "2 spaces on Dun Laoghaire west pier directly adjacent to boat loading area.",
+    "side": null,
+    "lat": 53.297815664003686,
+    "lng": -6.14078178826022
+  },
+  {
+    "id": 176,
+    "location": "West Pier, Dun Laoghaire",
+    "description": "2 spaces at Marine Activity Centre on Dun Laoghaire west pier.",
+    "side": null,
+    "lat": 53.29610557380376,
+    "lng": -6.146907293549035
+  },
+  {
+    "id": 177,
+    "location": "Windsor Terrace, Dun Laoghaire",
+    "description": "3 spaces (nose in) on south east end of Windsor Terrace car park opposite exit.",
+    "side": null,
+    "lat": 53.28947184492243,
+    "lng": -6.125169383510912
+  },
+  {
+    "id": 178,
+    "location": "Woodbine Park, Booterstown",
+    "description": "on Woodbine Park outside House No 11",
+    "side": null,
+    "lat": 53.310027435220476,
+    "lng": -6.208997214640412
+  },
+  {
+    "id": 179,
+    "location": "Woodbine Park, Booterstown",
+    "description": "opposite the Doctor\u2019s surgery at 31 Woodbine Park",
+    "side": null,
+    "lat": 53.31051168285816,
+    "lng": -6.2083317482361
+  },
+  {
+    "id": 180,
+    "location": "Woodbine Road, Booterstown",
+    "description": "Woodbine Road outside House No 54",
+    "side": null,
+    "lat": 53.310207273168864,
+    "lng": -6.20900468692348
+  },
+  {
+    "id": 181,
+    "location": "Woodley Road, Glenageary",
+    "description": "outside No. 15 Woodley Road",
+    "side": null,
+    "lat": 53.264706483185144,
+    "lng": -6.140162818541219
+  },
+  {
+    "id": 182,
+    "location": "Wyvern Estate, Killiney",
+    "description": "outside the Glenageary/Killiney National School",
+    "side": null,
+    "lat": 53.26920419612594,
+    "lng": -6.115848558626276
+  },
+  {
+    "id": 183,
+    "location": "York Road, Dun Laoghaire",
+    "description": "1 space at house #42 on west side of road.",
+    "side": null,
+    "lat": 53.29376405581526,
+    "lng": -6.142754672234866
+  },
+  {
+    "id": 184,
+    "location": "Ballinteer Avenue at Ballinteer House Pub, Ballinteer",
+    "description": "2 spaces at rear of Ballinteer House pub off Ballinteer Avenue",
+    "side": null,
+    "lat": 53.2749649886882,
+    "lng": -6.254569962565617
+  },
+  {
+    "id": 185,
+    "location": "Ballyogan Avenue, Sandyford",
+    "description": "1 space beside Ballyogan Resource Centre adjacent to Ballyogan Court.",
+    "side": null,
+    "lat": 53.258370108700746,
+    "lng": -6.189112862683583
+  },
+  {
+    "id": 186,
+    "location": "Belarmine Way, Stepaside",
+    "description": "adjacent to 2A Belarmine Way",
+    "side": null,
+    "lat": 53.257667708574914,
+    "lng": -6.219428841461202
+  },
+  {
+    "id": 187,
+    "location": "Bird Avenue, Goatstown",
+    "description": "1 space at shops on Bird Avenue adjacent to Roebuck Road. (outside \"Yumi\" Chinese take-away)",
+    "side": null,
+    "lat": 53.30516065510394,
+    "lng": -6.236985444002287
+  },
+  {
+    "id": 188,
+    "location": "Breamor Road, Churchtown",
+    "description": "1 space at shops on Braemor Road adjacent to Churchtown Road Upper.",
+    "side": null,
+    "lat": 53.29663943876666,
+    "lng": -6.260075594457909
+  },
+  {
+    "id": 189,
+    "location": "Breamor Road, Churchtown",
+    "description": "1 space at shops on Braemor Road adjacent to Landscape Avenue.",
+    "side": null,
+    "lat": 53.30061131115508,
+    "lng": -6.263154207116425
+  },
+  {
+    "id": 190,
+    "location": "Bring Centre car park, Dundrum",
+    "description": "3 spaces in north east corner of car park outside Dom Marmion House off Main Street Dundrum.",
+    "side": null,
+    "lat": 53.28822526069888,
+    "lng": -6.240277530160752
+  },
+  {
+    "id": 191,
+    "location": "Bring Centre car park, Dundrum",
+    "description": "1 space in south east corner of car park off Main Street Dundrum.",
+    "side": null,
+    "lat": 53.288019011674415,
+    "lng": -6.240915856589008
+  },
+  {
+    "id": 192,
+    "location": "Carmanhall Road, Sandyford",
+    "description": "1 space at shops on Carmanhall Road adjacent to Blackthorn Road.",
+    "side": null,
+    "lat": 53.27641321991612,
+    "lng": -6.2092342026332155
+  },
+  {
+    "id": 193,
+    "location": "Deerpark Road, Mount Merrion",
+    "description": "1 space (nose in) outside Mount Merrion Medical Clinic on Deerpark Road adjacent to North Avenue.",
+    "side": null,
+    "lat": 53.29621437462346,
+    "lng": -6.211915373733625
+  },
+  {
+    "id": 194,
+    "location": "Dundrum Road, Windy Arbour",
+    "description": "1 space outside Costcutter shop on Dundrum Road adjacent to Mulvey Park.",
+    "side": null,
+    "lat": 53.30231201883135,
+    "lng": -6.244903554743236
+  },
+  {
+    "id": 195,
+    "location": "Enniskerry Road, Stepaside",
+    "description": "1 space outside #3 in Stepaside Village near the Step Inn public house.",
+    "side": null,
+    "lat": 53.25287056785296,
+    "lng": -6.213529645988964
+  },
+  {
+    "id": 196,
+    "location": "Glasson Court, Dundrum",
+    "description": "nr. 6 Glasson Court",
+    "side": null,
+    "lat": 53.30304290381948,
+    "lng": -6.246328721037831
+  },
+  {
+    "id": 197,
+    "location": "Larchfield Road, Goatstown",
+    "description": "1 space at shops on Larchfield Road opposite Lynams Shop.",
+    "side": null,
+    "lat": 53.2986050172683,
+    "lng": -6.236670606108457
+  },
+  {
+    "id": 198,
+    "location": "Loreto Avenue, Nutgrove",
+    "description": "adjacent to house 150 Loreto Ave",
+    "side": null,
+    "lat": 53.288958480639764,
+    "lng": -6.273209976287852
+  },
+  {
+    "id": 199,
+    "location": "Loreto Park, Churchtown",
+    "description": "1 space outside #21 Loreto Park.",
+    "side": null,
+    "lat": 53.29163162934665,
+    "lng": -6.272262250890971
+  },
+  {
+    "id": 200,
+    "location": "Loreto Park, Nutgrove",
+    "description": "1 outside 19 Loreto Park",
+    "side": null,
+    "lat": 53.291559998844946,
+    "lng": -6.272280140377106
+  },
+  {
+    "id": 201,
+    "location": "Loreto Row, Churchtown",
+    "description": "2 spaces to be provided on west side of street outside Alzeimer Centre including a large space to accommodate ambulance.",
+    "side": null,
+    "lat": 53.292006511895224,
+    "lng": -6.271467236785019
+  },
+  {
+    "id": 202,
+    "location": "Main Street, Dundrum",
+    "description": "1 space at #7 on east side of road near Dundrum Credit Union.",
+    "side": null,
+    "lat": 53.2897879693341,
+    "lng": -6.2438725312980985
+  },
+  {
+    "id": 203,
+    "location": "Marley Park car park, Ballinteer",
+    "description": "4 spaces in south east corner of car park off Grange Road.",
+    "side": null,
+    "lat": 53.277463657293644,
+    "lng": -6.268156338866739
+  },
+  {
+    "id": 204,
+    "location": "Mulvey Park, Dundrum",
+    "description": "outside 62 Mulvey Park",
+    "side": null,
+    "lat": 53.30154534859526,
+    "lng": -6.239834643461845
+  },
+  {
+    "id": 205,
+    "location": "Mulvey Park, Dundrum",
+    "description": "opposite no 25 Mulvey Park",
+    "side": null,
+    "lat": 53.30145118860731,
+    "lng": -6.243198752519153
+  },
+  {
+    "id": 206,
+    "location": "Mulvey Park, Dundrum",
+    "description": "1 Mulvey Park opposite house number 149.",
+    "side": null,
+    "lat": 53.301783097488574,
+    "lng": -6.241940025064516
+  },
+  {
+    "id": 207,
+    "location": "Mulvey Park, Dundrum",
+    "description": "outside house no. 172 Mulvey Park.",
+    "side": null,
+    "lat": 53.3016238868538,
+    "lng": -6.2439417152506405
+  },
+  {
+    "id": 208,
+    "location": "Mulvey Park, Dundrum",
+    "description": "1 outside no. 108 Mulvey Park.",
+    "side": null,
+    "lat": 53.30246894608732,
+    "lng": -6.239091572859982
+  },
+  {
+    "id": 209,
+    "location": "Mulvey Park, Dundrum",
+    "description": "1 opposite the entrance to 3 Mulvey Park.",
+    "side": null,
+    "lat": 53.30125839338854,
+    "lng": -6.244751770582583
+  },
+  {
+    "id": 210,
+    "location": "Mulvey Park, Dundrum",
+    "description": "opposite no.148 Mulvey Park",
+    "side": null,
+    "lat": 53.30179973260974,
+    "lng": -6.241849334377355
+  },
+  {
+    "id": 211,
+    "location": "Mulvey Park, Dundrum",
+    "description": "1 space outside no 175 Mulvey Park",
+    "side": null,
+    "lat": 53.30165524542764,
+    "lng": -6.2442404502120725
+  },
+  {
+    "id": 212,
+    "location": "Mulvey Park, Dundrum",
+    "description": "1space opposite nn 155 Mulvey Park",
+    "side": null,
+    "lat": 53.3016727573875,
+    "lng": -6.242379592415365
+  },
+  {
+    "id": 213,
+    "location": "Mulvey Park, Windy Arbour",
+    "description": "2 spaces outside houses 123 and 124 in Mulvey Park.",
+    "side": null,
+    "lat": 53.30226147115057,
+    "lng": -6.240255216562169
+  },
+  {
+    "id": 214,
+    "location": "Nutgrove Avenue, Churchtown",
+    "description": "1 space outside Day Today on Nutgrove Avenue adjacent to Loreto Avenue.",
+    "side": null,
+    "lat": 53.292389362541144,
+    "lng": -6.27184171497833
+  },
+  {
+    "id": 215,
+    "location": "Nutgrove Avenue, Nutgrove",
+    "description": "on the lay-by on Nutgrove Avenue, adjacent to 27 Nutgrove Court.",
+    "side": null,
+    "lat": 53.29345618079318,
+    "lng": -6.274768268154332
+  },
+  {
+    "id": 216,
+    "location": "Olivemount Grove, Windy Arbour",
+    "description": "1 space at house #24 Olivemount Grove.",
+    "side": null,
+    "lat": 53.3042995798802,
+    "lng": -6.244401943904328
+  },
+  {
+    "id": 217,
+    "location": "Olivemount Road, Churchtown",
+    "description": "outside no 6 Olivemount Road",
+    "side": null,
+    "lat": 53.28598155290539,
+    "lng": -6.245348323126888
+  },
+  {
+    "id": 218,
+    "location": "Patrick Doyle Road, Windy Arbour",
+    "description": "1 space at house #10 on east side of road.",
+    "side": null,
+    "lat": 53.30471267667289,
+    "lng": -6.248660609853154
+  },
+  {
+    "id": 219,
+    "location": "Patrick Doyle Road, Windy Arbour",
+    "description": "1 space at house #11 on west side of road.",
+    "side": null,
+    "lat": 53.30545874673018,
+    "lng": -6.248675068408923
+  },
+  {
+    "id": 220,
+    "location": "Rise Avenue, Sandyford",
+    "description": "Total of 4 spaces at shops on Rise Avenue adjacent to Kilgobbin Road.",
+    "side": null,
+    "lat": 53.26410546013552,
+    "lng": -6.2148596925635
+  },
+  {
+    "id": 221,
+    "location": "Roebuck Road, Mount Merrion",
+    "description": "1 space at Spar shop on Roebuck Road adjacent to Foster Avenue.",
+    "side": null,
+    "lat": 53.299480996230265,
+    "lng": -6.22002907155332
+  },
+  {
+    "id": 222,
+    "location": "Sandyford Luas Station",
+    "description": "1 Space at Sandyford Luas Station",
+    "side": null,
+    "lat": 53.277545219479286,
+    "lng": -6.205033864835825
+  },
+  {
+    "id": 223,
+    "location": "Sandyford Car Park At Entrance To Shopping Centre",
+    "description": "1 space in car park adjacent to church near the entrance to Sandyford S.C.",
+    "side": null,
+    "lat": 53.27710054590897,
+    "lng": -6.224542853285084
+  },
+  {
+    "id": 224,
+    "location": "Sandyford Village, Sandyford",
+    "description": "2 spaces near \"Beijing Restaurant\" in Sandyford Village.",
+    "side": null,
+    "lat": 53.270308353737576,
+    "lng": -6.225244175535647
+  },
+  {
+    "id": 225,
+    "location": "St. Brigid's Church Road, Stillorgan",
+    "description": "2 space on west side of St. Brigid's Church Road outside school.",
+    "side": null,
+    "lat": 53.285492177358094,
+    "lng": -6.195118458707292
+  },
+  {
+    "id": 226,
+    "location": "Stollorgan Luas Station",
+    "description": "5 Spaces at Stillorgan Luas Station",
+    "side": null,
+    "lat": 53.2791254097313,
+    "lng": -6.20972048973677
+  },
+  {
+    "id": 227,
+    "location": "St. Brigid's Church Road, Stillorgan",
+    "description": "2 spaces on west side of St. Brigid's Church Road outside H.S.E building.",
+    "side": null,
+    "lat": 53.28417669763758,
+    "lng": -6.194889021083677
+  },
+  {
+    "id": 228,
+    "location": "St. Columbanus' Avenue, Churchtown",
+    "description": "outside nr 54 St. Columbanus Avenue, Dundrum",
+    "side": null,
+    "lat": 53.30670911195779,
+    "lng": -6.249374012689591
+  },
+  {
+    "id": 229,
+    "location": "St. Columbanus' Road, Churchtown",
+    "description": "outside no 143 St Columbanus Road",
+    "side": null,
+    "lat": 53.304893086347576,
+    "lng": -6.2505435047154725
+  },
+  {
+    "id": 230,
+    "location": "St. Columbanus' Road, Churchtown",
+    "description": "adjacent to house no 22 St Columbanus Road",
+    "side": null,
+    "lat": 53.302064328628525,
+    "lng": -6.247613942634887
+  },
+  {
+    "id": 231,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "2 space outside house #32 on north side of road.",
+    "side": null,
+    "lat": 53.301920026870626,
+    "lng": -6.2481898995555705
+  },
+  {
+    "id": 232,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space at house #12 on east side of road.",
+    "side": null,
+    "lat": 53.301970112630435,
+    "lng": -6.247317777940157
+  },
+  {
+    "id": 233,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space at house #6 on west side of road.",
+    "side": null,
+    "lat": 53.30167352471345,
+    "lng": -6.247314928704748
+  },
+  {
+    "id": 234,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space outside #23 on west side of road.",
+    "side": null,
+    "lat": 53.30200429424682,
+    "lng": -6.25025661753389
+  },
+  {
+    "id": 235,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space (nose in) opposite #57 on east side of road.",
+    "side": null,
+    "lat": 53.302901278715396,
+    "lng": -6.250144918680153
+  },
+  {
+    "id": 236,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space (nose in) opposite #67 on east side of road.",
+    "side": null,
+    "lat": 53.30316260342323,
+    "lng": -6.250194234870158
+  },
+  {
+    "id": 237,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space to be provided outside #72 on east side of road.",
+    "side": null,
+    "lat": 53.304654743876974,
+    "lng": -6.2502232058886795
+  },
+  {
+    "id": 238,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space (nose in) opposite #77 on east side of road.",
+    "side": null,
+    "lat": 53.303423928104614,
+    "lng": -6.250243551626917
+  },
+  {
+    "id": 239,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space outside #83 on west side of road.",
+    "side": null,
+    "lat": 53.30354199929137,
+    "lng": -6.250328732314988
+  },
+  {
+    "id": 240,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space (nose in) opposite #89 on east side of road.",
+    "side": null,
+    "lat": 53.30364800915321,
+    "lng": -6.250204381630021
+  },
+  {
+    "id": 241,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space outside #95 on west side of road.",
+    "side": null,
+    "lat": 53.24989060126124,
+    "lng": -6.252549746451462
+  },
+  {
+    "id": 242,
+    "location": "St. Columbanus Road, Windy Arbour",
+    "description": "1 space at Windy Arbour Luas stop on St. Columbanus Road.",
+    "side": null,
+    "lat": 53.30182775753383,
+    "lng": -6.250473854772692
+  },
+  {
+    "id": 243,
+    "location": "St. Lukes Crescent, Dundrum",
+    "description": "outside house number 19 st lukes crescent",
+    "side": null,
+    "lat": 53.30792748803787,
+    "lng": -6.247283691345686
+  },
+  {
+    "id": 244,
+    "location": "St. Luke's Crescent, Milltown",
+    "description": "1 space at #17 St. Luke's Crescent off Dundrum Road.",
+    "side": null,
+    "lat": 53.308017737124004,
+    "lng": -6.247309999393582
+  },
+  {
+    "id": 245,
+    "location": "St. Patricks Park, Stepaside",
+    "description": "outside no. 59 St Patricks Park, Stepaside",
+    "side": null,
+    "lat": 53.25363033594151,
+    "lng": -6.212658847929199
+  },
+  {
+    "id": 246,
+    "location": "Step Inn car park, Stepaside",
+    "description": "1 space in car park adjacent to Step Inn public house.",
+    "side": null,
+    "lat": 53.25322710230988,
+    "lng": -6.213934340785617
+  },
+  {
+    "id": 247,
+    "location": "Stillorgan Library off Old Dublin Road",
+    "description": "2 spaces adjacent to Stillorgan Library in St. Laurence Park.",
+    "side": null,
+    "lat": 53.28949190771628,
+    "lng": -6.19635949135875
+  },
+  {
+    "id": 248,
+    "location": "The Rise, Mount Merrion",
+    "description": "2 spaces on west side of road outside The Rise Medical Centre",
+    "side": null,
+    "lat": 53.29926792028985,
+    "lng": -6.208802677826878
+  },
+  {
+    "id": 249,
+    "location": "Trees Road Upper, Mount Merrion",
+    "description": "1 space at shops on Trees Road Upper adjacent to Cedar Mount Road.",
+    "side": null,
+    "lat": 53.29185449167306,
+    "lng": -6.216011969605784
+  },
+  {
+    "id": 250,
+    "location": "Vally Drive, Cherrywood",
+    "description": "2 bays serving Cherrywood Luas Stop on the Tullyvale Estate side",
+    "side": null,
+    "lat": 53.24623108644356,
+    "lng": -6.144245623881016
+  },
+  {
+    "id": 251,
+    "location": "Willowfield Park, Goatstown",
+    "description": "1 space near St. Michael's House on south side of street.",
+    "side": null,
+    "lat": 53.29729662260636,
+    "lng": -6.232059653763679
+  }
+]
