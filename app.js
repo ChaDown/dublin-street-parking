@@ -219,7 +219,7 @@ async function loadEvData() {
 
 // ── Phase 2: Marker icon ────────────────────────────────────────────────────────
 function createMarkerIcon(status, highlighted = false) {
-  const colours = { red: '#E74C3C', yellow: '#F39C12', green: '#27AE60' };
+  const colours = { red: '#E74C3C', yellow: '#F39C12', green: '#27AE60', clearway: '#E74C3C' };
   const c = colours[status] || colours.red;
   const cls = `p-marker${highlighted ? ' highlighted' : ''}`;
   return L.divIcon({
@@ -399,10 +399,24 @@ function isActive(street, dt) {
 /**
  * Get the marker status colour string for a street at a given datetime.
  */
+function isClearwayActive(street, dt) {
+  if (!street.clearway) return false;
+  if (!parseDays(street.days).has(dt.getDay())) return false;
+  const mins = dt.getHours() * 60 + dt.getMinutes();
+  if (!street.clearway_windows) {
+    // No specific windows parsed — clearway whenever parking is not active
+    return !isActive(street, dt);
+  }
+  return street.clearway_windows.some(([start, end]) => mins >= start && mins < end);
+}
+
 function getStatus(street, dt) {
-  if (!isActive(street, dt)) return 'green';
-  if (!street.pd && street.dp) return 'red';  // permit only
-  return 'yellow';                             // pay & display (± permit)
+  if (isActive(street, dt)) {
+    if (!street.pd && street.dp) return 'red';  // permit only
+    return 'yellow';                             // pay & display (± permit)
+  }
+  if (isClearwayActive(street, dt)) return 'clearway';
+  return 'green';
 }
 
 // ── Phase 3: Datetime picker ────────────────────────────────────────────────────
@@ -630,8 +644,10 @@ function openPanel(street) {
   if (street.disabled_bays > 0) {
     detailsHTML += `<dt>Accessible Bays</dt><dd>${street.disabled_bays}</dd>`;
   }
-  if (street.clearway) {
-    detailsHTML += `<dt>Clearway</dt><dd>Yes</dd>`;
+  if (street.clearway_info) {
+    detailsHTML += `<dt>Clearway</dt><dd>${street.clearway_info}</dd>`;
+  } else if (street.clearway) {
+    detailsHTML += `<dt>Clearway</dt><dd>Yes — see local signage</dd>`;
   }
   details.innerHTML = detailsHTML;
 
@@ -746,9 +762,10 @@ function updatePanelBanner(street) {
   const status = getStatus(street, currentDateTime);
   const banner = document.getElementById('panel-status-banner');
   const labels = {
-    yellow: '🅿 Paid Parking — Active Now',
-    red:    '🅿 Permit Parking — Active Now',
-    green:  '✓ Free Parking Now',
+    yellow:   '🅿 Paid Parking — Active Now',
+    red:      '🅿 Permit Parking — Active Now',
+    green:    '✓ Free Parking Now',
+    clearway: '⛔ Clearway in Operation',
   };
   banner.textContent = labels[status];
   banner.className = status;
