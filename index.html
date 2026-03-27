@@ -34,12 +34,10 @@
   <meta name="apple-mobile-web-app-status-bar-style"  content="default">
   <meta name="apple-mobile-web-app-title"             content="Dublin Parking">
 
-  <!-- Favicon: green P circle -->
-  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABo0lEQVR4nO1XO47CMBB9u1rRBUG3OQMXSBHaVKFA4gA5QypukJKKmgvQ7V4AsS1d0qSkCRUoVUI1Wxk5xhNsPmK1u0+yZMmemad5Y3sM/HW8XGNUhD5xa+7nl5VP481tQW8h8/qo4KZ2rQxlB+8fa+xGw9Ocg7xHzAE+GyyBIvRJddIWmCMikzGujyL0iYioCH0S88ViQQC0o9/v02QyoTzPSYXsQycJWwMm6RY4HA5YLpfwPA/b7baxJuzljLQSUHVXkSQJiOg0jscj0jRFEATY7/eYzWZnNrIfNQsNAmLRRutOp4PBYID5fA4A2Gw27F7hVyahlWA3GlqRAIC6rgEAjuOwwXUyvFlF0aCqKmRZhjiOAQCe513nSFSrqFgVbadADNd1qSxLrb16KoQMRjfhJfR6PYzHY6xWK3S7XStbawmSJMF0OrU1Y3GXDPwT+B0E5JeKu7dvhe55Nj4FURQhiqK7k9JKwF2bt4C73hsERFoeLYEs91kGHlELba0ZewouNRK2wbnX9ek94c/tijkitrjUCRvdhLbfLRu7p/8Nn45vwbJD+kCsQ/IAAAAASUVORK5CYII=">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#E74C3C">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
@@ -89,6 +87,7 @@
 
   <!-- UI overlay (search + datetime + filters) -->
   <div id="ui-overlay">
+    <!-- Always-visible top row -->
     <div id="ui-row">
       <div id="search-wrapper">
         <input id="search-input" type="text" placeholder="Search Dublin…" autocomplete="off" aria-label="Search for a location in Dublin">
@@ -98,12 +97,8 @@
         </button>
         <ul id="search-dropdown" class="hidden" role="listbox" aria-label="Search suggestions"></ul>
       </div>
-      <div id="datetime-wrapper">
-        <input id="date-input" type="date" aria-label="Date">
-        <span class="dt-sep">·</span>
-        <input id="time-input" type="time" aria-label="Time">
-      </div>
-      <button id="filter-toggle" aria-label="Toggle filters" aria-expanded="false">
+      <button id="now-btn" class="pill-btn pill-green" aria-label="Reset to current time and toggle options">Now</button>
+      <button id="burger-btn" aria-label="Toggle options" aria-expanded="false">
         <svg viewBox="0 0 14 14" width="14" height="14" fill="currentColor">
           <rect x="0" y="1.5" width="14" height="1.5" rx="0.75"/>
           <rect x="2" y="6" width="10" height="1.5" rx="0.75"/>
@@ -111,11 +106,22 @@
         </svg>
       </button>
     </div>
-    <div id="filter-bar">
-      <label><input type="checkbox" id="chk-cars" checked> Cars</label>
-      <label><input type="checkbox" id="chk-accessible"> Accessible</label>
-      <label><input type="checkbox" id="chk-ev"> EV</label>
-      <label><input type="checkbox" id="chk-freeonly"> Free Only</label>
+    <!-- Collapsible expanded section -->
+    <div id="expanded-section">
+      <div id="expanded-inner">
+        <div id="datetime-wrapper">
+          <input id="date-input" type="date" aria-label="Date">
+          <span class="dt-sep">·</span>
+          <input id="time-input" type="time" aria-label="Time">
+        </div>
+        <div id="filter-bar">
+          <label><input type="checkbox" id="chk-cars" checked> Cars</label>
+          <label><input type="checkbox" id="chk-accessible"> Accessible</label>
+          <label><input type="checkbox" id="chk-ev"> EV</label>
+          <label><input type="checkbox" id="chk-freeonly"> Free Only</label>
+        </div>
+        <button id="plan-mode-btn" class="pill-btn pill-green pill-full" aria-label="Open Plan Mode">Plan Mode</button>
+      </div>
     </div>
   </div>
 
@@ -147,6 +153,43 @@
       <input type="email" id="upd-email" placeholder="Your email (optional)" aria-label="Your email address">
       <button id="upd-submit">Send Update</button>
       <p id="upd-success" class="hidden">Thanks! Your update will be reviewed.</p>
+    </div>
+  </div>
+
+  <!-- Plan Mode sheet (same pattern as #street-panel) -->
+  <div id="plan-sheet" role="dialog" aria-label="Plan My Parking" aria-hidden="true">
+    <div id="plan-header">
+      <h2>Plan My Parking</h2>
+      <button id="plan-close" aria-label="Close plan">×</button>
+    </div>
+    <div id="plan-body">
+      <div id="plan-address-wrapper">
+        <input id="plan-address-input" type="text" placeholder="Enter destination address…" autocomplete="off" aria-label="Destination address">
+        <button id="plan-address-clear" class="hidden" aria-label="Clear address">×</button>
+        <ul id="plan-address-dropdown" class="hidden" role="listbox" aria-label="Address suggestions"></ul>
+      </div>
+      <div id="plan-times">
+        <label>
+          <span>Arrive</span>
+          <input id="plan-start" type="datetime-local" aria-label="Parking start time">
+        </label>
+        <label>
+          <span>Leave by</span>
+          <input id="plan-end" type="datetime-local" aria-label="Parking end time">
+        </label>
+      </div>
+      <button id="plan-search-btn" class="pill-btn pill-green pill-full">Search</button>
+      <div id="plan-results" class="hidden">
+        <div id="plan-sort-row">
+          <button id="plan-sort-distance" class="pill-btn pill-green" data-sort="distance">By Distance</button>
+          <button id="plan-sort-price" class="pill-btn pill-outline" data-sort="price">Cheapest</button>
+        </div>
+        <div id="plan-maxdist-wrapper" class="hidden">
+          <label for="plan-maxdist">Max distance (m)</label>
+          <input id="plan-maxdist" type="number" min="0" step="50" placeholder="e.g. 500" aria-label="Maximum distance in metres">
+        </div>
+        <ul id="plan-results-list" role="list"></ul>
+      </div>
     </div>
   </div>
 

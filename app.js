@@ -20,6 +20,15 @@ let searchHighlightTimer = null;
 let clockInterval = null;
 let searchDebounceTimer = null;
 const filters = { cars: true, accessible: false, freeOnly: false, ev: false };
+let manualOverride = false;
+
+// ── Plan Mode state ────────────────────────────────────────────────────────────
+const planState = {
+  address: '', lat: null, lng: null,
+  startISO: '', endISO: '',
+  sortBy: 'distance', maxDistance: '',
+  results: [], hasResults: false,
+};
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', init);
@@ -31,6 +40,7 @@ function init() {
   initPanel();
   initNavPicker();
   initFilters();
+  initPlanMode();
   loadData();
 }
 
@@ -410,6 +420,38 @@ function isClearwayActive(street, dt) {
   return street.clearway_windows.some(([start, end]) => mins >= start && mins < end);
 }
 
+/**
+ * Returns true if a street is suitable for public parking throughout [startDt, endDt].
+ * Excludes permit-only streets and any with a clearway/bus lane during that window.
+ * Sampled at 15-minute intervals.
+ */
+function isFullyParkable(street, startDt, endDt) {
+  if (street.dp && !street.pd) return false; // permit-only
+  const step = 15 * 60 * 1000;
+  for (let t = startDt.getTime(); t <= endDt.getTime(); t += step) {
+    if (isClearwayActive(street, new Date(t))) return false;
+  }
+  return true;
+}
+
+/**
+ * Returns estimated parking cost (€) for the window [startDt, endDt].
+ * Parses tariff string (e.g. "€3.20") for the hourly rate.
+ * Samples at 15-minute intervals to count paid intervals.
+ */
+function calculateParkingCost(street, startDt, endDt) {
+  const match = (street.tariff || '').match(/[\d]+\.?[\d]*/);
+  if (!match) return 0;
+  const ratePerHour = parseFloat(match[0]);
+  if (!ratePerHour || isNaN(ratePerHour)) return 0;
+  const step = 15 * 60 * 1000;
+  let paidIntervals = 0;
+  for (let t = startDt.getTime(); t <= endDt.getTime(); t += step) {
+    if (isActive(street, new Date(t))) paidIntervals++;
+  }
+  return paidIntervals * 0.25 * ratePerHour;
+}
+
 function getStatus(street, dt) {
   if (isActive(street, dt)) {
     if (!street.pd && street.dp) return 'red';  // permit only
@@ -420,16 +462,18 @@ function getStatus(street, dt) {
 }
 
 // ── Phase 3: Datetime picker ────────────────────────────────────────────────────
+function setPickerToNow() {
+  const dateInput = document.getElementById('date-input');
+  const timeInput = document.getElementById('time-input');
+  const now = new Date();
+  dateInput.value = toDateInputValue(now);
+  timeInput.value = toTimeInputValue(now);
+  currentDateTime = now;
+}
+
 function initDatetimePicker() {
   const dateInput = document.getElementById('date-input');
   const timeInput = document.getElementById('time-input');
-
-  function setPickerToNow() {
-    const now = new Date();
-    dateInput.value = toDateInputValue(now);
-    timeInput.value = toTimeInputValue(now);
-    currentDateTime = now;
-  }
 
   setPickerToNow();
 
@@ -437,9 +481,18 @@ function initDatetimePicker() {
   timeInput.addEventListener('change', onDatetimeChange);
 
   // Live clock — update every minute when picker hasn't been manually changed
-  let manualOverride = false;
   dateInput.addEventListener('change', () => { manualOverride = true; });
   timeInput.addEventListener('change', () => { manualOverride = true; });
+
+  // Now button — toggle expanded section + reset to current time
+  document.getElementById('now-btn').addEventListener('click', () => {
+    setPickerToNow();
+    manualOverride = false;
+    recolourAllMarkers();
+    const overlay = document.getElementById('ui-overlay');
+    const expanded = overlay.classList.toggle('expanded');
+    document.getElementById('burger-btn').setAttribute('aria-expanded', expanded);
+  });
 
   clockInterval = setInterval(() => {
     if (!manualOverride) {
@@ -487,6 +540,7 @@ function initPanel() {
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
+      closePlanSheet();
       closePanel();
       closeNavPicker();
       closeSearchDropdown();
@@ -645,7 +699,8 @@ function openPanel(street) {
     detailsHTML += `<dt>Accessible Bays</dt><dd>${street.disabled_bays}</dd>`;
   }
   if (street.clearway_info) {
-    detailsHTML += `<dt>Clearway</dt><dd>${street.clearway_info}</dd>`;
+    const cwLabel = street.clearway_type === 'bus_lane' ? 'Bus Lane' : 'Clearway';
+    detailsHTML += `<dt>${cwLabel}</dt><dd>${street.clearway_info}</dd>`;
   } else if (street.clearway) {
     detailsHTML += `<dt>Clearway</dt><dd>Yes — see local signage</dd>`;
   }
@@ -765,7 +820,7 @@ function updatePanelBanner(street) {
     yellow:   '🅿 Paid Parking — Active Now',
     red:      '🅿 Permit Parking — Active Now',
     green:    '✓ Free Parking Now',
-    clearway: '⛔ Clearway in Operation',
+    clearway: street.clearway_type === 'bus_lane' ? '🚌 Bus Lane in Operation' : '⛔ Clearway in Operation',
   };
   banner.textContent = labels[status];
   banner.className = status;
@@ -793,7 +848,7 @@ function toggleUpdateForm() {
   }
 }
 
-function submitUpdate() {
+async function submitUpdate() {
   const street = currentStreet;
   if (!street) return;
   const message = document.getElementById('upd-message').value.trim();
@@ -802,16 +857,40 @@ function submitUpdate() {
     return;
   }
   const email = document.getElementById('upd-email').value.trim();
-  const subject = encodeURIComponent(`Parking Update: ${street.location}`);
-  const body = encodeURIComponent(
-    `Street: ${street.location}\n\nUpdate:\n${message}\n\nSubmitted by: ${email || 'Anonymous'}`
-  );
-  window.location.href = `mailto:updates@dublinstreetparking.ie?subject=${subject}&body=${body}`;
-  document.getElementById('upd-success').classList.remove('hidden');
-  setTimeout(() => {
-    document.getElementById('update-form').classList.add('hidden');
-    document.getElementById('upd-success').classList.add('hidden');
-  }, 3000);
+  const btn = document.getElementById('upd-submit');
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({
+        access_key: '20f4d852-77a7-4d6e-a443-5f84aba61f06',
+        subject: `Parking Update: ${street.location}`,
+        name: email || 'Anonymous',
+        email: email || '',
+        message: `Street: ${street.location}\n\nUpdate:\n${message}`,
+      }),
+    });
+    const data = await res.json();
+    if (data.success) {
+      document.getElementById('upd-message').value = '';
+      document.getElementById('upd-email').value = '';
+      document.getElementById('upd-success').classList.remove('hidden');
+      setTimeout(() => {
+        document.getElementById('update-form').classList.add('hidden');
+        document.getElementById('upd-success').classList.add('hidden');
+      }, 3000);
+    } else {
+      alert('Failed to send — please try again.');
+    }
+  } catch {
+    alert('Failed to send — please check your connection and try again.');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Send Update';
+  }
 }
 
 // ── Filters ────────────────────────────────────────────────────────────────────
@@ -859,7 +938,7 @@ function initFilters() {
   const chkCars     = document.getElementById('chk-cars');
   const chkDisabled = document.getElementById('chk-accessible');
   const chkFreeOnly = document.getElementById('chk-freeonly');
-  const toggle      = document.getElementById('filter-toggle');
+  const toggle      = document.getElementById('burger-btn');
   const overlay     = document.getElementById('ui-overlay');
 
   chkCars.addEventListener('change', () => {
@@ -892,7 +971,7 @@ function initFilters() {
   });
 
   toggle.addEventListener('click', () => {
-    const expanded = overlay.classList.toggle('filter-expanded');
+    const expanded = overlay.classList.toggle('expanded');
     toggle.setAttribute('aria-expanded', expanded);
   });
 }
@@ -1059,13 +1138,18 @@ function initNavPicker() {
   document.getElementById('nav-google').addEventListener('click', () => {
     const target = getNavTarget();
     if (!target) return;
-    window.open(`https://www.google.com/maps/dir/?api=1&destination=${target.lat},${target.lng}`, '_blank', 'noopener');
+    // maps.google.com is an app link on Android and a universal link on iOS — opens the app directly
+    window.location.href = `https://maps.google.com/maps?daddr=${target.lat},${target.lng}`;
     closeNavPicker();
   });
   document.getElementById('nav-waze').addEventListener('click', () => {
     const target = getNavTarget();
     if (!target) return;
-    window.open(`https://waze.com/ul?ll=${target.lat},${target.lng}&navigate=yes`, '_blank', 'noopener');
+    // waze:// opens the Waze app; fall back to web URL after 500ms if not installed
+    window.location.href = `waze://ul?ll=${target.lat},${target.lng}&navigate=yes`;
+    setTimeout(() => {
+      window.open(`https://waze.com/ul?ll=${target.lat},${target.lng}&navigate=yes`, '_blank', 'noopener');
+    }, 500);
     closeNavPicker();
   });
   document.getElementById('nav-apple').addEventListener('click', () => {
@@ -1092,4 +1176,245 @@ function closeNavPicker() {
 function toTitleCase(str) {
   if (!str) return '';
   return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+}
+
+// ── Plan Mode ──────────────────────────────────────────────────────────────────
+function openPlanSheet() {
+  const sheet = document.getElementById('plan-sheet');
+  sheet.classList.add('plan-open');
+  sheet.setAttribute('aria-hidden', 'false');
+  document.getElementById('legend').classList.add('hidden');
+
+  // Restore state to inputs
+  document.getElementById('plan-address-input').value = planState.address;
+  document.getElementById('plan-address-clear').classList.toggle('hidden', !planState.address);
+  if (planState.startISO) document.getElementById('plan-start').value = planState.startISO;
+  if (planState.endISO)   document.getElementById('plan-end').value   = planState.endISO;
+  const distBtn  = document.getElementById('plan-sort-distance');
+  const priceBtn = document.getElementById('plan-sort-price');
+  if (planState.sortBy === 'distance') {
+    distBtn.className  = 'pill-btn pill-green';
+    priceBtn.className = 'pill-btn pill-outline';
+  } else {
+    distBtn.className  = 'pill-btn pill-outline';
+    priceBtn.className = 'pill-btn pill-green';
+  }
+  document.getElementById('plan-maxdist').value = planState.maxDistance;
+  document.getElementById('plan-maxdist-wrapper').classList.toggle('hidden', planState.sortBy !== 'price');
+
+  if (planState.hasResults) renderPlanResults();
+  else document.getElementById('plan-results').classList.add('hidden');
+}
+
+function closePlanSheet() {
+  const sheet = document.getElementById('plan-sheet');
+  if (!sheet.classList.contains('plan-open')) return;
+  sheet.classList.remove('plan-open');
+  sheet.setAttribute('aria-hidden', 'true');
+  if (!document.getElementById('street-panel').classList.contains('panel-open')) {
+    document.getElementById('legend').classList.remove('hidden');
+  }
+}
+
+function invalidatePlanResults() {
+  planState.hasResults = false;
+  planState.results = [];
+  document.getElementById('plan-results').classList.add('hidden');
+}
+
+function executePlanSearch() {
+  const startDt = new Date(planState.startISO);
+  const endDt   = new Date(planState.endISO);
+
+  if (isNaN(startDt) || isNaN(endDt) || endDt <= startDt) {
+    const list = document.getElementById('plan-results-list');
+    list.innerHTML = '<li id="plan-no-results">Please set a valid start and end time.</li>';
+    document.getElementById('plan-results').classList.remove('hidden');
+    planState.hasResults = false;
+    return;
+  }
+
+  const centre = L.latLng(planState.lat, planState.lng);
+  const candidates = [];
+
+  for (const [, { street }] of markerMap) {
+    if (!isFullyParkable(street, startDt, endDt)) continue;
+    const distance = centre.distanceTo(L.latLng(street.lat, street.lng));
+    const cost     = calculateParkingCost(street, startDt, endDt);
+    candidates.push({ street, distance, cost });
+  }
+
+  let filtered = candidates;
+  if (planState.sortBy === 'price' && planState.maxDistance && Number(planState.maxDistance) > 0) {
+    filtered = candidates.filter(c => c.distance <= Number(planState.maxDistance));
+  }
+
+  if (planState.sortBy === 'distance') {
+    filtered.sort((a, b) => a.distance - b.distance);
+  } else {
+    filtered.sort((a, b) => a.cost - b.cost || a.distance - b.distance);
+  }
+
+  planState.results    = filtered.slice(0, 5);
+  planState.hasResults = true;
+  renderPlanResults();
+}
+
+function renderPlanResults() {
+  const list = document.getElementById('plan-results-list');
+  document.getElementById('plan-results').classList.remove('hidden');
+  list.innerHTML = '';
+
+  if (planState.results.length === 0) {
+    list.innerHTML = '<li id="plan-no-results">No suitable parking found nearby. Try a different time or address.</li>';
+    return;
+  }
+
+  for (const { street, distance, cost } of planState.results) {
+    const distStr  = distance < 1000 ? `${Math.round(distance)}m` : `${(distance / 1000).toFixed(1)}km`;
+    const costStr  = cost === 0 ? 'Free' : `€${cost.toFixed(2)}`;
+    const costClass = cost === 0 ? 'free' : 'paid';
+
+    const li = document.createElement('li');
+    li.className = 'plan-result-item';
+    li.setAttribute('role', 'listitem');
+    li.innerHTML = `
+      <span class="plan-result-name">${escSVG(street.location)}</span>
+      <span class="plan-result-meta">
+        <span class="plan-result-dist">${distStr}</span>
+        <span class="plan-result-cost ${costClass}">${costStr}</span>
+      </span>`;
+    li.addEventListener('click', () => {
+      closePlanSheet();
+      openPanel(street);
+    });
+    list.appendChild(li);
+  }
+}
+
+async function doPlanAddressSearch(query) {
+  const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(query + ' Dublin Ireland')}&limit=5&lat=53.3498&lon=-6.2603`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    showPlanAddressDropdown(data.features || []);
+  } catch {
+    document.getElementById('plan-address-dropdown').classList.add('hidden');
+  }
+}
+
+function showPlanAddressDropdown(features) {
+  const drop = document.getElementById('plan-address-dropdown');
+  drop.innerHTML = '';
+  if (!features.length) { drop.classList.add('hidden'); return; }
+
+  for (const f of features) {
+    const p    = f.properties;
+    const lat  = f.geometry.coordinates[1];
+    const lng  = f.geometry.coordinates[0];
+    const name = [p.name, p.street, p.city, p.county].filter(Boolean).join(', ');
+    const li   = document.createElement('li');
+    li.textContent = name.length > 60 ? name.slice(0, 57) + '…' : name;
+    li.setAttribute('role', 'option');
+    li.addEventListener('click', () => {
+      planState.address = name.split(',')[0];
+      planState.lat     = lat;
+      planState.lng     = lng;
+      document.getElementById('plan-address-input').value = planState.address;
+      document.getElementById('plan-address-clear').classList.remove('hidden');
+      drop.classList.add('hidden');
+    });
+    drop.appendChild(li);
+  }
+  drop.classList.remove('hidden');
+}
+
+function initPlanMode() {
+  document.getElementById('plan-mode-btn').addEventListener('click', () => {
+    // Collapse the burger menu
+    const overlay = document.getElementById('ui-overlay');
+    overlay.classList.remove('expanded');
+    document.getElementById('burger-btn').setAttribute('aria-expanded', 'false');
+    openPlanSheet();
+  });
+  document.getElementById('plan-close').addEventListener('click', closePlanSheet);
+
+  // Address input
+  const addrInput = document.getElementById('plan-address-input');
+  const addrClear = document.getElementById('plan-address-clear');
+  const addrDrop  = document.getElementById('plan-address-dropdown');
+  let addrDebounce = null;
+
+  addrInput.addEventListener('input', () => {
+    planState.address = addrInput.value;
+    planState.lat = null;
+    planState.lng = null;
+    addrClear.classList.toggle('hidden', !addrInput.value);
+    invalidatePlanResults();
+    clearTimeout(addrDebounce);
+    if (addrInput.value.trim().length < 2) { addrDrop.classList.add('hidden'); return; }
+    addrDebounce = setTimeout(() => doPlanAddressSearch(addrInput.value.trim()), 400);
+  });
+
+  addrClear.addEventListener('click', () => {
+    addrInput.value = '';
+    planState.address = '';
+    planState.lat = null;
+    planState.lng = null;
+    addrClear.classList.add('hidden');
+    addrDrop.classList.add('hidden');
+    invalidatePlanResults();
+    addrInput.focus();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!document.getElementById('plan-address-wrapper').contains(e.target)) {
+      addrDrop.classList.add('hidden');
+    }
+  });
+
+  // Start/end time inputs
+  document.getElementById('plan-start').addEventListener('change', () => {
+    planState.startISO = document.getElementById('plan-start').value;
+    invalidatePlanResults();
+  });
+  document.getElementById('plan-end').addEventListener('change', () => {
+    planState.endISO = document.getElementById('plan-end').value;
+    invalidatePlanResults();
+  });
+
+  // Search button
+  document.getElementById('plan-search-btn').addEventListener('click', () => {
+    if (!planState.lat || !planState.lng) { addrInput.focus(); return; }
+    executePlanSearch();
+  });
+
+  // Sort toggle — two buttons
+  function setSortMode(mode) {
+    planState.sortBy = mode;
+    const distBtn    = document.getElementById('plan-sort-distance');
+    const priceBtn   = document.getElementById('plan-sort-price');
+    const maxWrapper = document.getElementById('plan-maxdist-wrapper');
+    if (mode === 'distance') {
+      distBtn.className  = 'pill-btn pill-green';
+      priceBtn.className = 'pill-btn pill-outline';
+      maxWrapper.classList.add('hidden');
+      planState.maxDistance = '';
+      document.getElementById('plan-maxdist').value = '';
+    } else {
+      distBtn.className  = 'pill-btn pill-outline';
+      priceBtn.className = 'pill-btn pill-green';
+      maxWrapper.classList.remove('hidden');
+    }
+    if (planState.hasResults) executePlanSearch();
+  }
+  document.getElementById('plan-sort-distance').addEventListener('click', () => setSortMode('distance'));
+  document.getElementById('plan-sort-price').addEventListener('click', () => setSortMode('price'));
+
+  // Max distance
+  document.getElementById('plan-maxdist').addEventListener('change', () => {
+    planState.maxDistance = document.getElementById('plan-maxdist').value;
+    if (planState.hasResults) executePlanSearch();
+  });
 }

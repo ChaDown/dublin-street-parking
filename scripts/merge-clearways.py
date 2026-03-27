@@ -89,13 +89,13 @@ def parse_keyword_windows(text):
     has_after  = bool(re.search(r'\bafter\b', tl))
 
     if has_before and not has_after and all_mins:
-        return [[0, all_mins[0]]]
+        return [[420, all_mins[0]]]  # 07:00 default start
 
     if has_after and not has_before and all_mins:
-        return [[all_mins[0], 1440]]
+        return [[all_mins[0], 1140]]  # 19:00 default end
 
     if has_before and has_after and len(all_mins) >= 2:
-        return [[0, all_mins[0]], [all_mins[1], 1440]]
+        return [[420, all_mins[0]], [all_mins[1], 1140]]
 
     return None
 
@@ -158,11 +158,13 @@ for feat in gj['features']:
     ch = p.get('Clearway_Hrs')
     info = (fi or ch or 'Clearway zone').strip()
     windows = parse_clearway_windows(fi, ch)
+    is_bus_lane = bool(re.search(r'\bbus\s+lane\b', info, re.IGNORECASE))
     clearways.append({
         'no': str(p['No']),
         'location': p.get('Location', ''),
         'info': info,
         'windows': windows,
+        'is_bus_lane': is_bus_lane,
         'lat': float(p['Latitude']),
         'lng': float(p['Longitude']),
     })
@@ -193,6 +195,7 @@ for cw in clearways:
         best_record['clearway'] = True
         best_record['clearway_info'] = cw['info']
         best_record['clearway_windows'] = cw['windows']
+        best_record['clearway_type'] = 'bus_lane' if cw['is_bus_lane'] else 'clearway'
         matched += 1
         print(f"  ✓ {cw['no']:>5} {cw['location']:<28} → {best_record['location']:<28} ({best_dist:.0f}m)  {win_str}")
     else:

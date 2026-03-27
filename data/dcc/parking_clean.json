@@ -2528,14 +2528,15 @@
     "clearway_info": "Clearway until 10.00 and after16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 134,
@@ -3755,14 +3756,15 @@
     "clearway_info": "Clearway until 10.00 and after 16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 198,
@@ -4030,7 +4032,8 @@
     "extraDays": null,
     "extraTimes": null,
     "clearway_info": "Clearway zone",
-    "clearway_windows": null
+    "clearway_windows": null,
+    "clearway_type": "clearway"
   },
   {
     "id": 212,
@@ -4811,7 +4814,8 @@
     "extraDays": null,
     "extraTimes": null,
     "clearway_info": "Clearway zone",
-    "clearway_windows": null
+    "clearway_windows": null,
+    "clearway_type": "clearway"
   },
   {
     "id": 253,
@@ -9962,7 +9966,8 @@
     "extraDays": null,
     "extraTimes": null,
     "clearway_info": "Clearway zone",
-    "clearway_windows": null
+    "clearway_windows": null,
+    "clearway_type": "clearway"
   },
   {
     "id": 527,
@@ -10689,9 +10694,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 565,
@@ -10714,14 +10720,15 @@
     "clearway_info": "Clearway until 10.00 + after16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 566,
@@ -11126,9 +11133,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 587,
@@ -11151,10 +11159,11 @@
     "clearway_info": "Clearway until  10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 588,
@@ -11389,7 +11398,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 600,
@@ -11412,10 +11422,11 @@
     "clearway_info": "clearway before 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 601,
@@ -11438,14 +11449,15 @@
     "clearway_info": "Clearway until 10.00 and after 16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 602,
@@ -11468,10 +11480,11 @@
     "clearway_info": "Clearway until 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 603,
@@ -11495,9 +11508,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 604,
@@ -11603,7 +11617,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 609,
@@ -11873,10 +11888,11 @@
     "clearway_info": "Clearway  until 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 623,
@@ -12001,7 +12017,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 629,
@@ -12297,7 +12314,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 644,
@@ -12358,14 +12376,15 @@
     "clearway_info": "Clearway before 10.00 and after 15.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         900,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 647,
@@ -12509,7 +12528,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 654,
@@ -12539,7 +12559,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 655,
@@ -13006,7 +13027,8 @@
         0,
         360
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 679,
@@ -13068,9 +13090,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 682,
@@ -13094,9 +13117,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 683,
@@ -13252,14 +13276,15 @@
     "clearway_info": "Clearway before 10.00 and after 1600",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 691,
@@ -13891,9 +13916,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 724,
@@ -14854,7 +14880,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 774,
@@ -17215,9 +17242,10 @@
     "clearway_windows": [
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 898,
@@ -17525,14 +17553,15 @@
     "clearway_info": "Bus lane before 10.00 and after 16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 914,
@@ -17650,10 +17679,11 @@
     "clearway_info": "Bus lane before 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "bus_lane"
   },
   {
     "id": 920,
@@ -19101,10 +19131,11 @@
     "clearway_info": "Clearway until 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 996,
@@ -19127,10 +19158,11 @@
     "clearway_info": "Clearway until 10.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 997,
@@ -20063,7 +20095,8 @@
     "extraDays": null,
     "extraTimes": null,
     "clearway_info": "No parking CLEARWAY",
-    "clearway_windows": null
+    "clearway_windows": null,
+    "clearway_type": "clearway"
   },
   {
     "id": 1046,
@@ -20333,14 +20366,15 @@
     "clearway_info": "Clearway before 10.00 after 16.00",
     "clearway_windows": [
       [
-        0,
+        420,
         600
       ],
       [
         960,
-        1440
+        1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 1060,
@@ -20655,7 +20689,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 1076,
@@ -21080,7 +21115,8 @@
         960,
         1140
       ]
-    ]
+    ],
+    "clearway_type": "clearway"
   },
   {
     "id": 1098,
