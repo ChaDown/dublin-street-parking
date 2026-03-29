@@ -34,6 +34,15 @@ const planState = {
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
+  // URL param support for SEO page iframes
+  const _params = new URLSearchParams(window.location.search);
+  if (_params.get('embed') === '1') {
+    document.getElementById('ui-overlay').style.display = 'none';
+    document.getElementById('legend').style.display = 'none';
+  }
+  window._embedAreaParam    = _params.get('area');
+  window._embedLandmarkParam = _params.get('landmark');
+
   initMap();
   initDatetimePicker();
   initSearchBar();
@@ -62,6 +71,45 @@ function initMap() {
   }).addTo(map);
 
   L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  const LocateControl = L.Control.extend({
+    options: { position: 'bottomright' },
+    onAdd() {
+      const btn = L.DomUtil.create('button', 'locate-btn');
+      btn.title = 'Go to my location';
+      btn.innerHTML = `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>`;
+      L.DomEvent.on(btn, 'click', L.DomEvent.stopPropagation);
+      L.DomEvent.on(btn, 'click', () => {
+        if (!navigator.geolocation) return;
+        navigator.geolocation.getCurrentPosition(pos => {
+          const { latitude: lat, longitude: lng } = pos.coords;
+          const dublinBounds = L.latLngBounds([[53.15, -6.55], [53.65, -5.95]]);
+          if (!dublinBounds.contains([lat, lng])) return;
+          map.setView([lat, lng], 17);
+          if (window._locateMarker) window._locateMarker.remove();
+          window._locateMarker = L.circleMarker([lat, lng], {
+            radius: 8, color: '#2980b9', fillColor: '#3498db',
+            fillOpacity: 0.9, weight: 2,
+          }).addTo(map).bindPopup('You are here').openPopup();
+        });
+      });
+      return btn;
+    }
+  });
+  new LocateControl().addTo(map);
+
+  const InfoControl = L.Control.extend({
+    options: { position: 'bottomright' },
+    onAdd() {
+      const btn = L.DomUtil.create('button', 'locate-btn info-btn');
+      btn.title = 'Browse parking areas & info';
+      btn.textContent = 'i';
+      L.DomEvent.on(btn, 'click', L.DomEvent.stopPropagation);
+      L.DomEvent.on(btn, 'click', () => { window.location.href = '/parking/'; });
+      return btn;
+    }
+  });
+  new InfoControl().addTo(map);
 
   map.on('click', () => {
     closePanel();
@@ -121,6 +169,19 @@ async function loadData() {
 
     loadAccessibleData();
     loadEvData();
+
+    // Apply area/landmark focus from URL params (for embed iframes)
+    if (window._embedAreaParam) {
+      fetch('data/areas.json').then(r => r.json()).then(areas => {
+        const a = areas.find(x => x.slug === window._embedAreaParam);
+        if (a) map.setView([a.lat, a.lng], 15);
+      }).catch(() => {});
+    } else if (window._embedLandmarkParam) {
+      fetch('data/landmarks.json').then(r => r.json()).then(landmarks => {
+        const l = landmarks.find(x => x.slug === window._embedLandmarkParam);
+        if (l) { map.setView([l.lat, l.lng], 16); highlightNearby(l.lat, l.lng, 800); }
+      }).catch(() => {});
+    }
 
   } catch (err) {
     console.error('Failed to load parking data:', err);

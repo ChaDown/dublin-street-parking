@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dublin Street Parking — Browse Parking Areas, Guides &amp; Info</title>
+  <meta name="description" content="Browse street parking by area across Dublin City, Fingal, South Dublin and Dún Laoghaire-Rathdown. Find free parking, pay & display spots, overnight parking and disabled bays.">
+  <link rel="canonical" href="https://dublinstreetparking.ie/parking/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Dublin Street Parking — Browse Parking Areas &amp; Guides">
+  <meta property="og:description" content="Browse street parking by area across all four Dublin councils. Parking guides, venue search and open data.">
+  <meta property="og:url" content="https://dublinstreetparking.ie/parking/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/seo-pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dublinstreetparking.ie/" },
+      { "@type": "ListItem", "position": 2, "name": "Browse Parking", "item": "https://dublinstreetparking.ie/parking/" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="14" fill="white" stroke="#E74C3C" stroke-width="3"/>
+        <text x="16" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial, sans-serif">P</text>
+      </svg>
+      Dublin Street Parking
+    </a>
+    <a href="/" class="header-cta">Go To Map</a>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Browse Parking</span>
+  </nav>
+
+  <h1>Dublin Street Parking — Browse All Areas</h1>
+  <p class="page-intro">Street parking information across Dublin City Council, Fingal County Council, South Dublin County Council, and Dún Laoghaire-Rathdown. Browse by area, parking type, or nearby venue. All data sourced from official open data portals.</p>
+
+  <a href="/" class="map-cta">Open Interactive Parking Map →</a>
+
+  <h2>Browse by Area</h2>
+  <div class="area-hub-grid">
+    {{#each areas}}
+    <a href="/parking/{{this.slug}}/" class="area-card">
+      <strong>{{this.name}}</strong>
+      <span>{{this.spotCount}} streets</span>
+    </a>
+    {{/each}}
+  </div>
+
+  <h2>Parking Guides</h2>
+  <div class="pill-list">
+    {{#each useCases}}
+    <a href="/parking/{{this.slug}}/" class="pill-link">{{this.label}}</a>
+    {{/each}}
+  </div>
+
+  <h2>Parking Near Top Venues</h2>
+  <div class="pill-list">
+    {{#each landmarks}}
+    <a href="/parking/near-{{this.slug}}/" class="pill-link">Near {{this.name}}</a>
+    {{/each}}
+  </div>
+
+  <h2>About Dublin Street Parking</h2>
+  <div class="tip-box">
+    <strong>Data sources</strong>
+    Parking data is sourced from <a href="https://data.smartdublin.ie" target="_blank" rel="noopener">data.smartdublin.ie</a>
+    and the open data portals of Dublin City Council, Fingal County Council,
+    South Dublin County Council, and Dún Laoghaire-Rathdown County Council.
+    Data is provided for informational purposes and may not reflect recent changes to on-street signage or regulations.
+  </div>
+  <div class="tip-box warning">
+    <strong>Always check the signs</strong>
+    Parking rules change. The physical signs on the street are the legal authority —
+    this site is a guide only. Dublin Street Parking accepts no liability
+    for fines, clamping, or towing resulting from reliance on this data.
+    Always read the physical signs before parking.
+  </div>
+  <p>Built and maintained independently. <a href="/">Open the interactive map →</a></p>
+
+</div>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>
+      <a href="/">Dublin Street Parking</a> — Parking map for Dublin City, Dún Laoghaire-Rathdown, Fingal, and South Dublin.
+    </p>
+    <div class="footer-areas">
+      <h4>Browse by Area</h4>
+      <div class="area-footer-grid">
+        {{#each allAreas}}
+        <a href="/parking/{{this.slug}}/">Parking {{this.name}}</a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

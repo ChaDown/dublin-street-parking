@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Street Parking in {{area.name}} | Dublin Street Parking</title>
+  <meta name="description" content="Find street parking in {{area.name}}, Dublin. {{stats.total}} parking spots — from {{stats.minPrice}} per hour. Pay & display, free parking, and disabled bays mapped.">
+  <link rel="canonical" href="https://dublinstreetparking.ie/parking/{{area.slug}}/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Street Parking in {{area.name}} | Dublin Street Parking">
+  <meta property="og:description" content="{{stats.total}} parking spots in {{area.name}}. Interactive map with live parking rules.">
+  <meta property="og:url" content="https://dublinstreetparking.ie/parking/{{area.slug}}/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/seo-pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dublinstreetparking.ie/" },
+          { "@type": "ListItem", "position": 2, "name": "Parking Dublin", "item": "https://dublinstreetparking.ie/" },
+          { "@type": "ListItem", "position": 3, "name": "{{area.name}}", "item": "https://dublinstreetparking.ie/parking/{{area.slug}}/" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Street Parking in {{area.name}}",
+        "numberOfItems": {{stats.total}},
+        "itemListElement": [
+          {{#each topSpots}}
+          {
+            "@type": "ListItem",
+            "position": {{plusOne @index}},
+            "name": "{{this.name}}",
+            "item": {
+              "@type": "ParkingFacility",
+              "name": "{{this.name}}",
+              "geo": { "@type": "GeoCoordinates", "latitude": {{this.lat}}, "longitude": {{this.lng}} }
+            }
+          }{{#unless @last}},{{/unless}}
+          {{/each}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="14" fill="white" stroke="#E74C3C" stroke-width="3"/>
+        <text x="16" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial, sans-serif">P</text>
+      </svg>
+      Dublin Street Parking
+    </a>
+    <a href="/" class="header-cta">Go To Map</a>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/">Parking Dublin</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{{area.name}}</span>
+  </nav>
+
+  <h1>Street Parking in {{area.name}}</h1>
+  <p class="page-intro">{{area.description}} There are <strong>{{stats.total}} street parking spots</strong> in {{area.name}}{{#if stats.freeCount}}, including {{stats.freeCount}} with free parking available{{/if}}.</p>
+
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="stat-value">{{stats.total}}</div>
+      <div class="stat-label">Parking streets</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{stats.pdCount}}</div>
+      <div class="stat-label">Pay &amp; Display</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{stats.freeCount}}</div>
+      <div class="stat-label">Free evenings/wknd</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{#if stats.minPrice}}€{{stats.minPrice}}{{else}}Free{{/if}}</div>
+      <div class="stat-label">From (per hour)</div>
+    </div>
+  </div>
+
+  <a href="https://dublinstreetparking.ie/?area={{area.slug}}" class="map-cta">View Parking Map for {{area.name}} →</a>
+
+  <h2>Parking Spots in {{area.name}}</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Street</th>
+          <th>Price/hr</th>
+          <th>Hours</th>
+          <th>Days</th>
+          <th>Free Sunday</th>
+          <th>Disabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each spots}}
+        <tr>
+          <td><strong>{{this.name}}</strong>{{#if this.exact_location}}<br><small>{{this.exact_location}}</small>{{/if}}</td>
+          <td>{{#if this.price_per_hour}}<span class="badge badge-yellow">€{{this.price_per_hour}}</span>{{else}}<span class="badge badge-green">Free</span>{{/if}}</td>
+          <td>{{#if this.hours_start}}{{this.hours_start}}–{{this.hours_end}}{{else}}—{{/if}}</td>
+          <td>{{#if this.days_active}}{{this.days_active}}{{else}}—{{/if}}</td>
+          <td>{{#if this.free_on_sunday}}<span class="badge badge-green">Yes</span>{{else}}<span class="badge badge-grey">No</span>{{/if}}</td>
+          <td>{{#if this.disabled_badge_free}}<span class="badge badge-green">Yes</span>{{else}}—{{/if}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+
+  {{#if landmarks.length}}
+  <h2>Nearby Landmarks in {{area.name}}</h2>
+  <div class="link-grid">
+    {{#each landmarks}}
+    <a href="{{this.external_url}}" class="link-card" target="_blank" rel="noopener">
+      <span class="link-card-icon">{{landmarkIcon this.type}}</span>
+      <span>{{this.name}}</span>
+    </a>
+    {{/each}}
+  </div>
+  {{/if}}
+
+  {{#if landmarks.length}}
+  <h2>Parking Near Specific Venues</h2>
+  <div class="pill-list">
+    {{#each landmarks}}
+    <a href="/parking/near-{{this.slug}}/" class="pill-link">Near {{this.name}}</a>
+    {{/each}}
+  </div>
+  {{/if}}
+
+  <h2>Parking Rules &amp; Permits — {{area.name}}</h2>
+  <div class="tip-box">
+    <strong>Pay &amp; Display parking</strong>
+    In {{area.name}}, pay &amp; display parking is managed by {{area.council_name}}. Purchase tickets from roadside machines or use the <a href="https://www.payzone.ie" target="_blank" rel="noopener">Payzone app</a>. Always check signs — hours and tariffs vary by street.
+  </div>
+  <div class="tip-box warning">
+    <strong>Permit zones</strong>
+    Some streets in {{area.name}} operate permit parking schemes. These are indicated by yellow lines and signs. Non-permit holders may park for a limited period during restricted hours — check the local signage carefully.
+  </div>
+  <p><a href="{{area.council_parking_url}}" target="_blank" rel="noopener">View official parking information from {{area.council_name}} →</a></p>
+
+  {{#if useCases.length}}
+  <h2>Parking by Need in {{area.name}}</h2>
+  <div class="pill-list">
+    {{#each useCases}}
+    <a href="/parking/{{this.slug}}/{{../area.slug}}/" class="pill-link">{{this.label}}</a>
+    {{/each}}
+  </div>
+  {{/if}}
+
+  {{#if adjacentAreas.length}}
+  <h2>Nearby Areas</h2>
+  <div class="pill-list">
+    {{#each adjacentAreas}}
+    <a href="/parking/{{this.slug}}/" class="pill-link">Parking {{this.name}}</a>
+    {{/each}}
+  </div>
+  {{/if}}
+
+</div>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>
+      <a href="/">Dublin Street Parking</a> — Parking map for Dublin City, Dún Laoghaire-Rathdown, Fingal, and South Dublin.
+      Data sourced from Dublin City Council and county councils.
+    </p>
+    <div class="footer-areas">
+      <h4>Browse by Area</h4>
+      <div class="area-footer-grid">
+        {{#each allAreas}}
+        <a href="/parking/{{this.slug}}/">Parking {{this.name}}</a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

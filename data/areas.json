@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "dublin-1",
+    "name": "Dublin 1",
+    "label": "D1",
+    "lat": 53.3522,
+    "lng": -6.2576,
+    "description": "Dublin's northside city centre, including O'Connell Street, Parnell Square, and the IFSC.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.343, "latMax": 53.363, "lngMin": -6.278, "lngMax": -6.228 }
+  },
+  {
+    "slug": "dublin-2",
+    "name": "Dublin 2",
+    "label": "D2",
+    "lat": 53.3376,
+    "lng": -6.2529,
+    "description": "Dublin's southside city centre, including Grafton Street, St Stephen's Green, and Merrion Square.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.330, "latMax": 53.348, "lngMin": -6.275, "lngMax": -6.235 }
+  },
+  {
+    "slug": "dublin-3",
+    "name": "Dublin 3",
+    "label": "D3",
+    "lat": 53.3621,
+    "lng": -6.2268,
+    "description": "Clontarf, East Wall, and the area surrounding Croke Park.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.352, "latMax": 53.375, "lngMin": -6.255, "lngMax": -6.185 }
+  },
+  {
+    "slug": "dublin-4",
+    "name": "Dublin 4",
+    "label": "D4",
+    "lat": 53.3256,
+    "lng": -6.2282,
+    "description": "Ballsbridge, Donnybrook, and Sandymount — home of the Aviva Stadium and many embassies.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.310, "latMax": 53.345, "lngMin": -6.255, "lngMax": -6.195 }
+  },
+  {
+    "slug": "dublin-6",
+    "name": "Dublin 6",
+    "label": "D6",
+    "lat": 53.3179,
+    "lng": -6.2615,
+    "description": "Rathmines, Ranelagh, and Rathgar — popular residential suburbs south of the Grand Canal.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.305, "latMax": 53.335, "lngMin": -6.295, "lngMax": -6.240 }
+  },
+  {
+    "slug": "dublin-7",
+    "name": "Dublin 7",
+    "label": "D7",
+    "lat": 53.3568,
+    "lng": -6.2905,
+    "description": "Stoneybatter, Phibsborough, and Cabra — a rapidly developing northside inner suburb.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.345, "latMax": 53.372, "lngMin": -6.325, "lngMax": -6.265 }
+  },
+  {
+    "slug": "dublin-8",
+    "name": "Dublin 8",
+    "label": "D8",
+    "lat": 53.3403,
+    "lng": -6.2886,
+    "description": "The Liberties, Portobello, and the area around Heuston Station and St James's Hospital.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.328, "latMax": 53.355, "lngMin": -6.325, "lngMax": -6.262 }
+  },
+  {
+    "slug": "dublin-9",
+    "name": "Dublin 9",
+    "label": "D9",
+    "lat": 53.3743,
+    "lng": -6.2456,
+    "description": "Drumcondra, Glasnevin, and Whitehall — northside suburbs close to the city.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.362, "latMax": 53.392, "lngMin": -6.280, "lngMax": -6.218 }
+  },
+  {
+    "slug": "dublin-12",
+    "name": "Dublin 12",
+    "label": "D12",
+    "lat": 53.3211,
+    "lng": -6.3106,
+    "description": "Crumlin, Walkinstown, and Drimnagh — southside residential suburbs.",
+    "council": "dcc",
+    "council_parking_url": "https://www.dublincity.ie/residential/parking/on-street-parking",
+    "bounds": { "latMin": 53.305, "latMax": 53.335, "lngMin": -6.355, "lngMax": -6.290 }
+  },
+  {
+    "slug": "dublin-14",
+    "name": "Dublin 14",
+    "label": "D14",
+    "lat": 53.3020,
+    "lng": -6.2566,
+    "description": "Dundrum, Rathfarnham, and Churchtown — home of Dundrum Town Centre.",
+    "council": "sdcc",
+    "council_parking_url": "https://www.sdcc.ie/en/services/roads-and-parking/parking/",
+    "bounds": { "latMin": 53.283, "latMax": 53.315, "lngMin": -6.295, "lngMax": -6.220 }
+  },
+  {
+    "slug": "dun-laoghaire",
+    "name": "Dún Laoghaire",
+    "label": "Dún Laoghaire",
+    "lat": 53.2935,
+    "lng": -6.1355,
+    "description": "A coastal suburb and former ferry port, known for its pier, restaurants, and DART access.",
+    "council": "dlr",
+    "council_parking_url": "https://www.dlrcc.ie/parking",
+    "bounds": { "latMin": 53.270, "latMax": 53.315, "lngMin": -6.175, "lngMax": -6.095 }
+  },
+  {
+    "slug": "swords",
+    "name": "Swords",
+    "label": "Swords",
+    "lat": 53.4597,
+    "lng": -6.2181,
+    "description": "Fingal's county town, located north of Dublin city and close to Dublin Airport.",
+    "council": "fingal",
+    "council_parking_url": "https://www.fingal.ie/transport-roads-parking/parking",
+    "bounds": { "latMin": 53.440, "latMax": 53.480, "lngMin": -6.260, "lngMax": -6.170 }
+  },
+  {
+    "slug": "tallaght",
+    "name": "Tallaght",
+    "label": "Tallaght",
+    "lat": 53.2878,
+    "lng": -6.3742,
+    "description": "South Dublin's largest town, served by the Luas red line.",
+    "council": "sdcc",
+    "council_parking_url": "https://www.sdcc.ie/en/services/roads-and-parking/parking/",
+    "bounds": { "latMin": 53.268, "latMax": 53.308, "lngMin": -6.420, "lngMax": -6.338 }
+  },
+  {
+    "slug": "blanchardstown",
+    "name": "Blanchardstown",
+    "label": "Blanchardstown",
+    "lat": 53.3879,
+    "lng": -6.3801,
+    "description": "A major retail and residential hub in west Dublin.",
+    "council": "fingal",
+    "council_parking_url": "https://www.fingal.ie/transport-roads-parking/parking",
+    "bounds": { "latMin": 53.370, "latMax": 53.408, "lngMin": -6.425, "lngMax": -6.345 }
+  }
+]

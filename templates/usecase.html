@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{useCase.label}} in {{#if area}}{{area.name}}, {{/if}}Dublin | Dublin Street Parking</title>
+  <meta name="description" content="{{useCase.metaDesc}}{{#if area}} in {{area.name}}{{/if}}. {{stats.total}} matching streets found.">
+  <link rel="canonical" href="https://dublinstreetparking.ie/parking/{{useCase.slug}}/{{#if area}}{{area.slug}}/{{/if}}">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="{{useCase.label}} in {{#if area}}{{area.name}}, {{/if}}Dublin | Dublin Street Parking">
+  <meta property="og:url" content="https://dublinstreetparking.ie/parking/{{useCase.slug}}/{{#if area}}{{area.slug}}/{{/if}}">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/seo-pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dublinstreetparking.ie/" },
+      { "@type": "ListItem", "position": 2, "name": "{{useCase.label}}", "item": "https://dublinstreetparking.ie/parking/{{useCase.slug}}/" }
+      {{#if area}},
+      { "@type": "ListItem", "position": 3, "name": "{{area.name}}", "item": "https://dublinstreetparking.ie/parking/{{useCase.slug}}/{{area.slug}}/" }
+      {{/if}}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="14" fill="white" stroke="#E74C3C" stroke-width="3"/>
+        <text x="16" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial, sans-serif">P</text>
+      </svg>
+      Dublin Street Parking
+    </a>
+    <a href="/" class="header-cta">Go To Map</a>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    {{#if area}}
+    <a href="/parking/{{useCase.slug}}/">{{useCase.label}}</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{{area.name}}</span>
+    {{else}}
+    <span>{{useCase.label}}</span>
+    {{/if}}
+  </nav>
+
+  <h1>{{useCase.label}} in {{#if area}}{{area.name}}, {{/if}}Dublin</h1>
+  <p class="page-intro">{{useCase.intro}}{{#if area}} Showing results for <strong>{{area.name}}</strong> only.{{/if}} Found <strong>{{stats.total}} matching street{{#if statsGt1}}s{{/if}}</strong>.</p>
+
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="stat-value">{{stats.total}}</div>
+      <div class="stat-label">Matching spots</div>
+    </div>
+    {{#if stats.freeCount}}
+    <div class="stat-card">
+      <div class="stat-value">{{stats.freeCount}}</div>
+      <div class="stat-label">Free parking</div>
+    </div>
+    {{/if}}
+    {{#if stats.pdCount}}
+    <div class="stat-card">
+      <div class="stat-value">{{stats.pdCount}}</div>
+      <div class="stat-label">Pay &amp; Display</div>
+    </div>
+    {{/if}}
+    {{#if stats.disabledCount}}
+    <div class="stat-card">
+      <div class="stat-value">{{stats.disabledCount}}</div>
+      <div class="stat-label">Disabled bays</div>
+    </div>
+    {{/if}}
+  </div>
+
+  {{#unless area}}
+  <h2>Browse by Area</h2>
+  <div class="pill-list">
+    {{#each areaBreakdown}}
+    <a href="/parking/{{../useCase.slug}}/{{this.slug}}/" class="pill-link">{{this.name}} ({{this.count}})</a>
+    {{/each}}
+  </div>
+  {{/unless}}
+
+  <h2>Matching Parking Streets{{#if area}} in {{area.name}}{{/if}}</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Street</th>
+          {{#unless area}}<th>Area</th>{{/unless}}
+          <th>Price/hr</th>
+          <th>Hours</th>
+          <th>Days</th>
+          <th>Disabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each spots}}
+        <tr>
+          <td><strong>{{this.name}}</strong></td>
+          {{#unless ../area}}<td>{{#if this.area_slug}}<a href="/parking/{{this.area_slug}}/">{{this.area_name}}</a>{{else}}—{{/if}}</td>{{/unless}}
+          <td>{{#if this.price_per_hour}}<span class="badge badge-yellow">€{{this.price_per_hour}}</span>{{else}}<span class="badge badge-green">Free</span>{{/if}}</td>
+          <td>{{#if this.hours_start}}{{this.hours_start}}–{{this.hours_end}}{{else}}—{{/if}}</td>
+          <td>{{#if this.days_active}}{{this.days_active}}{{else}}—{{/if}}</td>
+          <td>{{#if this.disabled_badge_free}}<span class="badge badge-green">Yes</span>{{else}}—{{/if}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tip-box">
+    <strong>Always check local signs</strong>
+    Parking rules in Dublin can change. This data is provided as a guide — always check the physical signs on the street before parking.
+    <a href="/">Open the parking map →</a>
+  </div>
+
+  {{#if area}}
+  <h2>More Parking in {{area.name}}</h2>
+  <p><a href="/parking/{{area.slug}}/" class="pill-link">View all parking in {{area.name}} →</a></p>
+
+  <h2>Other Areas</h2>
+  <div class="pill-list">
+    {{#each areaBreakdown}}
+    <a href="/parking/{{../useCase.slug}}/{{this.slug}}/" class="pill-link">{{this.name}} ({{this.count}})</a>
+    {{/each}}
+  </div>
+  {{/if}}
+
+</div>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>
+      <a href="/">Dublin Street Parking</a> — Parking map for Dublin City, Dún Laoghaire-Rathdown, Fingal, and South Dublin.
+    </p>
+    <div class="footer-areas">
+      <h4>Browse by Area</h4>
+      <div class="area-footer-grid">
+        {{#each allAreas}}
+        <a href="/parking/{{this.slug}}/">Parking {{this.name}}</a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

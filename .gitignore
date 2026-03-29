@@ -1,6 +1,9 @@
 # Node
 node_modules/
 
+# Old build output directory (replaced by /parking/ at project root)
+dist/
+
 # Python
 *.pyc
 __pycache__/

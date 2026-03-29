@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parking Near {{landmark.name}} | Dublin Street Parking</title>
+  <meta name="description" content="Find the best street parking near {{landmark.name}} in Dublin. {{nearbyCount}} spots within walking distance — prices from {{minPrice}}. Updated parking map.">
+  <link rel="canonical" href="https://dublinstreetparking.ie/parking/near-{{landmark.slug}}/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Parking Near {{landmark.name}} | Dublin Street Parking">
+  <meta property="og:description" content="{{nearbyCount}} parking spots within walking distance of {{landmark.name}}. See prices and hours.">
+  <meta property="og:url" content="https://dublinstreetparking.ie/parking/near-{{landmark.slug}}/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/seo-pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dublinstreetparking.ie/" },
+          { "@type": "ListItem", "position": 2, "name": "Parking Dublin", "item": "https://dublinstreetparking.ie/" },
+          { "@type": "ListItem", "position": 3, "name": "{{area.name}}", "item": "https://dublinstreetparking.ie/parking/{{area.slug}}/" },
+          { "@type": "ListItem", "position": 4, "name": "Near {{landmark.name}}", "item": "https://dublinstreetparking.ie/parking/near-{{landmark.slug}}/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where can I park near {{landmark.name}}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are {{nearbyCount}} street parking spots within walking distance of {{landmark.name}}. The closest options are {{closestSpot}} ({{closestDist}}). Check the live map above for current availability and restrictions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does parking near {{landmark.name}} cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{#if minPrice}}Pay &amp; display parking near {{landmark.name}} starts from €{{minPrice}} per hour. {{/if}}{{#if freeCount}}There are {{freeCount}} streets where parking is free outside of restricted hours.{{/if}}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there free parking near {{landmark.name}}?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{#if freeCount}}Yes — {{freeCount}} nearby street{{#if freeCountGt1}}s have{{else}} has{{/if}} free parking available outside of restricted hours (typically evenings and weekends). Check individual street signs for exact times.{{else}}Most street parking near {{landmark.name}} requires a paid ticket during the day. Parking is generally free in the evenings after restrictions lift — check individual street signs.{{/if}}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="14" fill="white" stroke="#E74C3C" stroke-width="3"/>
+        <text x="16" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="black" font-family="Arial, sans-serif">P</text>
+      </svg>
+      Dublin Street Parking
+    </a>
+    <a href="/" class="header-cta">Go To Map</a>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/parking/{{area.slug}}/">Parking {{area.name}}</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Near {{landmark.name}}</span>
+  </nav>
+
+  <h1>Parking Near {{landmark.name}}</h1>
+  <p class="page-intro">
+    {{landmark.description}}.
+    There are <strong>{{nearbyCount}} street parking spots</strong> within a {{walkRadiusLabel}} walk.
+    {{#if minPrice}}Prices start from <strong>€{{minPrice}}/hr</strong>.{{/if}}
+    {{#if freeCount}}<strong>{{freeCount}} {{pluralise freeCount "spot" "spots"}}</strong> offer free parking outside restricted hours.{{/if}}
+  </p>
+
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="stat-value">{{nearbyCount}}</div>
+      <div class="stat-label">Nearby spots</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{closestDist}}</div>
+      <div class="stat-label">Closest</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{#if minPrice}}€{{minPrice}}{{else}}Free{{/if}}</div>
+      <div class="stat-label">From (per hour)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">{{freeCount}}</div>
+      <div class="stat-label">Free parking</div>
+    </div>
+  </div>
+
+  <p>
+    <a href="{{landmark.external_url}}" target="_blank" rel="noopener">{{landmark.external_label}} →</a>
+    {{#if landmark.wikipedia_url}}
+    &nbsp;·&nbsp;
+    <a href="{{landmark.wikipedia_url}}" target="_blank" rel="noopener">Wikipedia →</a>
+    {{/if}}
+  </p>
+
+  <a href="https://dublinstreetparking.ie/?landmark={{landmark.slug}}" class="map-cta">View Parking Map Near {{landmark.name}} →</a>
+
+  <h2>Nearest Parking Spots</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Street</th>
+          <th>Walk</th>
+          <th>Price/hr</th>
+          <th>Hours</th>
+          <th>Days</th>
+          <th>Disabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each nearbySpots}}
+        <tr>
+          <td><strong>{{this.name}}</strong></td>
+          <td>{{this.walkMins}} min</td>
+          <td>{{#if this.price_per_hour}}<span class="badge badge-yellow">€{{this.price_per_hour}}</span>{{else}}<span class="badge badge-green">Free</span>{{/if}}</td>
+          <td>{{#if this.hours_start}}{{this.hours_start}}–{{this.hours_end}}{{else}}—{{/if}}</td>
+          <td>{{#if this.days_active}}{{this.days_active}}{{else}}—{{/if}}</td>
+          <td>{{#if this.disabled_badge_free}}<span class="badge badge-green">Yes</span>{{else}}—{{/if}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+
+  {{#if typeSpecificTip}}
+  <div class="tip-box {{typeSpecificTip.class}}">
+    <strong>{{typeSpecificTip.title}}</strong>
+    {{typeSpecificTip.body}}
+  </div>
+  {{/if}}
+
+  <h2>Getting There Without a Car</h2>
+  <div class="tip-box">
+    <strong>Public transport alternatives</strong>
+    {{landmark.name}} is in <a href="/parking/{{area.slug}}/">{{area.name}}</a>.
+    Consider using Dublin's DART, Luas, or Dublin Bus network to avoid parking costs entirely.
+    Visit <a href="https://www.journeyplanner.transportforireland.ie" target="_blank" rel="noopener">Transport for Ireland Journey Planner →</a>
+  </div>
+
+  <h2>More Parking in {{area.name}}</h2>
+  <p><a href="/parking/{{area.slug}}/" class="pill-link">View all parking in {{area.name}} →</a></p>
+
+</div>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>
+      <a href="/">Dublin Street Parking</a> — Parking map for Dublin City, Dún Laoghaire-Rathdown, Fingal, and South Dublin.
+    </p>
+    <div class="footer-areas">
+      <h4>Browse by Area</h4>
+      <div class="area-footer-grid">
+        {{#each allAreas}}
+        <a href="/parking/{{this.slug}}/">Parking {{this.name}}</a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
