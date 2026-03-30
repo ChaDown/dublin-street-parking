@@ -391,8 +391,8 @@
     "lng": -6.2610,
     "area_slug": "dublin-14",
     "description": "Large regional park in Rathfarnham, home of concerts and nature trails",
-    "external_url": "https://www.dlrcc.ie/parks",
-    "external_label": "Marlay Park",
+    "external_url": "https://en.wikipedia.org/wiki/Marlay_Park",
+    "external_label": "Marlay Park (Wikipedia)",
     "walk_radius_meters": 900
   },
   {

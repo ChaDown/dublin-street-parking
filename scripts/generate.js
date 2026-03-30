@@ -171,6 +171,7 @@ const USE_CASES = [
   {
     slug: 'free-parking-dublin',
     label: 'Free Parking Dublin',
+    shortLabel: 'Free Parking',
     metaDesc: 'Find free street parking in Dublin',
     intro: 'Free street parking is available in Dublin outside of restricted hours — typically evenings and weekends. These streets have no pay & display requirement at certain times.',
     filter: s => s.free_on_sunday || !s.price_per_hour,
@@ -178,6 +179,7 @@ const USE_CASES = [
   {
     slug: 'overnight-parking-dublin',
     label: 'Overnight Parking Dublin',
+    shortLabel: 'Overnight Parking',
     metaDesc: 'Find overnight street parking in Dublin',
     intro: 'Looking for overnight street parking in Dublin? These streets allow parking outside of restricted daytime hours, making them suitable for overnight stays.',
     filter: s => s.overnight_allowed,
@@ -185,6 +187,7 @@ const USE_CASES = [
   {
     slug: 'pay-and-display-parking-dublin',
     label: 'Pay & Display Parking Dublin',
+    shortLabel: 'Pay & Display',
     metaDesc: 'Pay & display street parking locations in Dublin',
     intro: 'Pay & display parking requires purchasing a ticket from a roadside machine or using the Payzone app. These streets have pay & display restrictions in force during the day.',
     filter: s => s.pay_and_display,
@@ -192,6 +195,7 @@ const USE_CASES = [
   {
     slug: 'disabled-parking-dublin',
     label: 'Disabled Parking Dublin',
+    shortLabel: 'Accessible Parking',
     metaDesc: 'Streets with disabled parking bays in Dublin',
     intro: 'These streets have designated disabled parking bays. Blue badge holders may also park on single or double yellow lines for up to 3 hours where no loading restrictions apply.',
     filter: s => s.disabled_badge_free,
@@ -250,6 +254,34 @@ function build() {
       s.area_name = areaBySlug[s.area_slug].name;
     }
   });
+
+  // Load all dedicated accessible/disabled bay locations
+  const disabledStreets = [
+    ...readJSON(path.join(ROOT, 'data/dcc/disabled_clean.json')),
+    ...readJSON(path.join(ROOT, 'data/dlr/disabled_clean.json')),
+    ...readJSON(path.join(ROOT, 'data/fingal/disabled_clean.json')),
+    ...readJSON(path.join(ROOT, 'data/sdcc/disabled_clean.json')),
+  ].map(d => ({
+    name:                d.location,
+    exact_location:      d.description || null,
+    lat:                 d.lat,
+    lng:                 d.lng,
+    area_slug:           assignAreaSlug(d.lat, d.lng, areas),
+    area_name:           null,
+    disabled_badge_free: true,
+    price_per_hour:      null,
+    hours_start:         null,
+    hours_end:           null,
+    days_active:         null,
+    pay_and_display:     false,
+    overnight_allowed:   false,
+    free_on_sunday:      false,
+    _isDisabledBay:      true,
+  }));
+  disabledStreets.forEach(s => {
+    if (s.area_slug && areaBySlug[s.area_slug]) s.area_name = areaBySlug[s.area_slug].name;
+  });
+  console.log(`Loaded ${disabledStreets.length} dedicated accessible bay locations`);
 
   // Compile templates
   const areaTpl     = Handlebars.compile(fs.readFileSync(path.join(ROOT, 'templates/area.html'), 'utf8'));
@@ -345,6 +377,7 @@ function build() {
       useCases: USE_CASES.map(uc => ({
         slug: uc.slug,
         label: uc.label,
+        shortLabel: uc.shortLabel,
         count: spots.filter(uc.filter).length,
       })).filter(uc => uc.count > 0),
     });
@@ -374,7 +407,9 @@ function build() {
   // ── Use-case pages (city-wide + per-area) ──
   console.log('Generating use-case pages...');
   for (const uc of USE_CASES) {
-    const allMatching = streets.filter(uc.filter);
+    const allMatching = uc.slug === 'disabled-parking-dublin'
+      ? disabledStreets
+      : streets.filter(uc.filter);
 
     // City-wide page
     const areaBreakdown = areas

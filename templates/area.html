@@ -46,6 +46,14 @@
     ]
   }
   </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6131SRZ30"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X6131SRZ30');
+  </script>
 </head>
 <body>
 
@@ -75,24 +83,6 @@
   <h1>Street Parking in {{area.name}}</h1>
   <p class="page-intro">{{area.description}} There are <strong>{{stats.total}} street parking spots</strong> in {{area.name}}{{#if stats.freeCount}}, including {{stats.freeCount}} with free parking available{{/if}}.</p>
 
-  <div class="stats-bar">
-    <div class="stat-card">
-      <div class="stat-value">{{stats.total}}</div>
-      <div class="stat-label">Parking streets</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-value">{{stats.pdCount}}</div>
-      <div class="stat-label">Pay &amp; Display</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-value">{{stats.freeCount}}</div>
-      <div class="stat-label">Free evenings/wknd</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-value">{{#if stats.minPrice}}€{{stats.minPrice}}{{else}}Free{{/if}}</div>
-      <div class="stat-label">From (per hour)</div>
-    </div>
-  </div>
 
   <a href="https://dublinstreetparking.ie/?area={{area.slug}}" class="map-cta">View Parking Map for {{area.name}} →</a>
 
@@ -160,7 +150,7 @@
   <h2>Parking by Need in {{area.name}}</h2>
   <div class="pill-list">
     {{#each useCases}}
-    <a href="/parking/{{this.slug}}/{{../area.slug}}/" class="pill-link">{{this.label}}</a>
+    <a href="/parking/{{this.slug}}/{{../area.slug}}/" class="pill-link">{{this.shortLabel}} in {{../area.name}}</a>
     {{/each}}
   </div>
   {{/if}}

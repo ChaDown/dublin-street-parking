@@ -24,6 +24,14 @@
     ]
   }
   </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6131SRZ30"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X6131SRZ30');
+  </script>
 </head>
 <body>
 
@@ -57,30 +65,6 @@
   <h1>{{useCase.label}} in {{#if area}}{{area.name}}, {{/if}}Dublin</h1>
   <p class="page-intro">{{useCase.intro}}{{#if area}} Showing results for <strong>{{area.name}}</strong> only.{{/if}} Found <strong>{{stats.total}} matching street{{#if statsGt1}}s{{/if}}</strong>.</p>
 
-  <div class="stats-bar">
-    <div class="stat-card">
-      <div class="stat-value">{{stats.total}}</div>
-      <div class="stat-label">Matching spots</div>
-    </div>
-    {{#if stats.freeCount}}
-    <div class="stat-card">
-      <div class="stat-value">{{stats.freeCount}}</div>
-      <div class="stat-label">Free parking</div>
-    </div>
-    {{/if}}
-    {{#if stats.pdCount}}
-    <div class="stat-card">
-      <div class="stat-value">{{stats.pdCount}}</div>
-      <div class="stat-label">Pay &amp; Display</div>
-    </div>
-    {{/if}}
-    {{#if stats.disabledCount}}
-    <div class="stat-card">
-      <div class="stat-value">{{stats.disabledCount}}</div>
-      <div class="stat-label">Disabled bays</div>
-    </div>
-    {{/if}}
-  </div>
 
   {{#unless area}}
   <h2>Browse by Area</h2>
